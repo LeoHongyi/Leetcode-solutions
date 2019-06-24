@@ -26,4 +26,32 @@ public class RainbowSortII {
 		array[left] = array[right];
 		array[right] = temp;
 	}
+	// 方法2  相向走
+	public int[] rainbowSortIITwoPointerInward(int[] array) {
+		if (array == null || array.length <= 1) {
+			return array;
+		}
+		int left = 0;
+		int right = array.length-1;
+		for (int target = 0; target < 3; target++) {
+			while(left < right) {
+				while(left < right && array[left] == target) {
+					left++;
+				}
+				while( left < right && array[right] != target) {
+					right -- ;
+				}
+				if (left == right) {
+					break;
+				}
+				swap(array, left++, right--);
+			}
+			left = array[left] == target ? left + 1 : left;
+			right = array.length-1;
+			if(left == array.length) {
+				break;
+			}
+		}
+		return array;
+	}
 }
