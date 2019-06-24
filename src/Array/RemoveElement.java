@@ -1,7 +1,10 @@
+package Array;
+
+import java.util.Arrays;
 /**
   Method: two pointers
 **/
-public class Solution {
+public class RemoveElement {
   public int[] removeElement(int[] input, int value) {
     // Write your solution here
     // sanity check
