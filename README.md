@@ -1,1 +1,1 @@
-# LaicodeJava
+# leetcode solutions
