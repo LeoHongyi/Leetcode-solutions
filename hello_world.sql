@@ -251,3 +251,84 @@ FROM
 WHERE
   rpc.customer_id = p.customer_id
   AND rpc.num_rentals > 20;
+
+SELECT
+  ac.customer_id,
+  ac.fav_color,
+  rc.num_purchases
+FROM
+  active_customer ac,
+  reward_customer rc
+WHERE
+  ac.customer_id =rc.customer_id;
+
+-- JOIN example
+SELECT
+  ac.customer_id,
+  ac.fav_color,
+  rc.num_purchases
+FROM
+  active_customer ac
+  JOIN reward_customer rc 
+  ON ac.customer_id = rc.customer_id;
+
+-- LEFT JOIN
+SELECT
+  ac.customer_id,
+  ac.fav_color,
+  rc.num_purchases
+FROM
+  active_customer ac
+  LEFT JOIN reward_customer rc
+  ON ac.customer_id = rc.customer_id;
+
+-- Join lecture temporary tables
+/*
+all columns from active customers (active = 1)
+AND 
+phone number from the address 
+customer_id, active, phone_number
+*/
+SELECT
+  c.*,
+  a.phone
+FROM
+  customer c
+  JOIN address a ON c.address_id = a.address_id
+WHERE
+  c.active = 1
+GROUP BY
+  1;
+
+/*
+at least 30 rentals
+customer_id, number of rentals and last rental date
+just using rental table
+*/
+SELECT
+  r.customer_id,
+  count(r.rental_id) as num_rentals,
+  max(rental_date) as latest_rental_date
+FROM
+  rental r
+GROUP BY
+  1
+HAVING
+  num_rentals >= 30
+ORDER BY
+  2 desc;
+
+/*
+reward users who are also active users
+columns: customer_id,
+email,
+first_name
+*/
+
+
+/*
+All reward users
+columns: customer_id,
+email,
+phone(for those who are also active users)
+*/
