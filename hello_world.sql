@@ -324,7 +324,43 @@ columns: customer_id,
 email,
 first_name
 */
+drop temporary table if exists activeUsers;
+create temporary table activeUsers
+SELECT
+    c.*,
+    a.phone
+FROM
+    customer c
+    JOIN address a ON c.address_id = a.address_id
+WHERE
+    c.active = 1
+GROUP BY
+    1;
 
+drop temporary table if exists rewardUsers;
+create temporary table rewardUsers
+SELECT
+    r.customer_id,
+    count(r.rental_id) as num_rentals,
+    max(rental_date)
+FROM
+    rental r
+GROUP BY
+    1
+HAVING
+    num_rentals >= 30;
+    
+-- reward users AND ACTIVE users using the JOIN functions
+    
+SELECT
+  a.customer_id,
+  a.email,
+  a.first_name
+FROM
+  activeUsers a
+  JOIN rewardUsers r on a.customer_id = r.customer_id
+GROUP BY
+  1;
 
 /*
 All reward users
@@ -332,3 +368,42 @@ columns: customer_id,
 email,
 phone(for those who are also active users)
 */
+drop temporary table if exists activeUsers;
+create temporary table activeUsers
+SELECT
+    c.*,
+    a.phone
+FROM
+    customer c
+    JOIN address a ON c.address_id = a.address_id
+WHERE
+    c.active = 1
+GROUP BY
+    1;
+
+drop temporary table if exists rewardUsers;
+create temporary table rewardUsers
+SELECT
+    r.customer_id,
+    count(r.rental_id) as num_rentals,
+    max(rental_date)
+FROM
+    rental r
+GROUP BY
+    1
+HAVING
+    num_rentals >= 30;
+    
+-- All reward users information
+SELECT
+  r.customer_id,
+  c.email,
+  a.phone
+FROM
+  rewardUsers r
+  JOIN customer c on r.customer_id = c.customer_id
+  LEFT JOIN activeUsers a on a.customer_id = r.customer_id
+GROUP BY
+  1
+ORDER BY
+3;
