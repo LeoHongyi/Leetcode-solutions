@@ -472,3 +472,12 @@ HAVING
   count(first_name) < 200
 ORDER BY
   first_name DESC;
+
+-- find employees that salary are more thank 145,000
+SELECT
+  e.emp_no, e.first_name, e.last_name, s.salary
+FROM
+  employees e
+  JOIN salaries s ON e.emp_no = s.emp_no
+WHERE
+  s.salary > 145000;
