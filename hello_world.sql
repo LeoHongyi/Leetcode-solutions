@@ -403,8 +403,8 @@ FROM
   rewardUsers r
   JOIN customer c on r.customer_id = c.customer_id
   LEFT JOIN activeUsers a on a.customer_id = r.customer_id
-GROUP BY
-  1
+-- GROUP BY
+--   1
 ORDER BY
 3;
 
@@ -421,7 +421,7 @@ GROUP BY
     1; 
     
 -- Cohort Size
--- DROP temporary table if exists cohort_size;
+DROP temporary table if exists cohort_size;
 create temporary table cohort_size
 SELECT
     left(first_time, 7) as month,
@@ -456,3 +456,19 @@ FROM
     cohort
 GROUP BY
     1,2;
+
+-- Extract a list of all names that are encountered less than 200 times.
+-- Let the data refer to people hired after the 1st of Jan 1999
+SELECT
+  first_name,
+  count(first_name) as names_count
+FROM
+  employees
+WHERE
+  hire_date > '1999-01-01'
+GROUP BY 
+  first_name
+HAVING
+  count(first_name) < 200
+ORDER BY
+  first_name DESC;
