@@ -481,3 +481,16 @@ FROM
   JOIN salaries s ON e.emp_no = s.emp_no
 WHERE
   s.salary > 145000;
+
+-- The MySQL Syntax for Stored procedures
+DELIMITER $$
+CREATE PROCEDURE procedure_name()
+BEGIN
+  SELECT 
+    *
+  FROM
+    employees
+  LIMIT 
+    1000;
+END$$
+DELIMITER ;
