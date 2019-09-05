@@ -10,25 +10,18 @@ see that per each department.
 */
 USE employees_mod;
 SELECT
-	ee.gender,
+	e.gender,
 	d.dept_name,
-	AVG(s.salary) as salary,
-    e.calendar_year
+	ROUND(AVG(s.salary), 2) as salary,
+    YEAR(s.from_date) as calendar_year
 FROM
-	(SELECT
-		DISTINCT YEAR(hire_date) as calendar_year
-	FROM
-		t_employees
-	ORDER BY calendar_year
-    ) AS e
-		JOIN
-    t_dept_emp de ON e.calendar_year = YEAR(de.from_date)
+    t_dept_emp de
         JOIN
-	t_employees ee ON ee.emp_no = de.emp_no
+	t_employees e ON e.emp_no = de.emp_no
 		JOIN
-	t_salaries s ON ee.emp_no = s.emp_no
+	t_salaries s ON e.emp_no = s.emp_no
 		JOIN
 	t_departments d on d.dept_no = de.dept_no
-GROUP BY 2, 1, 4
+GROUP BY d.dept_no, e.gender, calendar_year
 HAVING calendar_year <= 2002
-ORDER BY 2, 1, 4;
+ORDER BY d.dept_no;
