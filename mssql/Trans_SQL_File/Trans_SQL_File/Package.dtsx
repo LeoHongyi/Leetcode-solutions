@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/6/2019 4:43:32 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="QHSURFACEPRO4"
+  DTS:CreatorName="QHSURFACEPRO4\Qihao He"
+  DTS:DTSID="{DDA1AAFB-C43E-4653-AD5A-1A95C7DB8B24}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1301.433"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{186280B7-37F5-4283-98BA-4525F91D61C6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
