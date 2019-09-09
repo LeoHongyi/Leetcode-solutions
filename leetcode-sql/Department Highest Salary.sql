@@ -8,10 +8,9 @@ FROM
         JOIN
     Department d ON e1.DepartmentId = d.Id
 WHERE
-    1 > (SELECT
-            COUNT(*)
-        FROM
-            Employee e2
-        WHERE
-            e2.Salary > e1.Salary
-            AND e2.DepartmentId = e1.DepartmentId);
+    (E1.DepartmentId, Salary) IN 
+    (SELECT
+        DepartmentId, Max(Salary)
+    FROM
+        Employee e2
+    GROUP BY DepartmentId);
