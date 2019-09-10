@@ -1,18 +1,22 @@
-SELECT 
-    id1 AS id,
-    COUNT(*) AS num
-FROM (
-    SELECT 
-        requester_id AS id1, 
-        accepter_id AS id2 
-    FROM 
-        request_accepted
-    UNION
-    SELECT 
-        accepter_id AS id1 , 
-        requester_id AS id2 
-    FROM 
-        request_accepted) a
-GROUP BY 1
-ORDER BY COUNT(*) DESC
-LIMIT 1;
+select 
+    ids as id, 
+    cnt as num
+from(
+    select 
+        ids, 
+        count(*) as cnt
+    from(
+        select 
+            requester_id as ids 
+        from 
+            request_accepted
+        union all
+        select 
+            accepter_id 
+        from 
+            request_accepted
+    ) as tbl1
+    group by ids
+) as tbl2
+order by cnt desc
+limit 1;
