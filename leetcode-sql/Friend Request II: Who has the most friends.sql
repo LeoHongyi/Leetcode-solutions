@@ -1,8 +1,8 @@
 SELECT 
     id1 AS id,
     COUNT(*) AS num
-FROM 
-    (SELECT 
+FROM (
+    SELECT 
         requester_id AS id1, 
         accepter_id AS id2 
     FROM 
