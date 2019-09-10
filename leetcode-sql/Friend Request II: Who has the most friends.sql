@@ -16,7 +16,6 @@ from(
         from 
             request_accepted
     ) as tbl1
-    group by ids
-) as tbl2
+    group by ids) as tbl2
 order by cnt desc
 limit 1;
