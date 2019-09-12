@@ -1,10 +1,11 @@
 SELECT
-    DISTINCT project_id
+    project_id
 FROM
     Project
-HAVING project_id = (
+GROUP BY project_id
+HAVING COUNT(*) = (
     SELECT
-        project_id
+        COUNT(*)
     FROM
         Project p
     GROUP BY project_id
