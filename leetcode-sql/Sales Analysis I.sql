@@ -10,4 +10,4 @@ HAVING sum(price) = (
         sales
     group by seller_id
     order by sum(price) desc
-    limit 1)
+    limit 1);
