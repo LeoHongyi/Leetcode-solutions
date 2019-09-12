@@ -1,5 +1,5 @@
 SELECT
-    project_id
+    DISTINCT project_id
 FROM
     Project
 HAVING project_id = (
