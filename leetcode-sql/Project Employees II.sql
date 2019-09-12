@@ -4,7 +4,7 @@ FROM
     Project
 HAVING project_id = (
     SELECT
-        COUNT(*)
+        project_id
     FROM
         Project p
     GROUP BY project_id
