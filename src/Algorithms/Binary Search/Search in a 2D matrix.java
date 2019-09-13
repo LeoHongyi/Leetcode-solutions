@@ -11,7 +11,7 @@ class Solution {
             int mid = left + (right - left) / 2;
             int rowIndex = mid / col;
             int colIndex = mid % col;
-            if(matrix[rowIndex][colIndex] == target) {
+            if (matrix[rowIndex][colIndex] == target) {
                 return true;
             } else if (matrix[rowIndex][colIndex] < target) {
                 left = mid + 1;
