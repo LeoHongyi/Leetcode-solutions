@@ -1,6 +1,5 @@
-public class Solution {
+public class DivideTwoIntegersWithRestrictions {
   public int divide(int a, int b) {
-    // Write your solution here
     if (b == 0) {
       return Integer.MAX_VALUE;
     } else if (a == 0) {
@@ -22,6 +21,6 @@ public class Solution {
         right = mid;
       }
     }
-    return neg ? -mid : mid;
+    return neg ? -left : left;
   }
 }
