@@ -1,7 +1,7 @@
-package Algorithms;
+package BinarySearch;
 
 public class BinarySearch {
-	public static int binarySearch(int[] array, int target) {
+	public int binarySearch(int[] array, int target) {
 		// Write your solution here
 		if (array == null || array.length == 0){
 			return -1;
