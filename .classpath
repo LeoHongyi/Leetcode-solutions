@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Debug/|OOD/SimplifiedParkingLot/|BinaryTree/|DFS/|DP/|Hashtable/|OOD/BlackJack/|BinarySearchTree/|Binary Search/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/Binary Search"/>
+	<classpathentry kind="src" path="src/BinarySearchTree"/>
+	<classpathentry kind="src" path="src/BinaryTree"/>
+	<classpathentry kind="src" path="src/Debug"/>
+	<classpathentry kind="src" path="src/DFS"/>
+	<classpathentry kind="src" path="src/DP"/>
+	<classpathentry kind="src" path="src/Hashtable"/>
+	<classpathentry kind="src" path="src/OOD/BlackJack"/>
+	<classpathentry kind="src" path="src/OOD/SimplifiedParkingLot"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
