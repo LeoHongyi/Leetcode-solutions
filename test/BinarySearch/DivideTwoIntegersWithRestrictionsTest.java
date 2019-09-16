@@ -61,5 +61,13 @@ public class DivideTwoIntegersWithRestrictionsTest {
         int result = dt.divide(a, b);
         assertEquals(-5, result);
     }
+    @Test
+    public void test8() {
+        int a = -2147483648;
+        int b = -1;
+        DivideTwoIntegersWithRestrictions dt = new DivideTwoIntegersWithRestrictions();
+        int result = dt.divide(a, b);
+        assertEquals(2147483647, result);
+    }
 
 }

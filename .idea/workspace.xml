@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/DivideTwoIntegersWithRestrictions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="1285">
+              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,8 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="152">
+              <caret line="4" selection-start-line="4" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -49,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java" />
       </list>
     </option>
@@ -210,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DivideTwoIntegersWithRestrictionsTest">
+  <component name="RunManager" selected="JUnit.DivideTwoIntegersWithRestrictionsTest.test8">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LaicodeJava" />
@@ -264,36 +273,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest.isAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DivideTwoIntegersWithRestrictionsTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="String" />
-      <option name="MAIN_CLASS_NAME" value="String.ValidAnagramTest" />
-      <option name="METHOD_NAME" value="isAnagram" />
+      <option name="PACKAGE_NAME" value="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.DivideTwoIntegersWithRestrictionsTest" />
+      <option name="METHOD_NAME" value="test8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ValidAnagramTest.isAnagram" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BinarySearchTest.test" />
       <item itemvalue="JUnit.BinarySearchTest" />
       <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest" />
+      <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest.test8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest.test8" />
         <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
         <item itemvalue="JUnit.BinarySearchTest.test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ValidAnagramTest.isAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +342,7 @@
       <workItem from="1562454883596" duration="376000" />
       <workItem from="1562554477551" duration="323000" />
       <workItem from="1562896666661" duration="144000" />
-      <workItem from="1568426395589" duration="5546000" />
+      <workItem from="1568426395589" duration="6927000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -346,12 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest - 2019.09.13 at 19h 44m 26s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2019.09.13 at 19h 56m 13s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTest - 2019.09.13 at 20h 33m 30s.xml">
       <configuration name="BinarySearchTest" configurationId="JUnit" />
     </history-entry>
@@ -376,9 +379,15 @@
     <history-entry file="DivideTwoIntegersWithRestrictionsTest - 2019.09.13 at 21h 06m 50s.xml">
       <configuration name="DivideTwoIntegersWithRestrictionsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DivideTwoIntegersWithRestrictionsTest - 2019.09.13 at 21h 08m 59s.xml">
+      <configuration name="DivideTwoIntegersWithRestrictionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivideTwoIntegersWithRestrictionsTest_test8 - 2019.09.13 at 21h 33m 38s.xml">
+      <configuration name="DivideTwoIntegersWithRestrictionsTest.test8" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51922000" />
+    <option name="totallyTimeSpent" value="53303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-1087" width="1920" height="2137" extended-state="0" />
@@ -394,15 +403,15 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2586377" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2586377" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.22309971" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2843552" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28430405" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.4911155" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -466,13 +475,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/CheckCousinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/SpaceInsertionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -850,18 +852,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="152">
+          <caret line="4" selection-start-line="4" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="1285">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
