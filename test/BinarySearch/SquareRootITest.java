@@ -20,4 +20,28 @@ public class SquareRootITest {
         int result = sr.sqrt(input);
         assertEquals(9, result);
     }
+
+    @Test
+    public void test3() {
+        int input = 2;
+        SquareRootI sr = new SquareRootI();
+        int result = sr.sqrt(input);
+        assertEquals(1, result);
+    }
+
+    @Test
+    public void test4() {
+        int input = 1;
+        SquareRootI sr = new SquareRootI();
+        int result = sr.sqrt(input);
+        assertEquals(1, result);
+    }
+
+    @Test
+    public void test5() {
+        int input = 100000;
+        SquareRootI sr = new SquareRootI();
+        int result = sr.sqrt(input);
+        assertEquals(316, result);
+    }
 }
