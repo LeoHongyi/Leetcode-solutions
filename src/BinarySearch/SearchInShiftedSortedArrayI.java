@@ -20,7 +20,7 @@ public class SearchInShiftedSortedArrayI {
                     left = mid + 1;
                 }
             } else {
-                if (array[mid] < target && target < array[right]) {
+                if (array[mid] < target && target <= array[right]) {
                     left = mid + 1;
                 } else {
                     right = mid - 1;

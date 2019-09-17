@@ -49,4 +49,12 @@ public class SearchInShiftedSortedArrayITest {
         int result = s.search(input, target);
         assertEquals(-1, result);
     }
+    @Test
+    public void test6() {
+        int[] input = new int[] {2,1};
+        int target = 1;
+        SearchInShiftedSortedArrayI s = new SearchInShiftedSortedArrayI();
+        int result = s.search(input, target);
+        assertEquals(1, result);
+    }
 }
