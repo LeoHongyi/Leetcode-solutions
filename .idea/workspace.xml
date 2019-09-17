@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/SearchInShiftedSortedArrayI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/SearchInShiftedSortedArrayI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayITest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +24,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.42617214">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -38,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayITest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -55,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -119,6 +130,7 @@
         <option value="$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayITest.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java" />
       </list>
     </option>
   </component>
@@ -355,7 +367,7 @@
       <workItem from="1562896666661" duration="144000" />
       <workItem from="1568426395589" duration="6927000" />
       <workItem from="1568657203293" duration="2155000" />
-      <workItem from="1568672476101" duration="1568000" />
+      <workItem from="1568672476101" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -368,12 +380,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DivideTwoIntegersWithRestrictionsTest - 2019.09.13 at 21h 06m 50s.xml">
-      <configuration name="DivideTwoIntegersWithRestrictionsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivideTwoIntegersWithRestrictionsTest - 2019.09.13 at 21h 08m 59s.xml">
-      <configuration name="DivideTwoIntegersWithRestrictionsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DivideTwoIntegersWithRestrictionsTest_test8 - 2019.09.13 at 21h 33m 38s.xml">
       <configuration name="DivideTwoIntegersWithRestrictionsTest.test8" configurationId="JUnit" />
     </history-entry>
@@ -398,9 +404,15 @@
     <history-entry file="SearchInShiftedSortedArrayITest - 2019.09.16 at 15h 37m 47s.xml">
       <configuration name="SearchInShiftedSortedArrayITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchInShiftedSortedArrayITest - 2019.09.16 at 17h 46m 39s.xml">
+      <configuration name="SearchInShiftedSortedArrayITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchInShiftedSortedArrayITest - 2019.09.16 at 17h 55m 02s.xml">
+      <configuration name="SearchInShiftedSortedArrayITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57026000" />
+    <option name="totallyTimeSpent" value="57567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,13 +509,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/CompressStringIITest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -868,18 +873,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>

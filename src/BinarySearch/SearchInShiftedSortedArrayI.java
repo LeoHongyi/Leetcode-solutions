@@ -14,7 +14,7 @@ public class SearchInShiftedSortedArrayI {
                 return mid;
             }
             if (array[mid] > array[right]) {
-                if (array[right] < target && target < array[mid]) {
+                if (array[left] <= target && target < array[mid]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;
