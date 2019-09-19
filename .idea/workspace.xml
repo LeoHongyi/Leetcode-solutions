@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,24 +20,44 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -51,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/ReverseWordsInASentenceIITest.java" />
         <option value="$PROJECT_DIR$/src/String/ReverseWordsInASentenceII.java" />
         <option value="$PROJECT_DIR$/src/String/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/String/AddBinary.java" />
@@ -102,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/ClosestInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" />
+        <option value="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" />
       </list>
     </option>
   </component>
@@ -183,14 +205,14 @@
       <recent name="" />
       <recent name="String" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/BinarySearch" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BinarySearch" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/BinarySearch" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/BinarySearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,22 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SquareRootITest">
-    <configuration name="DivideTwoIntegersWithRestrictionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.DivideTwoIntegersWithRestrictionsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MissingNumberIITest">
     <configuration name="DivideTwoIntegersWithRestrictionsTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -233,6 +240,21 @@
       <option name="MAIN_CLASS_NAME" value="BinarySearch.DivideTwoIntegersWithRestrictionsTest" />
       <option name="METHOD_NAME" value="test8" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumberIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.MissingNumberIITest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest" />
       <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest.test8" />
       <item itemvalue="JUnit.SearchInShiftedSortedArrayITest" />
       <item itemvalue="JUnit.SearchInShiftedSortedArrayIITest" />
       <item itemvalue="JUnit.SquareRootITest" />
+      <item itemvalue="JUnit.MissingNumberIITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MissingNumberIITest" />
         <item itemvalue="JUnit.SquareRootITest" />
         <item itemvalue="JUnit.SearchInShiftedSortedArrayIITest" />
         <item itemvalue="JUnit.SearchInShiftedSortedArrayITest" />
         <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest.test8" />
-        <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +362,7 @@
       <workItem from="1568672476101" duration="6421000" />
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
-      <workItem from="1568855878957" duration="2045000" />
+      <workItem from="1568855878957" duration="2905000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -353,18 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchInShiftedSortedArrayIITest - 2019.09.16 at 18h 30m 00s.xml">
-      <configuration name="SearchInShiftedSortedArrayIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchInShiftedSortedArrayIITest - 2019.09.16 at 18h 30m 18s.xml">
-      <configuration name="SearchInShiftedSortedArrayIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchInShiftedSortedArrayIITest - 2019.09.17 at 11h 00m 44s.xml">
-      <configuration name="SearchInShiftedSortedArrayIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 00m 49s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SquareRootITest - 2019.09.17 at 11h 01m 00s.xml">
       <configuration name="SquareRootITest" configurationId="JUnit" />
     </history-entry>
@@ -383,9 +393,21 @@
     <history-entry file="SquareRootITest - 2019.09.17 at 11h 17m 41s.xml">
       <configuration name="SquareRootITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 48m 42s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 49m 27s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 50m 35s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 50m 40s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66266000" />
+    <option name="totallyTimeSpent" value="67126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +422,7 @@
     <frame x="-5760" y="-68" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22858672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22858672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,15 +432,15 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.22832981" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.22309971" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22832981" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2230444" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32980973" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26321355" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26321355" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26849896" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -482,13 +504,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/ValidPalindromeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSortII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -854,10 +869,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
