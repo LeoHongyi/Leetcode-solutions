@@ -6,7 +6,9 @@
 
 // You do not need to implement the Dictionary interface.
 // You can use it directly, the implementation is provided when testing your solution.
-public class Solution {
+package BinarySearch;
+
+public class SearchInUnknownSizedSortedArray {
   public int search(Dictionary dict, int target) {
     // Write your solution here
     if (dict.get(0) == null) {
