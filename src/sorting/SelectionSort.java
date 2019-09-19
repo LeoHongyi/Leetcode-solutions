@@ -2,8 +2,7 @@ package sorting;
 //https://app.laicode.io/app/problem/4
 public class SelectionSort {
     public int[] solve(int[] array) {
-        // Write your solution here
-        if (array == null || array.length <= 1) {
+        if (array == null || array.length == 0) {
             return array;
         }
         for (int i = 0; i < array.length; i++) {
@@ -13,11 +12,13 @@ public class SelectionSort {
                     min = j;
                 }
             }
-            int temp = array[i];
-            array[i] = array[min];
-            array[min] = temp;
+            swap(array, min, i);
         }
         return array;
     }
+    private void swap(int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
 }
-
