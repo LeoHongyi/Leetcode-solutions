@@ -1,4 +1,6 @@
-public class Solution {
+package BinarySearch;
+
+public class KthSmallestInTwoSortedArrays {
   public int kth(int[] a, int[] b, int k) {
     // Write your solution here
     int aleft = 0;

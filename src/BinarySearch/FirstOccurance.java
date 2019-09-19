@@ -1,4 +1,5 @@
-public class Solution {
+package BinarySearch;
+public class FirstOccurance {
   public int firstOccur(int[] array, int target) {
     // Write your solution here
     if (array == null || array.length == 0) {

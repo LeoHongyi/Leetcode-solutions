@@ -1,4 +1,6 @@
-public class Solution {
+package BinarySearch;
+
+public class KClosestInSortedArray {
   public int[] kClosest(int[] array, int target, int k) {
     // Write your solution here
     if (array.length == 0) {
