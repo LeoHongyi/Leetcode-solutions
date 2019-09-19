@@ -1,5 +1,9 @@
 package sorting;
-//https://app.laicode.io/app/problem/4
+/**
+ * https://app.laicode.io/app/problem/4
+ * time: n * n = O(n^2)
+ * space: O(1)
+ */
 public class SelectionSort {
     public int[] solve(int[] array) {
         if (array == null || array.length == 0) {

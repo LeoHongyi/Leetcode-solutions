@@ -1,5 +1,10 @@
 package Recursion;
-//https://app.laicode.io/app/problem/13
+/**
+ * https://app.laicode.io/app/problem/13
+ * recursion tree: height: logb, branch: 1
+ * time: O(logb)
+ * space: O(logb)
+ */
 public class AToThePowerOfB {
     public long power(int a, int b) {
         if (b == 0) {
