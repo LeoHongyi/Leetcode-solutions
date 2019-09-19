@@ -11,44 +11,36 @@ import java.util.LinkedList;
  **/
 public class SortWith3Stacks {
     public void sort(LinkedList<Integer> s1) {
-        LinkedList<Integer> s2 = new ArrayDeque<>();
-        LinkedList<Integer> s3 = new ArrayDeque<>();
-        if (s1.isEmpty()) {
-            return null;
-        }
-        mergeSort(s1, s2, s3, s1.size());
+        LinkedList<Integer> s2 = new LinkedList<>();
+        LinkedList<Integer> s3 = new LinkedList<>();
+        // Write your solution here.
+        sort(s1, s2, s3, s1.size());
     }
-    private void mergeSort(LinkedList<Integer> s1,
-                           LinkedList<Integer> s2, LinkedList<Integer> s3, int size) {
-        int mid1 = size / 2;
-        int mid2 = size - size / 2;
-        for (int i = 0; i < mid1; i++) {
-            s2.offerFirst(s1.pollFirst());
+    private void sort(LinkedList<Integer> original, LinkedList<Integer> secondHalf,
+                      LinkedList<Integer> helper, int originalSize) {
+        if (originalSize <= 1) {
+            return;
         }
-        mergeSort(s1, s2, s3, mid2);
-        mergeSort(s2, s1, s3, mid1);
-        int i = 0;
-        int j = 0;
-        while (i < mid1 && j < mid2) {
-            if (s1.peekFirst() <= s2.peekFirst()) {
-                s3.offerFirst(s1.pollFirst());
-                j++;
+        int secondHalfSize = originalSize / 2;
+        int firstHalfSize = originalSize - originalSize / 2;
+        for (int i = 0; i < secondHalfSize; i++) {
+            secondHalf.offerFirst(original.pollFirst());
+        }
+        sort(original, secondHalf, helper, firstHalfSize);
+        sort(secondHalf, original, helper, secondHalfSize);
+        int i = firstHalfSize;
+        int j = secondHalfSize;
+        while (i > 0 || j > 0) {
+            if (j <= 0 || i > 0 && original.peekFirst() <= secondHalf.peekFirst()) {
+                helper.offerFirst(original.pollFirst());
+                i--;
             } else {
-                s3.offerFirst(s2.pollFirst());
-                i++;
+                helper.offerFirst(secondHalf.pollFirst());
+                j--;
             }
         }
-        while (i < mid1) {
-            s3.offerFirst(s2.pollFirst());
-            i++;
-        }
-        while(j < mid2) {
-            s3.offerFirst(s1.pollFirst());
-            j++;
-        }
-        int k = 0;
-        while (k < size) {
-            s1.offerFirst(s3.pollFirst());
+        for (int k = 0; k < originalSize; k++) {
+            original.offerFirst(helper.pollFirst());
         }
     }
 }
