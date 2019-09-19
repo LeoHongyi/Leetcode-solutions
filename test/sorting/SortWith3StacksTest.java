@@ -8,6 +8,27 @@ import java.util.LinkedList;
 import static org.junit.Assert.*;
 
 public class SortWith3StacksTest {
+    /*@Override
+    public boolean equals(Object obj) {
+
+        if (obj == null)
+            return false;
+        SingleLinkedList<Integer> listToCompare = (SingleLinkedList<Integer>) obj;
+        SingleLinkedList<Integer> thisList = this;
+        while (listToCompare != null && thisList != null) {
+            if (!listToCompare.getData().equals(thisList.getData()))
+                return false;
+
+            listToCompare = listToCompare.getNext();
+            thisList = thisList.getNext();
+        }
+        if (listToCompare == null && thisList == null)
+            return true;
+
+        return false;
+
+    }*/
+
     @Test
     public void test1() {
         LinkedList<Integer> s1 =
@@ -18,5 +39,4 @@ public class SortWith3StacksTest {
         s.sort(s1);
         assertEquals(s2, s1);
     }
-
 }
