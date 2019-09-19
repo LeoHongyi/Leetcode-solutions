@@ -1,5 +1,5 @@
 package BinarySearch;
-
+//https://app.laicode.io/app/problem/413
 public class SmallestRectangleEnclosingBlackPixels {
 
     public int minArea(int[][] image, int x, int y) {

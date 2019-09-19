@@ -1,5 +1,5 @@
 package BinarySearch;
-
+//https://app.laicode.io/app/problem/14
 public class BinarySearch {
 	public int binarySearch(int[] array, int target) {
 		// Write your solution here

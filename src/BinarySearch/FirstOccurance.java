@@ -1,4 +1,5 @@
 package BinarySearch;
+//https://app.laicode.io/app/problem/15
 public class FirstOccurance {
   public int firstOccur(int[] array, int target) {
     // Write your solution here

@@ -1,5 +1,5 @@
 package BinarySearch;
-
+//https://app.laicode.io/app/problem/69
 public class MissingNumberII {
     public int missing(int[] array) {
         // Write your solution here
