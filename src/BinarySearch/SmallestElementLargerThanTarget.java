@@ -1,3 +1,4 @@
+package BinarySearch;
 public class SmallestElementLargerThanTarget {
   public int largerThanTarget(int[] array, int target) {
     if (array == null || array.length == 0) {

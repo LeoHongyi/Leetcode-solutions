@@ -1,3 +1,4 @@
+package BinarySearch;
 public class LastOccurance {
   public int lastOccur(int[] array, int target) {
     // Write your solution here
