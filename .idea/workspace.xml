@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BinarySearch/SmallestRectangleEnclosingBlackPixelsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DP/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,33 +22,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/BinarySearch/SmallestRectangleEnclosingBlackPixelsTest.java">
+            <entry file="file://$PROJECT_DIR$/src/DP/Fibonacci.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="570">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                 </state>
               </provider>
             </entry>
@@ -58,10 +37,13 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
+            <entry file="file://$PROJECT_DIR$/test/DP/FibonacciTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -91,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/AddBinary.java" />
-        <option value="$PROJECT_DIR$/src/String/ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/sorting/RainbowSortII.java" />
         <option value="$PROJECT_DIR$/src/String/ValidPalindromeIITest.java" />
         <option value="$PROJECT_DIR$/src/String/ValidPalindromeII.java" />
@@ -142,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/SmallestRectangleEnclosingBlackPixelsTest.java" />
+        <option value="$PROJECT_DIR$/test/DP/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/DP/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -174,6 +156,12 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -218,6 +206,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="DP" />
       <recent name="BinarySearch" />
       <recent name="Binary Search" />
       <recent name="" />
@@ -245,7 +234,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmallestRectangleEnclosingBlackPixelsTest.test1">
+  <component name="RunManager" selected="JUnit.FibonacciTest">
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP.FibonacciTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MissingNumberIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -309,35 +313,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRootITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.SquareRootITest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SquareRootITest" />
       <item itemvalue="JUnit.MissingNumberIITest" />
       <item itemvalue="JUnit.MissingNumberIITest.test6" />
       <item itemvalue="JUnit.MissingNumberIITest.test7" />
       <item itemvalue="JUnit.SmallestRectangleEnclosingBlackPixelsTest.test1" />
+      <item itemvalue="JUnit.FibonacciTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.SmallestRectangleEnclosingBlackPixelsTest.test1" />
         <item itemvalue="JUnit.MissingNumberIITest" />
         <item itemvalue="JUnit.MissingNumberIITest.test7" />
         <item itemvalue="JUnit.MissingNumberIITest.test6" />
-        <item itemvalue="JUnit.SquareRootITest" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +371,7 @@
       <workItem from="1568672476101" duration="6421000" />
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
-      <workItem from="1568855878957" duration="8251000" />
+      <workItem from="1568855878957" duration="9985000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -395,15 +384,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MissingNumberIITest_test7 - 2019.09.18 at 21h 02m 10s.xml">
-      <configuration name="MissingNumberIITest.test7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 03m 55s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 17m 01s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 18m 50s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
@@ -425,9 +405,18 @@
     <history-entry file="MissingNumberIITest - 2019.09.18 at 23h 06m 24s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SmallestRectangleEnclosingBlackPixelsTest_test1 - 2019.09.18 at 23h 25m 34s.xml">
+      <configuration name="SmallestRectangleEnclosingBlackPixelsTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest - 2019.09.18 at 23h 47m 34s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest - 2019.09.18 at 23h 49m 20s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72472000" />
+    <option name="totallyTimeSpent" value="74206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,7 +441,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.22832981" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22832981" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.2230444" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -460,7 +449,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26321355" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26321355" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26849896" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -524,27 +513,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ValidAnagramTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/ValidAnagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -882,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -898,11 +859,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/SmallestRectangleEnclosingBlackPixelsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DP/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
