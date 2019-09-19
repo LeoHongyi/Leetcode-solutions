@@ -1,5 +1,8 @@
 package sorting;
-
+/**
+ * https://app.laicode.io/app/problem/9
+ */
+/
 public class MergeSort {
 
 	public static int[] mergeSort(int[] array) {
