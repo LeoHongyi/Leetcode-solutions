@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/SortWith3Stacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sorting/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="98">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sorting/SortWith3Stacks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/DFS/StringAdd.java" />
         <option value="$PROJECT_DIR$/src/DFS/StringAddToTarget.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/LongestAscendingPathBinaryTree.java" />
@@ -103,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java" />
         <option value="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" />
         <option value="$PROJECT_DIR$/src/sorting/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/sorting/SortWith3Stacks.java" />
       </list>
     </option>
   </component>
@@ -130,12 +142,6 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +357,7 @@
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
-      <workItem from="1568910224276" duration="4195000" />
+      <workItem from="1568910224276" duration="4587000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -396,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78433000" />
+    <option name="totallyTimeSpent" value="78825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,13 +499,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/CousinsInBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -870,8 +869,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="98">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/SortWith3Stacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
