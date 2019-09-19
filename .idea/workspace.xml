@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -38,11 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="30">
+                  <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -362,7 +358,7 @@
       <workItem from="1568672476101" duration="6421000" />
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
-      <workItem from="1568855878957" duration="6710000" />
+      <workItem from="1568855878957" duration="7260000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -375,9 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 00m 20s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 01m 08s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
@@ -405,9 +398,12 @@
     <history-entry file="MissingNumberIITest - 2019.09.18 at 22h 33m 38s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 22h 56m 03s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70931000" />
+    <option name="totallyTimeSpent" value="71481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +428,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22832981" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22832981" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.2230444" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -440,7 +436,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26321355" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26321355" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26849896" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -869,20 +865,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
+    <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>

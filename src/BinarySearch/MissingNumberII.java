@@ -29,6 +29,6 @@ public class MissingNumberII {
                 right = mid;
             }
         }
-        return array[right] - 1;
+        return array[left] - 1;
     }
 }
