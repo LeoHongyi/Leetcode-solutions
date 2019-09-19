@@ -1,5 +1,9 @@
 package BinarySearch;
-//https://app.laicode.io/app/problem/321
+/**
+ * https://leetcode.com/problems/divide-two-integers/
+ * https://app.laicode.io/app/problem/321
+ *
+ */
 public class DivideTwoIntegersWithRestrictions {
   public int divide(int a, int b) {
       if (b == 0) {
