@@ -2,31 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/ClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/ClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FindLocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/FindLocalMinimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/FirstOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/FirstOccurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/KClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/KClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/KthSmallestInTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/KthSmallestInTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/LastOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/LastOccurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInA2DMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInUnknownSizedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInUnknownSizedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/ShiftPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/ShiftPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SquareRootI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SquareRootI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,92 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SquareRootI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/KthSmallestInTwoSortedArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -185,7 +79,6 @@
         <option value="$PROJECT_DIR$/src/DP/PaintWoods" />
         <option value="$PROJECT_DIR$/src/DP/PaintWoods.java" />
         <option value="$PROJECT_DIR$/test/Recursion/AToThePowerOfBTest.java" />
-        <option value="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" />
         <option value="$PROJECT_DIR$/src/DP/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInA2DMatrix.java" />
@@ -208,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java" />
       </list>
     </option>
   </component>
@@ -235,12 +129,6 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -456,7 +344,7 @@
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
-      <workItem from="1568910224276" duration="2235000" />
+      <workItem from="1568910224276" duration="2830000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -501,7 +389,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76473000" />
+    <option name="totallyTimeSpent" value="77068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/ClosestInSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -975,8 +856,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/AToThePowerOfB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
