@@ -1,6 +1,5 @@
-public class Solution {
-  public int smallestElementLargerThanTarget(int[] array, int target) {
-    // Write your solution here
+public class SmallestElementLargerThanTarget {
+  public int largerThanTarget(int[] array, int target) {
     if (array == null || array.length == 0) {
       return -1;
     }

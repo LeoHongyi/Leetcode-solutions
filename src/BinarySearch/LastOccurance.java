@@ -1,4 +1,4 @@
-public class Solution {
+public class LastOccurance {
   public int lastOccur(int[] array, int target) {
     // Write your solution here
     if (array == null || array.length == 0) {

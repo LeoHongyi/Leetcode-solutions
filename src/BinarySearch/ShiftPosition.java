@@ -2,7 +2,6 @@ package BinarySearch;
 
 public class ShiftPosition {
     public int shiftPosition(int[] array) {
-        // Write your solution here
         if (array == null || array.length == 0) {
             return -1;
         }

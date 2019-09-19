@@ -11,7 +11,8 @@ public class SearchInBitonicArray {
             int mid = left + (right - left) / 2;
             if (array[mid] == target) {
                 return mid;
-            } else if (array[mid] < array[mid + 1]) { // mid + 1 at most == right
+            } else if (array[mid] < array[mid + 1]) {
+                // mid + 1 at most == right
                 left = mid;
             } else if (array[mid] > array[mid + 1]) {
                 right = mid;

@@ -2,7 +2,6 @@ package BinarySearch;
 
 public class SearchInSortedMatrixII {
     public int[] search(int[][] matrix, int target) {
-        // Write your solution here
         if (matrix.length == 0 || matrix[0].length == 0) {
             return new int[] {-1, -1};
         }
