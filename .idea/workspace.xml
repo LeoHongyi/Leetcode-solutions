@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="495">
+                  <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -39,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -122,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/FirstOccurance.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/ClosestInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" />
       </list>
     </option>
   </component>
@@ -228,22 +227,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.MissingNumberIITest">
-    <configuration name="DivideTwoIntegersWithRestrictionsTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.DivideTwoIntegersWithRestrictionsTest" />
-      <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingNumberIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -259,6 +242,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MissingNumberIITest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.MissingNumberIITest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumberIITest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.MissingNumberIITest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchInShiftedSortedArrayIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -269,21 +284,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="BinarySearch" />
       <option name="MAIN_CLASS_NAME" value="BinarySearch.SearchInShiftedSortedArrayIITest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInShiftedSortedArrayITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.SearchInShiftedSortedArrayITest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest.test8" />
-      <item itemvalue="JUnit.SearchInShiftedSortedArrayITest" />
       <item itemvalue="JUnit.SearchInShiftedSortedArrayIITest" />
       <item itemvalue="JUnit.SquareRootITest" />
       <item itemvalue="JUnit.MissingNumberIITest" />
+      <item itemvalue="JUnit.MissingNumberIITest.test6" />
+      <item itemvalue="JUnit.MissingNumberIITest.test7" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MissingNumberIITest" />
+        <item itemvalue="JUnit.MissingNumberIITest.test7" />
+        <item itemvalue="JUnit.MissingNumberIITest.test6" />
         <item itemvalue="JUnit.SquareRootITest" />
         <item itemvalue="JUnit.SearchInShiftedSortedArrayIITest" />
-        <item itemvalue="JUnit.SearchInShiftedSortedArrayITest" />
-        <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest.test8" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +362,7 @@
       <workItem from="1568672476101" duration="6421000" />
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
-      <workItem from="1568855878957" duration="2905000" />
+      <workItem from="1568855878957" duration="6710000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -375,39 +375,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 01m 00s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 11m 49s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 12m 59s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 15m 41s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 17m 18s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareRootITest - 2019.09.17 at 11h 17m 41s.xml">
-      <configuration name="SquareRootITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 48m 42s.xml">
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 00m 20s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 49m 27s.xml">
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 01m 08s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 50m 35s.xml">
+    <history-entry file="MissingNumberIITest_test7 - 2019.09.18 at 21h 02m 10s.xml">
+      <configuration name="MissingNumberIITest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 03m 55s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 20h 50m 40s.xml">
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 17m 01s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 18m 50s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 23m 50s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 41m 38s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 51m 33s.xml">
+      <configuration name="MissingNumberIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MissingNumberIITest - 2019.09.18 at 22h 33m 38s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67126000" />
+    <option name="totallyTimeSpent" value="70931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -881,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>

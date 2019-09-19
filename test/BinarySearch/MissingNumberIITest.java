@@ -47,4 +47,18 @@ public class MissingNumberIITest {
         int result = mn.binarySearchMissing(input);
         assertEquals(2, result);
     }
+    @Test
+    public void test7() {
+        int[] input = new int[] {1,2,3,4};
+        MissingNumberII mn = new MissingNumberII();
+        int result = mn.binarySearchMissing(input);
+        assertEquals(5, result);
+    }
+    @Test
+    public void test8() {
+        int[] input = new int[] {2,3,4,5,6,7};
+        MissingNumberII mn = new MissingNumberII();
+        int result = mn.binarySearchMissing(input);
+        assertEquals(1, result);
+    }
 }
