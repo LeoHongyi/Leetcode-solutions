@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SquareRootI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SquareRootI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BinarySearch/SquareRootITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinarySearch/SquareRootITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/BinarySearch/SquareRootI.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                <state relative-caret-position="345">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -34,12 +52,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BinarySearch/SquareRootITest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -55,8 +73,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/String/RemoveAdjacentRepeatedCharactersIIITest.java" />
         <option value="$PROJECT_DIR$/src/String/RemoveAdjacentRepeatedCharactersIII.java" />
         <option value="$PROJECT_DIR$/src/String/EncodeSpace.java" />
         <option value="$PROJECT_DIR$/src/String/DecompressStringITest.java" />
@@ -123,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixII.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SquareRootI.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/SquareRootITest.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java" />
       </list>
     </option>
   </component>
@@ -138,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,6 +189,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -359,7 +377,9 @@
       <workItem from="1568426395589" duration="6927000" />
       <workItem from="1568657203293" duration="2155000" />
       <workItem from="1568672476101" duration="6421000" />
-      <workItem from="1568741954547" duration="1624000" />
+      <workItem from="1568741954547" duration="2271000" />
+      <workItem from="1568826406040" duration="71000" />
+      <workItem from="1568855878957" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -372,15 +392,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchInShiftedSortedArrayITest - 2019.09.16 at 17h 55m 02s.xml">
-      <configuration name="SearchInShiftedSortedArrayITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchInShiftedSortedArrayITest - 2019.09.16 at 18h 29m 28s.xml">
-      <configuration name="SearchInShiftedSortedArrayITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchInShiftedSortedArrayIITest - 2019.09.16 at 18h 29m 33s.xml">
-      <configuration name="SearchInShiftedSortedArrayIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchInShiftedSortedArrayIITest - 2019.09.16 at 18h 30m 00s.xml">
       <configuration name="SearchInShiftedSortedArrayIITest" configurationId="JUnit" />
     </history-entry>
@@ -402,9 +413,18 @@
     <history-entry file="SquareRootITest - 2019.09.17 at 11h 12m 59s.xml">
       <configuration name="SquareRootITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SquareRootITest - 2019.09.17 at 11h 15m 41s.xml">
+      <configuration name="SquareRootITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareRootITest - 2019.09.17 at 11h 17m 18s.xml">
+      <configuration name="SquareRootITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareRootITest - 2019.09.17 at 11h 17m 41s.xml">
+      <configuration name="SquareRootITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63503000" />
+    <option name="totallyTimeSpent" value="64553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +439,7 @@
     <frame x="-5760" y="-68" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2414347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20021413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +449,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22832981" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22832981" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.22309971" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -437,9 +457,9 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27272728" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26321355" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.49048626" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.26849896" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="leetcode" order="0" side_tool="true" />
       <window_info anchor="right" id="Git Scope" order="1" side_tool="true" />
@@ -501,13 +521,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/String/DecompressStringITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/String/DecompressStringI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -801,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -877,20 +883,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SquareRootI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/SquareRootITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SquareRootI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/SearchInBitonicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
