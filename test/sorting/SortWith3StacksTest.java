@@ -35,7 +35,7 @@ public class SortWith3StacksTest {
                 new LinkedList<>(Arrays.asList(5,6,3,12,1,8,2));
         LinkedList<Integer> s2 =
                 new LinkedList<>(Arrays.asList(1,2,3,5,6,8,12));
-        SortWith3Stacks s = new SortWith3Stacks();
+        SortWithThreeStacks s = new SortWithThreeStacks();
         s.sort(s1);
         assertEquals(s2, s1);
     }

@@ -9,14 +9,14 @@ import java.util.LinkedList;
  * time complexity: O(nlogn)
  * space complexity: stack: O(n), recursion O(1+2+...n/4+n/2+n) = O(2n-1)， heap: O(1), total O(n)
  **/
-public class SortWith3Stacks {
-    public void sort(LinkedList<Integer> s1) {
+public class SortWithThreeStacks {
+    public void mergeSortWithThreeStacks(LinkedList<Integer> s1) {
         LinkedList<Integer> s2 = new LinkedList<>();
         LinkedList<Integer> s3 = new LinkedList<>();
         // Write your solution here.
-        sort(s1, s2, s3, s1.size());
+        mergeSort(s1, s2, s3, s1.size());
     }
-    private void sort(LinkedList<Integer> original, LinkedList<Integer> secondHalf,
+    private void mergeSort(LinkedList<Integer> original, LinkedList<Integer> secondHalf,
                       LinkedList<Integer> helper, int originalSize) {
         if (originalSize <= 1) {
             return;
@@ -26,8 +26,8 @@ public class SortWith3Stacks {
         for (int i = 0; i < secondHalfSize; i++) {
             secondHalf.offerFirst(original.pollFirst());
         }
-        sort(original, secondHalf, helper, firstHalfSize);
-        sort(secondHalf, original, helper, secondHalfSize);
+        mergeSort(original, secondHalf, helper, firstHalfSize);
+        mergeSort(secondHalf, original, helper, secondHalfSize);
         int i = firstHalfSize;
         int j = secondHalfSize;
         while (i > 0 || j > 0) {
