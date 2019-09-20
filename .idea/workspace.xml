@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/IntersectionOfTwoArraysII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/IntersectionOfTwoArraysII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/sorting/SortWith3Stacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/LaicodeJava/sorting/SortWith3StacksTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +12,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="268" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5067007">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="683">
-                  <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+                <state relative-caret-position="476">
+                  <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -46,8 +40,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -129,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysIITest.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArraysII.java" />
-        <option value="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" />
         <option value="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" />
+        <option value="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" />
       </list>
     </option>
   </component>
@@ -169,12 +163,6 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -257,22 +245,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArraysIITest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.IntersectionOfTwoArraysIITest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IntersectionOfTwoArraysIITest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -285,21 +257,6 @@
       <option name="MAIN_CLASS_NAME" value="BinarySearch.IntersectionOfTwoArraysIITest" />
       <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntersectionOfTwoArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.IntersectionOfTwoArraysTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,20 +276,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortWithThreeStacksTest.testSelect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting" />
+      <option name="MAIN_CLASS_NAME" value="sorting.SortWithThreeStacksTest" />
+      <option name="METHOD_NAME" value="testSelect1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortWithThreeStacksTest.testSelect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting" />
+      <option name="MAIN_CLASS_NAME" value="sorting.SortWithThreeStacksTest" />
+      <option name="METHOD_NAME" value="testSelect2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.IntersectionOfTwoArraysTest" />
       <item itemvalue="JUnit.IntersectionOfTwoArraysIITest" />
-      <item itemvalue="JUnit.IntersectionOfTwoArraysIITest.test5" />
       <item itemvalue="JUnit.IntersectionOfTwoArraysIITest.test6" />
       <item itemvalue="JUnit.SortWithThreeStacksTest" />
+      <item itemvalue="JUnit.SortWithThreeStacksTest.testSelect1" />
+      <item itemvalue="JUnit.SortWithThreeStacksTest.testSelect2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SortWithThreeStacksTest" />
+        <item itemvalue="JUnit.SortWithThreeStacksTest.testSelect1" />
+        <item itemvalue="JUnit.SortWithThreeStacksTest.testSelect2" />
         <item itemvalue="JUnit.IntersectionOfTwoArraysIITest" />
         <item itemvalue="JUnit.IntersectionOfTwoArraysIITest.test6" />
-        <item itemvalue="JUnit.IntersectionOfTwoArraysIITest.test5" />
-        <item itemvalue="JUnit.IntersectionOfTwoArraysTest" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +368,7 @@
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
       <workItem from="1568910224276" duration="15588000" />
-      <workItem from="1568995230356" duration="1851000" />
+      <workItem from="1568995230356" duration="7191000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -392,39 +381,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntersectionOfTwoArraysIITest_test5 - 2019.09.19 at 20h 39m 56s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest_test5 - 2019.09.19 at 20h 41m 07s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 41m 44s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest_test6 - 2019.09.19 at 20h 42m 14s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 52m 35s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 53m 47s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 56m 12s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 57m 56s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 21h 36m 47s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 10h 00m 12s.xml">
       <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 43m 20s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect2 - 2019.09.20 at 10h 43m 26s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 52m 55s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 53m 17s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 55m 11s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 55m 21s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 11h 34m 12s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 11h 34m 19s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 12h 38m 19s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91677000" />
+    <option name="totallyTimeSpent" value="97017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,8 +426,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,8 +438,8 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.25609756" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.31053105" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.20825516" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32980973" />
@@ -471,7 +461,7 @@
       <window_info anchor="right" id="Maven" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32960597" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32922912" />
       <window_info anchor="right" id="Flutter Inspector" order="12" />
       <window_info anchor="right" id="Flutter Outline" order="13" />
     </layout>
@@ -510,6 +500,24 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -518,6 +526,9 @@
       <FILTER>String.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Leetcode_solutions$SortWithThreeStacksTest_testSelect1.ic" NAME="SortWithThreeStacksTest.testSelect1 Coverage Results" MODIFIED="1569008289034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sorting.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearchTest.java" />
@@ -877,16 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -897,10 +898,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

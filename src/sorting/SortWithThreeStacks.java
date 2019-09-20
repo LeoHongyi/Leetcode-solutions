@@ -58,24 +58,24 @@ public class SortWithThreeStacks {
             return;
         }
         while (!s1.isEmpty()) {
-            int min = s1.peek();
+            int min = s1.peekFirst();
             while (!s1.isEmpty()) {
-                int temp = s1.poll();
+                int temp = s1.pollFirst();
                 if (temp < min) {
                     min = temp;
                 }
-                s2.offer(temp);
+                s2.offerFirst(temp);
             }
-            s3.offer(min);
-            while(!s2.isEmpty()) {
-                int temp = s2.poll();
-                while (temp != s3.peek()) {
-                    s1.offer(temp);
+            s3.offerFirst(min);
+            while (!s2.isEmpty()) {
+                int temp = s2.pollFirst();
+                if (temp > s3.peekFirst()) {
+                    s1.offerFirst(temp);
                 }
             }
         }
         while(!s3.isEmpty()) {
-            s1.offer(s3.poll());
+            s1.offer(s3.pollFirst());
         }
         return;
     }
