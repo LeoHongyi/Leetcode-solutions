@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#1484#1493#0" expanded="true" />
               </folding>
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/sorting/SortWithTwoStacksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-331">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="168">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -362,7 +362,7 @@
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
       <workItem from="1568910224276" duration="15588000" />
-      <workItem from="1568995230356" duration="10256000" />
+      <workItem from="1568995230356" duration="10527000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -375,9 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 16m 39s.xml">
-      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 17m 13s.xml">
       <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
     </history-entry>
@@ -405,9 +402,12 @@
     <history-entry file="SortWithTwoStacksTest - 2019.09.20 at 15h 26m 47s.xml">
       <configuration name="SortWithTwoStacksTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortWithTwoStacksTest - 2019.09.20 at 15h 29m 01s.xml">
+      <configuration name="SortWithTwoStacksTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100082000" />
+    <option name="totallyTimeSpent" value="100353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +432,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.34427768" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34427768" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -440,7 +440,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22420263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22420263" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -888,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/SortWithTwoStacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="168">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -898,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="e#1484#1493#0" expanded="true" />
           </folding>
