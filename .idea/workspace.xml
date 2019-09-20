@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArraysII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysIITest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArraysII.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="900">
-                  <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -40,8 +41,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysIITest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+                <state relative-caret-position="494">
+                  <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -128,11 +129,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="960" />
-    <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="1177" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5760" />
+    <option name="y" value="-68" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -372,7 +373,7 @@
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
-      <workItem from="1568910224276" duration="12508000" />
+      <workItem from="1568910224276" duration="13143000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -385,18 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntersectionOfTwoArraysTest - 2019.09.19 at 19h 57m 52s.xml">
-      <configuration name="IntersectionOfTwoArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysTest - 2019.09.19 at 20h 03m 43s.xml">
-      <configuration name="IntersectionOfTwoArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 25m 50s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 25m 57s.xml">
-      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 26m 37s.xml">
       <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
     </history-entry>
@@ -415,9 +404,21 @@
     <history-entry file="IntersectionOfTwoArraysIITest_test6 - 2019.09.19 at 20h 42m 14s.xml">
       <configuration name="IntersectionOfTwoArraysIITest.test6" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 52m 35s.xml">
+      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 53m 47s.xml">
+      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 56m 12s.xml">
+      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionOfTwoArraysIITest - 2019.09.19 at 20h 57m 56s.xml">
+      <configuration name="IntersectionOfTwoArraysIITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86746000" />
+    <option name="totallyTimeSpent" value="87381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +430,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <frame x="-5760" y="-68" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15899357" />
@@ -442,7 +443,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.21872187" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.25687104" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.31053105" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -450,9 +451,9 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2259226" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2259226" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.2682927" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.26822683" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="leetcode" order="0" side_tool="true" />
       <window_info anchor="right" id="Git Scope" order="1" side_tool="true" />
@@ -893,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysIITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state relative-caret-position="494">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -903,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArraysII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

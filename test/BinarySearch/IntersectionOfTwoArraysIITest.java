@@ -59,5 +59,13 @@ public class IntersectionOfTwoArraysIITest {
         int[] result = i.intersect(a,b);
         assertArrayEquals(expect, result);
     }
-
+    @Test
+    public void test7() {
+        int[] a = new int[] {1,2,2,1};
+        int[] b = new int[] {1,1};
+        int[] expect = new int[] {1,1};
+        IntersectionOfTwoArraysII i = new IntersectionOfTwoArraysII();
+        int[] result = i.intersect(a,b);
+        assertArrayEquals(expect, result);
+    }
 }

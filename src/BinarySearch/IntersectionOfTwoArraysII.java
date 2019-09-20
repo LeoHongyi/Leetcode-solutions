@@ -6,41 +6,24 @@ import java.util.List;
 
 public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
-        if (nums1.length > nums2.length) {
-            return intersect(nums2, nums1);
-        }
+        if(nums1.length==0)
+            return nums1;
+        if(nums2.length==0)
+            return nums2;
         Arrays.sort(nums1);
         Arrays.sort(nums2);
-        List<Integer> list = new ArrayList<>();
-        int startIndex = 0;
-        for(int num : nums1) {
-            int index = binarySearch(nums2, num, startIndex);
-            if (index != -1) {
-                list.add(num);
-            } else {
-                startIndex = index;
+        int i=0,j=0,k=0;
+        while(i<nums1.length && j<nums2.length){
+            if(nums1[i]<nums2[j] )
+                i++;
+            else if(nums2[j]<nums1[i])
+                j++;
+            else if(nums1[i]==nums2[j]){
+                nums1[k++]=nums1[i];
+                i++;
+                j++;
             }
         }
-        int[] result = new int[list.size()];
-        int i = 0;
-        for (int num : list) {
-            result[i++] = num;
-        }
-        return result;
-    }
-    private int binarySearch(int[] array, int target, int startIndex) {
-        int left = startIndex;
-        int right = array.length - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (array[mid] == target) {
-                return mid;
-            } else if (array[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-        return -1;
+        return Arrays.copyOfRange(nums1, 0, k);
     }
 }
