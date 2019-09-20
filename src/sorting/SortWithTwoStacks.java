@@ -50,4 +50,37 @@ public class SortWithTwoStacks {
 			s1.offerFirst(s2.pollFirst());
 		}
 	}
+
+	public void selectionSortWithTwoStacks(LinkedList<Integer> s1) {
+		LinkedList<Integer> s2 = new LinkedList<Integer>();
+		// Write your solution here.
+		if (s1.size() <= 1) {
+			return;
+		}
+		int count = 0;
+		int size = s1.size();
+		while (count < size) {
+			int min = s1.peekFirst();
+			while (!s1.isEmpty()) {
+				int temp = s1.pollFirst();
+				min = Math.min(min, temp);
+				s2.offerFirst(temp);
+			}
+			int dupCount = 0;
+			while (s2.size() > count) {
+				int temp = s2.pollFirst();
+				if (temp == min) {
+					dupCount++;
+				}
+				s1.offerFirst(temp);
+			}
+			for (int i = 0; i < dupCount; i++) {
+				s2.offerFirst(min);
+			}
+		}
+		while (!s2.isEmpty()) {
+			s1.offerFirst(s2.pollFirst());
+		}
+		return;
+	}
 }
