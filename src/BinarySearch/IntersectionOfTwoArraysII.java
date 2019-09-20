@@ -6,10 +6,12 @@ import java.util.List;
 
 public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
-        if(nums1.length==0)
+        if(nums1.length==0) {
             return nums1;
-        if(nums2.length==0)
+        }
+        if(nums2.length==0) {
             return nums2;
+        }
         Arrays.sort(nums1);
         Arrays.sort(nums2);
         int i=0,j=0,k=0;
