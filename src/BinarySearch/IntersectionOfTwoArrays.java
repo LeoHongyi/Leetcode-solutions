@@ -10,7 +10,6 @@ import java.util.Set;
  * time: O(mlogm + nlogm + 1) = O((m + n)logm)
  * space: O(n)
  */
-/
 public class IntersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1.length > nums2.length) {
