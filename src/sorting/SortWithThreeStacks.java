@@ -3,13 +3,14 @@ package sorting;
 import java.util.ArrayDeque;
 import java.util.LinkedList;
 
-/**
- * https://app.laicode.io/app/problem/279
- * Method: merge sort with 3 stacks
- * time complexity: O(nlogn)
- * space complexity: stack: O(n), recursion O(1+2+...n/4+n/2+n) = O(2n-1)， heap: O(1), total O(n)
- **/
+
 public class SortWithThreeStacks {
+    /**
+     * https://app.laicode.io/app/problem/279
+     * Method: merge sort with 3 stacks
+     * time complexity: O(nlogn)
+     * space complexity: stack: O(n), recursion O(1+2+...n/4+n/2+n) = O(2n-1)， heap: O(1), total O(n)
+     **/
     public void mergeSortWithThreeStacks(LinkedList<Integer> s1) {
         LinkedList<Integer> s2 = new LinkedList<>();
         LinkedList<Integer> s3 = new LinkedList<>();
@@ -44,6 +45,12 @@ public class SortWithThreeStacks {
         }
     }
 
+    /**
+     * https://app.laicode.io/app/problem/279
+     * Method: selection sort with 3 stacks
+     * time complexity: O(n^2)
+     * space complexity: stack: O(3n)
+     **/
     public void selectionSortWithThreeStacks(LinkedList<Integer> s1) {
         LinkedList<Integer> s2 = new LinkedList<>();
         LinkedList<Integer> s3 = new LinkedList<>();
