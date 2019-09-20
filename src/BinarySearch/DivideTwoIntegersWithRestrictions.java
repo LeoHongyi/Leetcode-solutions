@@ -2,7 +2,8 @@ package BinarySearch;
 /**
  * https://leetcode.com/problems/divide-two-integers/
  * https://app.laicode.io/app/problem/321
- *
+ * time: O(logn)
+ * space O(1)
  */
 public class DivideTwoIntegersWithRestrictions {
   public int divide(int a, int b) {
@@ -31,6 +32,14 @@ public class DivideTwoIntegersWithRestrictions {
           right = mid;
         }
       }
-      return neg ? -left : left;
+      if (neg) {
+          if (-left > Integer.MAX_VALUE) {
+              return Integer.MAX_VALUE;
+          } else {
+              return -left;
+          }
+      } else {
+          return left;
+      }
     }
   }

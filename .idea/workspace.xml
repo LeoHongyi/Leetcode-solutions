@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/DivideTwoIntegersWithRestrictions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/DivideTwoIntegersWithRestrictions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,78 +22,47 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sorting/SortWith3Stacks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/FirstBadVersion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -105,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeLevelOrderTraversalII.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/CousinsInBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/RightViewOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/InOrderTraversalOfBinaryTree.java" />
@@ -154,12 +125,14 @@
         <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/SortWith3Stacks.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/FirstBadVersion.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" />
         <option value="$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" />
+        <option value="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="960" />
     <option name="y" value="23" />
     <option name="width" value="960" />
@@ -188,7 +161,7 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -200,12 +173,6 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -244,10 +211,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="BinarySearch" />
       <recent name="sorting" />
       <recent name="Recursion" />
       <recent name="DP" />
-      <recent name="BinarySearch" />
       <recent name="Binary Search" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -272,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DivideTwoIntegersWithRestrictionsTest">
+  <component name="RunManager" selected="JUnit.IntersectionOfTwoArraysTest">
     <configuration name="DivideTwoIntegersWithRestrictionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -303,6 +270,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntersectionOfTwoArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.IntersectionOfTwoArraysTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MissingNumberIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -314,22 +296,6 @@
       <option name="PACKAGE_NAME" value="BinarySearch" />
       <option name="MAIN_CLASS_NAME" value="BinarySearch.MissingNumberIITest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MissingNumberIITest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinarySearch" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.MissingNumberIITest" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,18 +318,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MissingNumberIITest" />
-      <item itemvalue="JUnit.MissingNumberIITest.test7" />
       <item itemvalue="JUnit.SmallestRectangleEnclosingBlackPixelsTest.test1" />
       <item itemvalue="JUnit.FibonacciTest" />
       <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest" />
+      <item itemvalue="JUnit.IntersectionOfTwoArraysTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntersectionOfTwoArraysTest" />
         <item itemvalue="JUnit.DivideTwoIntegersWithRestrictionsTest" />
         <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.SmallestRectangleEnclosingBlackPixelsTest.test1" />
         <item itemvalue="JUnit.MissingNumberIITest" />
-        <item itemvalue="JUnit.MissingNumberIITest.test7" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +375,7 @@
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
-      <workItem from="1568910224276" duration="7941000" />
+      <workItem from="1568910224276" duration="10264000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -422,12 +388,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 18m 50s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 23m 50s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 41m 38s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
@@ -452,9 +412,15 @@
     <history-entry file="FibonacciTest - 2019.09.18 at 23h 49m 20s.xml">
       <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DivideTwoIntegersWithRestrictionsTest - 2019.09.19 at 16h 51m 55s.xml">
+      <configuration name="DivideTwoIntegersWithRestrictionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionOfTwoArraysTest - 2019.09.19 at 19h 35m 25s.xml">
+      <configuration name="IntersectionOfTwoArraysTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82179000" />
+    <option name="totallyTimeSpent" value="84502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,10 +432,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3270925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15899357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,7 +445,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.22832981" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.21872187" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.2230444" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -487,7 +453,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2260788" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2260788" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2682927" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -551,20 +517,6 @@
     <SUITE FILE_PATH="coverage/LaicodeJava$All_in_LaicodeJava.ic" NAME="All in LaicodeJava Coverage Results" MODIFIED="1561164905839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/InOrderTraversalOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/DistanceBetweenTwoNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DFS/Decode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -882,23 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/SortWith3Stacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -916,17 +851,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
+    <entry file="file://$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="408">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java">
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="18">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
