@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding>
                 <element signature="e#1484#1493#0" expanded="true" />
               </folding>
@@ -362,7 +362,7 @@
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
       <workItem from="1568910224276" duration="15588000" />
-      <workItem from="1568995230356" duration="10527000" />
+      <workItem from="1568995230356" duration="10706000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -407,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100353000" />
+    <option name="totallyTimeSpent" value="100532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="e#1484#1493#0" expanded="true" />
           </folding>
