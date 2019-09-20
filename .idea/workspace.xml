@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+                <state relative-caret-position="488">
+                  <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -40,8 +41,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+                <state relative-caret-position="77">
+                  <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -368,7 +369,7 @@
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
       <workItem from="1568910224276" duration="15588000" />
-      <workItem from="1568995230356" duration="7191000" />
+      <workItem from="1568995230356" duration="7889000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -381,39 +382,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 10h 00m 12s.xml">
-      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 43m 20s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect2 - 2019.09.20 at 10h 43m 26s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 52m 55s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 53m 17s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 55m 11s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 10h 55m 21s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 11h 34m 12s.xml">
-      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 11h 34m 19s.xml">
       <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 12h 38m 19s.xml">
       <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 11m 17s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 12m 44s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 14h 16m 31s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 14h 16m 34s.xml">
+      <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 16m 39s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 17m 13s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 18m 45s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 19m 40s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97017000" />
+    <option name="totallyTimeSpent" value="97715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,8 +439,8 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.20825516" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.5243902" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.34427768" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32980973" />
@@ -499,24 +500,6 @@
           <line>18</line>
           <properties />
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -900,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        <state relative-caret-position="488">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -910,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="77">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

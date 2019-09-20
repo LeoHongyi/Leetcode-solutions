@@ -58,18 +58,19 @@ public class SortWithThreeStacks {
             return;
         }
         while (!s1.isEmpty()) {
-            int min = s1.peekFirst();
+            int max = s1.peekFirst();
             while (!s1.isEmpty()) {
                 int temp = s1.pollFirst();
-                if (temp < min) {
-                    min = temp;
+                if (temp > max) {
+                    max = temp;
                 }
                 s2.offerFirst(temp);
             }
-            s3.offerFirst(min);
             while (!s2.isEmpty()) {
                 int temp = s2.pollFirst();
-                if (temp > s3.peekFirst()) {
+                if (temp == max) {
+                    s3.offerFirst(max);
+                } else {
                     s1.offerFirst(temp);
                 }
             }
