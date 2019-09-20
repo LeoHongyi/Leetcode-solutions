@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
-    <option name="myElementSize" value="268" />
+    <option name="myElementSize" value="124" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -22,14 +22,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.5067007">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="657">
-                  <caret line="53" column="70" lean-forward="true" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+                <state relative-caret-position="272">
+                  <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -41,8 +50,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="651">
+                  <caret line="71" column="45" lean-forward="true" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -75,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/GetPostOrderSequenceByPreIn.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/MainTest.java" />
@@ -126,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArraysII.java" />
         <option value="$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java" />
         <option value="$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java" />
+        <option value="$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java" />
       </list>
     </option>
   </component>
@@ -369,7 +378,7 @@
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
       <workItem from="1568910224276" duration="15588000" />
-      <workItem from="1568995230356" duration="8197000" />
+      <workItem from="1568995230356" duration="8462000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -382,9 +391,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 12m 44s.xml">
-      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortWithThreeStacksTest_testSelect1 - 2019.09.20 at 14h 16m 31s.xml">
       <configuration name="SortWithThreeStacksTest.testSelect1" configurationId="JUnit" />
     </history-entry>
@@ -412,9 +418,12 @@
     <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 26m 18s.xml">
       <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortWithThreeStacksTest - 2019.09.20 at 14h 28m 30s.xml">
+      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98023000" />
+    <option name="totallyTimeSpent" value="98288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +438,7 @@
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1611349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,7 +448,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.34427768" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.34427768" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -447,7 +456,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22420263" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22420263" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -462,7 +471,7 @@
       <window_info anchor="right" id="Maven" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info active="true" anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.1407923" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.22965738" />
       <window_info anchor="right" id="Flutter Inspector" order="12" />
       <window_info anchor="right" id="Flutter Outline" order="13" />
     </layout>
@@ -512,12 +521,11 @@
     <SUITE FILE_PATH="coverage/Leetcode_solutions$SortWithThreeStacksTest_testSelect1.ic" NAME="SortWithThreeStacksTest.testSelect1 Coverage Results" MODIFIED="1569008289034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorting.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Leetcode_solutions$SortWithThreeStacksTest.ic" NAME="SortWithThreeStacksTest Coverage Results" MODIFIED="1569014773720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Leetcode_solutions$SortWithThreeStacksTest.ic" NAME="SortWithThreeStacksTest Coverage Results" MODIFIED="1569014906864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sorting.*</FILTER>
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/BinarySearchTest.java" />
     <entry file="file://$PROJECT_DIR$/test/BinarySearch/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -884,23 +892,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
+    <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="53" column="70" lean-forward="true" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+        <state relative-caret-position="651">
+          <caret line="71" column="45" lean-forward="true" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
+    <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="272">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
