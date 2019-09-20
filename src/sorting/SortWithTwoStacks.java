@@ -69,13 +69,15 @@ public class SortWithTwoStacks {
 			int dupCount = 0;
 			while (s2.size() > count) {
 				int temp = s2.pollFirst();
-				if (temp == min) {
+				if (temp != min) {
+					s1.offerFirst(temp);
+				} else {
 					dupCount++;
 				}
-				s1.offerFirst(temp);
 			}
 			for (int i = 0; i < dupCount; i++) {
 				s2.offerFirst(min);
+				count++;
 			}
 		}
 		while (!s2.isEmpty()) {
