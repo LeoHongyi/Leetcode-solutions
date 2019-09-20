@@ -25,7 +25,7 @@ public class MergeSort {
 		merge(array, helper, left, mid, right);
 	}
 
-	public void merge(int[] array, int[] helper, int left, int mid, int right){
+	private void merge(int[] array, int[] helper, int left, int mid, int right){
 		// merge split arrays
 		for (int i = left; i <= right; i++){
 			helper[i] = array[i];
@@ -44,5 +44,7 @@ public class MergeSort {
 			array[left++] = helper[leftIndex++];
 		}
 	}
+
+
 }
 
