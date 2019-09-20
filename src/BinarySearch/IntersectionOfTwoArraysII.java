@@ -9,11 +9,16 @@ public class IntersectionOfTwoArraysII {
         if (nums1.length > nums2.length) {
             return intersect(nums2, nums1);
         }
+        Arrays.sort(nums1);
         Arrays.sort(nums2);
         List<Integer> list = new ArrayList<>();
+        int startIndex = 0;
         for(int num : nums1) {
-            if (binarySearch(nums2, num)) {
+            int index = binarySearch(nums2, num, startIndex);
+            if (index != -1) {
                 list.add(num);
+            } else {
+                startIndex = index;
             }
         }
         int[] result = new int[list.size()];
@@ -23,19 +28,19 @@ public class IntersectionOfTwoArraysII {
         }
         return result;
     }
-    private boolean binarySearch(int[] array, int target) {
-        int left = 0;
+    private int binarySearch(int[] array, int target, int startIndex) {
+        int left = startIndex;
         int right = array.length - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (array[mid] == target) {
-                return true;
+                return mid;
             } else if (array[mid] < target) {
                 left = mid + 1;
             } else {
                 right = mid - 1;
             }
         }
-        return false;
+        return -1;
     }
 }
