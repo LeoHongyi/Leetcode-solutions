@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/DivideTwoIntegersWithRestrictions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/BinarySearch/DivideTwoIntegersWithRestrictions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -44,8 +40,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="152">
+                  <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -127,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/BinarySearch/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java" />
       </list>
     </option>
   </component>
@@ -375,7 +371,7 @@
       <workItem from="1568741954547" duration="2271000" />
       <workItem from="1568826406040" duration="71000" />
       <workItem from="1568855878957" duration="10017000" />
-      <workItem from="1568910224276" duration="10264000" />
+      <workItem from="1568910224276" duration="10769000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -388,12 +384,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 41m 38s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MissingNumberIITest - 2019.09.18 at 21h 51m 33s.xml">
-      <configuration name="MissingNumberIITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MissingNumberIITest - 2019.09.18 at 22h 33m 38s.xml">
       <configuration name="MissingNumberIITest" configurationId="JUnit" />
     </history-entry>
@@ -418,9 +408,15 @@
     <history-entry file="IntersectionOfTwoArraysTest - 2019.09.19 at 19h 35m 25s.xml">
       <configuration name="IntersectionOfTwoArraysTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntersectionOfTwoArraysTest - 2019.09.19 at 19h 57m 52s.xml">
+      <configuration name="IntersectionOfTwoArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntersectionOfTwoArraysTest - 2019.09.19 at 20h 03m 43s.xml">
+      <configuration name="IntersectionOfTwoArraysTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84502000" />
+    <option name="totallyTimeSpent" value="85007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +449,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32971373" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2260788" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2259226" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2682927" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -885,20 +881,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java">
+    <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="152">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/BinarySearch/IntersectionOfTwoArraysTest.java">
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/IntersectionOfTwoArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

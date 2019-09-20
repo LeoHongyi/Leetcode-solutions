@@ -4,6 +4,13 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * size m > n, sort the bigger m array, use the smaller n array to do a binary search
+ * and add existed results to result set.
+ * time: O(mlogm + nlogm + 1) = O((m + n)logm)
+ * space: O(n)
+ */
+/
 public class IntersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1.length > nums2.length) {
@@ -11,8 +18,8 @@ public class IntersectionOfTwoArrays {
         }
         Set<Integer> set = new HashSet<>();
         Arrays.sort(nums2);
-        for (Integer num : nums2) {
-            if (binarySearch(nums1, num)) {
+        for (Integer num : nums1) {
+            if (binarySearch(nums2, num)) {
                 set.add(num);
             }
         }
