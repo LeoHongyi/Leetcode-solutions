@@ -43,4 +43,33 @@ public class SortWithThreeStacks {
             original.offerFirst(helper.pollFirst());
         }
     }
+
+    public void selectionSortWithThreeStacks(LinkedList<Integer> s1) {
+        LinkedList<Integer> s2 = new LinkedList<>();
+        LinkedList<Integer> s3 = new LinkedList<>();
+        if (s1.size() <= 1) {
+            return;
+        }
+        while (!s1.isEmpty()) {
+            int min = s1.peek();
+            while (!s1.isEmpty()) {
+                int temp = s1.poll();
+                if (temp < min) {
+                    min = temp;
+                }
+                s2.offer(temp);
+            }
+            s3.offer(min);
+            while(!s2.isEmpty()) {
+                int temp = s2.poll();
+                while (temp != s3.peek()) {
+                    s1.offer(temp);
+                }
+            }
+        }
+        while(!s3.isEmpty()) {
+            s1.offer(s3.poll());
+        }
+        return;
+    }
 }
