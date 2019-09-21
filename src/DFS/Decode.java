@@ -50,15 +50,15 @@ int size = sb.length();
 for(int i = start; i < start + 2 && i < input.length() ; i++) {
 	if(i == start) {
 // one bit
-	sb.append((Char)(‘A’ + input.charAt(i) - ‘1’));
-	dfs(i + 1, input, sb);
+	sb.append((Char)(‘A’ + input.charAt(i) - ‘1’))
+        dfs(i + 1, input, sb);
 	sb.deleteCharAt(sb.length() - 1);
 } else {
 	// two bits
 	int n = Integer.valueOf(input.substring(start, i + 1);
 	if( n <= 26)) {
-	sb.append((char)(n - 1 + ‘A’));
-	dfs(i + 1, input, sb);
+	sb.append((char)(n - 1 + ‘A’))
+            dfs(i + 1, input, sb);
 	sb.setLength(size);
 }
 }

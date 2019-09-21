@@ -12,7 +12,7 @@ public class Deck {
 		cards = deckOfCards;
 		 System.out.println("deckOfCards display: ");
 		 print();
-		 System.out.println("");
+		 System.out.println();
 	}
 	// shuffle cards
 	// shuffle from right to left is easier
@@ -24,7 +24,7 @@ public class Deck {
 		}
 		 System.out.println("shuffle cards display: ");
 		 print();
-		 System.out.println("");
+		 System.out.println();
 	}
 	private void swap(List<Card> cards, int left, int right) {
 		Card temp = cards.get(left);

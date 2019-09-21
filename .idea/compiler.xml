@@ -62,6 +62,7 @@
       <file url="file://$PROJECT_DIR$/src/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" />
       <file url="file://$PROJECT_DIR$/src/DFS/StringAddToTarget.java" />
       <file url="file://$PROJECT_DIR$/src/BinarySearch/FirstBadVersion.java" />
+      <file url="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java" />
     </excludeFromCompile>
     <wildcardResourcePatterns>
       <entry name="!?*.java" />

@@ -20,7 +20,7 @@ public class Stack {
 	public Integer peek(){
 
 	}
-	return head.value;
+	return head.value
 }
 
 

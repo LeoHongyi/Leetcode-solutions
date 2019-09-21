@@ -70,12 +70,9 @@ public class PlaceChairI {
 		}
 	}
 	private boolean isValid(int i, int j, boolean[][] visited, char[][] matrix){
-		if (i < 0 || j < 0 || i >= visited.length || j >= visited[0].length ||
-				visited[i][j] || matrix[i][j] == OB) {
-			return false;
-		}
-		return true;
-	}
+        return i >= 0 && j >= 0 && i < visited.length && j < visited[0].length &&
+                !visited[i][j] && matrix[i][j] != OB;
+    }
 	class Cell {
 		int x;
 		int y;

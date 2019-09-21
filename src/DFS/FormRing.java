@@ -36,18 +36,15 @@ public class FormRing {
 		return false;
 	}
 	private boolean canConnect(String a, String b) {
-		if (a.charAt(a.length() - 1) == b.charAt(0)) {
-			return true;
-		}
-		return false;
+        return a.charAt(a.length() - 1) == b.charAt(0);
 
-	}
+    }
 	private void swap(String[] input, int index, int i) {
 		String temp = input[index];
 		input[index] = input[i];
 		input[i] = temp;
 	}
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		FormRing fr = new FormRing();
 		String[] input1 = {"aaa", "bbb"};
 		boolean result1 = fr.formRing(input1);

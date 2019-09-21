@@ -27,10 +27,6 @@ public class ValidPalindrome {
             return true;
         } else if (c >= 'A' && c <= 'Z') {
             return true;
-        } else if (c >= 'a' && c <= 'z') {
-            return true;
-        } else {
-            return false;
-        }
+        } else return c >= 'a' && c <= 'z';
     }
 }

@@ -47,7 +47,7 @@ public class GetPostOrderSequenceByPreIn {
         }
         left = postOrder(inOrderMap, left);
         right = postOrder(inOrderMap, right);
-        right.add((Integer) root);
+        right.add(root);
         left.addAll(right);
         return left;
     }

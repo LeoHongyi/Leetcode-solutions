@@ -12,7 +12,7 @@ public class DivideTwoIntegersWithRestrictions {
       } else if (a == 0) {
         return 0;
       }
-      boolean neg = a * b < 0 ? true : false;
+      boolean neg = a * b < 0;
       int aAbs = Math.abs(a);
       int bAbs = Math.abs(b);
       int left = 0;

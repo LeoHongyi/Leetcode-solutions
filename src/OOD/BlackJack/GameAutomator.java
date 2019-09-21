@@ -104,7 +104,7 @@ public class GameAutomator {
 			 System.out.print("Hand: " + i + " Score: (" + hands[i].score() + "): cards: ");
 			// player cards detail
 			hands[i].print();
-			 System.out.println("");
+			 System.out.println();
 		}
 	}
 }

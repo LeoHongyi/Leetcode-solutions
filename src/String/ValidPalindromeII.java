@@ -26,11 +26,7 @@ public class ValidPalindromeII {
                 left++;
                 count--;
                 continue;
-            } else if (left + 1 == right) {
-                return true;
-            } else {
-                return false;
-            }
+            } else return left + 1 == right;
         }
         return true;
     }
