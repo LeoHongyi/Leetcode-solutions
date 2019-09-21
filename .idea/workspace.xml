@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LaicodeJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LaicodeJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/BFS12/PlaceChairI$Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/BFS12/PlaceChairI$Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/BFS12/PlaceChairI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/BFS12/PlaceChairI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/DFS/FormRing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/DFS/FormRing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/GameAutomator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/GameAutomator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/META-INF/LaicodeJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/String/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/String/ValidPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/String/ValidPalindromeII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/String/ValidPalindromeII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/LaicodeJava/META-INF/LaicodeJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS12/PlaceChairI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS12/PlaceChairI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/GetPostOrderSequenceByPreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/GetPostOrderSequenceByPreIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/Decode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DFS/FormRing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/FormRing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOD/BlackJack/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOD/BlackJack/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOD/BlackJack/GameAutomator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOD/BlackJack/GameAutomator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOD/BlackJack/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOD/BlackJack/Suit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueueAndDeque/stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueAndDeque/stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/ValidPalindromeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/sorting/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sorting/MergeSortTest.java" afterDir="false" />
     </list>
@@ -43,61 +22,29 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sorting/SortWithThreeStacks.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -187,8 +134,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +178,62 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +257,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.24387255" />
+    <property name="project.structure.side.proportion" value="0.12077296" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -258,14 +270,14 @@
       <recent name="DP" />
       <recent name="Binary Search" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/BinarySearch" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/BinarySearch" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/BinarySearch" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BinarySearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,8 +380,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MergeSortTest" />
-        <item itemvalue="JUnit.SortWithTwoStacksTest" />
         <item itemvalue="JUnit.SortWithThreeStacksTest" />
+        <item itemvalue="JUnit.SortWithTwoStacksTest" />
         <item itemvalue="JUnit.SortWithThreeStacksTest.testSelect1" />
         <item itemvalue="JUnit.SortWithThreeStacksTest.testSelect2" />
       </list>
@@ -420,7 +432,14 @@
       <workItem from="1568910224276" duration="15588000" />
       <workItem from="1568995230356" duration="13200000" />
       <workItem from="1569023551087" duration="1412000" />
-      <workItem from="1569024989455" duration="906000" />
+      <workItem from="1569024989455" duration="2318000" />
+      <workItem from="1569033381976" duration="220000" />
+      <workItem from="1569033619585" duration="122000" />
+      <workItem from="1569033846257" duration="1385000" />
+      <workItem from="1569047592216" duration="946000" />
+      <workItem from="1569082993981" duration="71000" />
+      <workItem from="1569083083175" duration="661000" />
+      <workItem from="1569083837840" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -433,39 +452,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortWithTwoStacksTest - 2019.09.20 at 15h 29m 01s.xml">
-      <configuration name="SortWithTwoStacksTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 07m 13s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 19h 30m 50s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 11m 23s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 19h 37m 35s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 12m 32s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 19h 43m 20s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 16m 44s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 19h 47m 57s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 18m 34s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 23h 17m 12s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 21m 32s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 23h 36m 26s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 26m 42s.xml">
+    <history-entry file="MergeSortTest - 2019.09.20 at 23h 50m 13s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 29m 29s.xml">
+    <history-entry file="MergeSortTest - 2019.09.21 at 09h 23m 24s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.20 at 17h 30m 13s.xml">
+    <history-entry file="MergeSortTest - 2019.09.21 at 09h 25m 56s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortTest - 2019.09.21 at 09h 36m 38s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105344000" />
+    <option name="totallyTimeSpent" value="110207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +499,7 @@
     <frame x="0" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2918502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32048458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,7 +509,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.34427768" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2523452" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -878,16 +897,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/SortWith3StacksTest.java" />
-    <entry file="file://$PROJECT_DIR$/test/sorting/SortWithTwoStacksTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -906,20 +915,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
+    <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -933,10 +935,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sorting/SortWithThreeStacksTest.java">
+    <entry file="file://$PROJECT_DIR$/test/sorting/SortWithTwoStacksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -999,8 +1018,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24387255" />
-                <option value="0.6" />
+                <option value="0.12077296" />
               </list>
             </option>
           </splitter-proportions>
