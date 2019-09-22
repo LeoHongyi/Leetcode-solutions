@@ -29,5 +29,4 @@ public class MergeSortTest {
         sort.mergeSort(i);
         assertArrayEquals(e, i);
     }
-
 }
