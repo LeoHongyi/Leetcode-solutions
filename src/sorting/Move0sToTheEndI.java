@@ -4,7 +4,7 @@ public class Move0sToTheEndI {
     /**
      * @author: Qihao He
      * @date 06/21/2019
-     * https://app.laicode.io/app/problem/9
+     * https://app.laicode.io/app/problem/258
      * Method: rainbow sort
      * time: O(n)
      * space O(1)
