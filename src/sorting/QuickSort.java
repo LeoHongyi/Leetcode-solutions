@@ -5,8 +5,8 @@ public class QuickSort {
 	 * @date 09/21/2019
 	 * https://app.laicode.io/app/problem/10
 	 * Method: quick sort
-	 * time: worst case: O(n^2), average case: each level n, number of levels logn, O(nlogn)
-	 * space: worst case: stack: O(n), average case: stack: O(logn)
+	 * worst case: time: O(n^2), space: stack: O(n)
+	 * average case: time: O(nlogn), space: number of levels logn, O(logn)
 	 */
 	public int[] quickSort(int[] array) {
 		if (array == null || array.length <= 1) {

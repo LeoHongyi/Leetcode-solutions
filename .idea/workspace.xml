@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sorting/RainbowSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/RainbowSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -110,10 +101,10 @@
         <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/test/sorting/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/test/sorting/Move0sToTheEndITest.java" />
-        <option value="$PROJECT_DIR$/src/sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/Move0sToTheEndI.java" />
         <option value="$PROJECT_DIR$/test/sorting/RainbowSortTest.java" />
         <option value="$PROJECT_DIR$/src/sorting/RainbowSort.java" />
+        <option value="$PROJECT_DIR$/src/sorting/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -444,7 +435,7 @@
       <workItem from="1569084499712" duration="160000" />
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
-      <workItem from="1569089126321" duration="9622000" />
+      <workItem from="1569089126321" duration="9831000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -489,7 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123169000" />
+    <option name="totallyTimeSpent" value="123378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -956,17 +947,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="522">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSort.java">
+    <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
