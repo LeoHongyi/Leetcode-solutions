@@ -1,4 +1,4 @@
-package Algorithms.QueueAndDeque;
+package Algorithms.Queue;
 
 class ListNode{
 	int value;

@@ -1,4 +1,4 @@
-package Algorithms.QueueAndDeque;
+package Algorithms.Queue;
 
 public void sort(LinkedList<Integer> s1) {
   Deque<Integer> one = s1;

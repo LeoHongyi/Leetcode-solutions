@@ -1,4 +1,4 @@
-package Algorithms.QueueAndDeque;
+package Algorithms.Queue;
 import	java.util.LinkedList;
 
 public class SortWith3Stacks {

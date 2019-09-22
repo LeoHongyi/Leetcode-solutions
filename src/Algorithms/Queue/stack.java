@@ -1,4 +1,4 @@
-package Algorithms.QueueAndDeque;
+package Algorithms.Queue;
 
 public class Stack {
 	private ListNode head;
