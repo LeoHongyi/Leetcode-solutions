@@ -1,4 +1,4 @@
-package sorting;
+package Sort;
 import java.util.LinkedList;
 /**
  * Method: use s2 as a buffer and a storage for global MIN,

@@ -1,6 +1,5 @@
-package sorting;
+package Sort;
 
-import java.util.ArrayDeque;
 import java.util.LinkedList;
 
 

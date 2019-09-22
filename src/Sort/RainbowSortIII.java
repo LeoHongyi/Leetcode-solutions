@@ -1,4 +1,4 @@
-package sorting;
+package Sort;
 
 public class RainbowSortIII {
 	public static int[] rainbowSortIII(int[] array, int k) {

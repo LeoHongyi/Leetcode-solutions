@@ -1,4 +1,4 @@
-package sorting;
+package Sort;
 
 public class SearchInSortedMatrixI {
 	public static int[] search(int[][] matrix, int target) {
