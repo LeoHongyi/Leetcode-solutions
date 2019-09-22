@@ -77,7 +77,7 @@ public class MergeSort {
         merge2(array, helper, start, mid, end);
     }
     private void merge2(int[] array, int[] helper, int start, int mid, int end) {
-        for (int i = start; i < end; i++) {
+        for (int i = start; i <= end; i++) {
             helper[i] = array[i];
         }
         int left = start;

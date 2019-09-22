@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sorting/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sorting/MergeSortTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,16 +20,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="791">
+              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1209">
@@ -117,8 +115,8 @@
         <option value="$PROJECT_DIR$/test/sorting/SortWithTwoStacksTest.java" />
         <option value="$PROJECT_DIR$/src/sorting/SortWithTwoStacks.java" />
         <option value="$PROJECT_DIR$/src/sorting/MergeSortTest.java" />
-        <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/test/sorting/MergeSortTest.java" />
+        <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -447,7 +445,7 @@
       <workItem from="1569084499712" duration="160000" />
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
-      <workItem from="1569089126321" duration="4194000" />
+      <workItem from="1569089126321" duration="4831000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -492,7 +490,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117741000" />
+    <option name="totallyTimeSpent" value="118378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,7 +515,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.13277394" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.13277394" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -525,7 +523,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22232646" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22211254" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -956,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1209">
@@ -970,6 +961,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
         </state>
       </provider>
     </entry>
