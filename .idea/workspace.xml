@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+            <state relative-caret-position="2297">
+              <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -32,11 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="156">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -120,11 +117,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-1087" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5395" />
+    <option name="y" value="-68" />
     <option name="width" value="1920" />
-    <option name="height" value="2137" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -295,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest.testSelect3">
+  <component name="RunManager" selected="JUnit.MergeSortTest">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.MergeSort" />
       <module name="LaicodeJava" />
@@ -379,8 +376,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeSortTest.testSelect3" />
         <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.MergeSortTest.testSelect3" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="JUnit.SortWithTwoStacksTest" />
         <item itemvalue="JUnit.SortWithThreeStacksTest" />
@@ -445,7 +442,7 @@
       <workItem from="1569084499712" duration="160000" />
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
-      <workItem from="1569089126321" duration="4831000" />
+      <workItem from="1569089126321" duration="5611000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -458,9 +455,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortWithThreeStacksTest - 2019.09.21 at 10h 24m 39s.xml">
-      <configuration name="SortWithThreeStacksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortWithTwoStacksTest - 2019.09.21 at 10h 24m 55s.xml">
       <configuration name="SortWithTwoStacksTest" configurationId="JUnit" />
     </history-entry>
@@ -488,9 +482,12 @@
     <history-entry file="MergeSortTest_testSelect3 - 2019.09.21 at 16h 53m 57s.xml">
       <configuration name="MergeSortTest.testSelect3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MergeSortTest - 2019.09.21 at 17h 25m 54s.xml">
+      <configuration name="MergeSortTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118378000" />
+    <option name="totallyTimeSpent" value="119158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +499,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-1087" width="1920" height="2137" extended-state="0" />
+    <frame x="-5760" y="-68" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17773019" />
@@ -515,7 +512,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.13277394" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2843552" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -523,7 +520,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22211254" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22211254" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -956,18 +953,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/sorting/MergeSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+        <state relative-caret-position="2297">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
         </state>
       </provider>
     </entry>

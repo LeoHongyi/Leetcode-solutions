@@ -51,55 +51,6 @@ public class MergeSort {
         }
     }
 
-    /**
-     * @author: Qihao He
-     * @date 09/20/2019
-     * https://app.laicode.io/app/problem/9
-     * Method: Merge sort
-     * time: O(nlogn)
-     * space heap: n, stack: nlogn
-     */
-    public int[] mergeSort2(int[] array) {
-        if (array == null || array.length <= 1) {
-            return array;
-        }
-        int[] helper = new int[array.length];
-        mergeSort(array, helper, 0, array.length - 1);
-        return array;
-    }
-    private void mergeSort2(int[] array, int[] helper, int start, int end) {
-        if (start >= end) {
-            return;
-        }
-        int mid = start + (end - start) / 2;
-        mergeSort2(array, helper, start, mid);
-        mergeSort2(array, helper, mid + 1, end);
-        merge2(array, helper, start, mid, end);
-    }
-    private void merge2(int[] array, int[] helper, int start, int mid, int end) {
-        for (int i = start; i <= end; i++) {
-            helper[i] = array[i];
-        }
-        int left = start;
-        int right = mid + 1;
-        while (left <= mid && right <= end) {
-            if (helper[left] < helper[right]) {
-                array[start] = helper[left];
-                start++;
-                left++;
-            } else {
-                array[start] = helper[right];
-                start++;
-                right++;
-            }
-        }
-        while (left <= mid) {
-            array[start] = helper[left];
-            start++;
-            left++;
-        }
-        return;
-    }
     public static void main(String[] args) {
         int[] input = new int[] {5,6,3,12,1,8,2};
         int[] expect = new int[] {1,2,3,5,6,8,12};
