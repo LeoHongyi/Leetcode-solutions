@@ -1,49 +1,46 @@
 package sorting;
 public class QuickSort {
 	public int[] quickSort(int[] array) {
-		// Write your solution here
-		if(array == null || array.length == 0){
+		if (array == null || array.length <= 1) {
 			return array;
 		}
 		quickSort(array, 0, array.length - 1);
 		return array;
 	}
-
-	private static void quickSort(int[] array, int left, int right){
-		if(left >= right){
+	private void quickSort(int[] array, int start, int end) {
+		if (start >= end) {
 			return;
 		}
-		int pivotPos = partition(array, left, right);
-		quickSort(array, left, pivotPos - 1);
-		quickSort(array, pivotPos + 1, right);
+		int pivotIndex = partition(array, start, end);
+		quickSort(array, start, pivotIndex - 1);
+		quickSort(array, pivotIndex + 1, end);
+		return;
 	}
-
-	private static int partition(int[] array, int left, int right){
-		int pivotIndex = pivotIndex(left, right);
+	private int partition(int[] array, int start, int end) {
+		int pivotIndex = start + (int)Math.random() * (end - start + 1);
 		int pivotValue = array[pivotIndex];
-		swap(array, pivotIndex, right);
-		int leftBound = left;
-		int rightBound = right - 1;
-		while(leftBound <= rightBound){
-			if(array[leftBound] <= pivotValue){
-				leftBound++;
-			}else if(array[rightBound] >= pivotValue){
-				rightBound--;
-			}else{
-				swap(array, leftBound++, rightBound--);
+		swap(array, pivotIndex, end);
+		int left = start;
+		int right = end - 1;
+		while (left <= right) {
+			if (array[left] < pivotValue) {
+				left++;
+			} else if (array[right] > pivotValue) {
+				right--;
+			} else {
+				swap(array, left, right);
+				left++;
+				right--;
 			}
 		}
-		swap(array, leftBound, right);
-		return leftBound;
+		swap(array, left, end);
+		return left;
 	}
-
-	private static int pivotIndex(int left, int right){
-		return (int)Math.random()*(right - left + 1) + left;
-	}
-
-	private static void swap(int[] array, int left, int right){
+	private void swap(int[] array, int left, int right) {
 		int temp = array[left];
 		array[left] = array[right];
 		array[right] = temp;
+		return;
 	}
 }
+
