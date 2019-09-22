@@ -100,4 +100,18 @@ public class MergeSort {
         }
         return;
     }
+    public static void main(String[] args) {
+        int[] input = new int[] {5,6,3,12,1,8,2};
+        int[] expect = new int[] {1,2,3,5,6,8,12};
+        MergeSort sort = new MergeSort();
+        sort.mergeSort2(input);
+        for (int j = 0; j < expect.length; j++) {
+            if (input[j] != expect[j]) {
+                System.out.println("fail, not equal");
+                return;
+            }
+        }
+        System.out.println("success");
+        return;
+    }
 }
