@@ -1,5 +1,13 @@
 package sorting;
 public class QuickSort {
+	/**
+	 * @author Qihao He
+	 * @date 09/21/2019
+	 * Method: quick sort
+	 * time: worst case: O(n^2), average case: each level n, number of levels logn, O(nlogn)
+	 * space: worst case: stack: O(n), average case: stack: O(logn)
+	 */
+	/
 	public int[] quickSort(int[] array) {
 		if (array == null || array.length <= 1) {
 			return array;
