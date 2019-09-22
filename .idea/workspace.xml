@@ -1,145 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/MySQL-Triggers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/MySQL-for-Data-Analytics-and-BI-Lecture-Code-and-Tasks-Solutions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/MySQL-for-Data-Analytics-and-BI-Lecture-Code.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/combine_with_tableau.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/employees-mod-db.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/employees/employees.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/employees_mod.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 2 solution.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 2 solution.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 3 custom.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 3 custom.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 3 solutions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 3 solutions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task 4 solution.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MySQL for Data Analytics and Business Intelligence/task4 custom.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Actors and Directors Who Cooperated At Least Three Times.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Article Views I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Big Countries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Biggest Single Number.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Classes More Than 5 Students.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Combine Two Tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Consecutive Available Seats.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Consecutive Numbers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Customer Placing the largest Number of Orders.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Customers Who never order.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Delete Duplicate Emails.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Department Highest Salary.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Department Top Three Saslaries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Duplicate Emails.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Employee Bonus.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Employees Earning More Than Their Managers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Exchange Seats.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Find Customer Referee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Friend Request II: Who has the most friends.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Friend Requests I: Overall Acceptance Rate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Game Play Analysis I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Game Play Analysis II.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Game Play Analysis III.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Imeediate Food Delivery I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Investments in 2016.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Not Boring Movies.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Nth Highest Salary.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Product Sales Analysis I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Product Sales Analysis II.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Product Sales Analysis III.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Project Employees I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Project Employees II.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Rank Scores.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Reformat Department Table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Rising Temperature.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Sales Analysis I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Sales Analysis II.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Sales Analysis III.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Sales Person.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Second Degree Follower.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Second Highest Salary.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Shortest Distance in a line.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Shortest Distance in a plane.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/Swap Salary.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/User Activity for the Past 30 Days II.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/User Activity for the past 30 Days I.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/reported posts.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/leetcode-sql/triangle Judgement.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Configurations/Configurations/Configurations.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Configurations/Configurations/Configurations.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Configurations/Configurations/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Configurations/Configurations/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/DF_ex1/DF_ex1.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/DF_ex1/DF_ex1/DF_ex1.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/DF_ex1/DF_ex1/DF_ex1.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/DF_ex1/DF_ex1/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/DF_ex1/DF_ex1/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile - Copy (2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile - Copy (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile - Copy (4).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile - Copy (5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile - Copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel Files/samplefile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel_SQL/Excel_SQL.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel_SQL/Excel_SQL/Excel_SQL.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel_SQL/Excel_SQL/Excel_SQL.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel_SQL/Excel_SQL/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Excel_SQL/Excel_SQL/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/First_proj/First_proj.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/First_proj/First_proj/First_proj.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/First_proj/First_proj/First_proj.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/First_proj/First_proj/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/First_proj/First_proj/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/ForEach_enum/ForEach_enum.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/ForEach_enum/ForEach_enum/ForEach_enum.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/ForEach_enum/ForEach_enum/ForEach_enum.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/ForEach_enum/ForEach_enum/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/ForEach_enum/ForEach_enum/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Fuzzy_lookup/Fuzzy_lookup.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Fuzzy_lookup/Fuzzy_lookup/Fuzzy_lookup.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Fuzzy_lookup/Fuzzy_lookup/Fuzzy_lookup.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Fuzzy_lookup/Fuzzy_lookup/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Fuzzy_lookup/Fuzzy_lookup/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Install MSSQL Server on mac using docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Logging/Logging.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Logging/Logging/Logging.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Logging/Logging/Logging.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Logging/Logging/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Logging/Logging/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Logging/logging.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Trans_SQL_File/DBToFile.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Trans_SQL_File/Trans_SQL_File.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Trans_SQL_File/Trans_SQL_File/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Trans_SQL_File/Trans_SQL_File/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Trans_SQL_File/Trans_SQL_File/Trans_SQL_File.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Trans_SQL_File/Trans_SQL_File/Trans_SQL_File.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Web_service_Package/Web_service_Package.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Web_service_Package/Web_service_Package/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Web_service_Package/Web_service_Package/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Web_service_Package/Web_service_Package/Web_service_Package.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Web_service_Package/Web_service_Package/Web_service_Package.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/Web_service_Package/websvc.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/cf_example/cf_example.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/cf_example/cf_example/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/cf_example/cf_example/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/cf_example/cf_example/cf_example.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/cf_example/cf_example/cf_example.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/checkpoints/checkpoints.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/checkpoints/checkpoints/Package.dtsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/checkpoints/checkpoints/Project.params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/checkpoints/checkpoints/checkpoints.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/checkpoints/checkpoints/checkpoints.dtproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/mssql/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/sakila/hello_world.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/sakila/sakila-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/sakila/sakila-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -351,6 +213,12 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -571,7 +439,7 @@
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
-      <workItem from="1569175282618" duration="1652000" />
+      <workItem from="1569175282618" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -616,7 +484,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125179000" />
+    <option name="totallyTimeSpent" value="125451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

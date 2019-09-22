@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Web_service_Package", "Web_service_Package\Web_service_Package.dtproj", "{216B8A11-C4E2-4AA3-9409-4EC2DE4CD2CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216B8A11-C4E2-4AA3-9409-4EC2DE4CD2CE}.Development|Default.ActiveCfg = Development
+		{216B8A11-C4E2-4AA3-9409-4EC2DE4CD2CE}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E258811E-D20F-4091-B496-B0BB0F5D3C4A}
+	EndGlobalSection
+EndGlobal
