@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sorting/Move0sToTheEndI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/Move0sToTheEndI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/RainbowSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/RainbowSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sorting/Move0sToTheEndI.java">
+        <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="640">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayITest.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/SearchInShiftedSortedArrayIITest.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/SquareRootITest.java" />
         <option value="$PROJECT_DIR$/test/BinarySearch/MissingNumberIITest.java" />
@@ -105,6 +104,7 @@
         <option value="$PROJECT_DIR$/test/sorting/Move0sToTheEndITest.java" />
         <option value="$PROJECT_DIR$/src/sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/Move0sToTheEndI.java" />
+        <option value="$PROJECT_DIR$/src/sorting/RainbowSort.java" />
       </list>
     </option>
   </component>
@@ -283,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Move0sToTheEndITest">
+  <component name="RunManager" selected="JUnit.RainbowSortTest">
     <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -295,22 +295,6 @@
       <option name="PACKAGE_NAME" value="sorting" />
       <option name="MAIN_CLASS_NAME" value="sorting.MergeSortTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortTest.testSelect3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sorting" />
-      <option name="MAIN_CLASS_NAME" value="sorting.MergeSortTest" />
-      <option name="METHOD_NAME" value="testSelect3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,20 +345,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RainbowSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting" />
+      <option name="MAIN_CLASS_NAME" value="sorting.RainbowSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.MergeSortTest" />
-      <item itemvalue="JUnit.MergeSortTest.testSelect3" />
       <item itemvalue="JUnit.QuickSortTest" />
       <item itemvalue="JUnit.Move0sToTheEndITest.testSelect1" />
       <item itemvalue="JUnit.Move0sToTheEndITest" />
+      <item itemvalue="JUnit.RainbowSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RainbowSortTest" />
         <item itemvalue="JUnit.Move0sToTheEndITest" />
         <item itemvalue="JUnit.Move0sToTheEndITest.testSelect1" />
         <item itemvalue="JUnit.QuickSortTest" />
         <item itemvalue="JUnit.MergeSortTest" />
-        <item itemvalue="JUnit.MergeSortTest.testSelect3" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +435,7 @@
       <workItem from="1569084499712" duration="160000" />
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
-      <workItem from="1569089126321" duration="8503000" />
+      <workItem from="1569089126321" duration="9314000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -481,7 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122050000" />
+    <option name="totallyTimeSpent" value="122861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +495,7 @@
     <frame x="-5760" y="-68" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17773019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17773019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -514,7 +513,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22198732" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22198732" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -584,23 +583,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Hashtable/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/BinarySearch/SmallestRectangleEnclosingBlackPixelsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/DP/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -960,8 +942,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/Move0sToTheEndI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="70">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSortII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/RainbowSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
         </state>
       </provider>
     </entry>
