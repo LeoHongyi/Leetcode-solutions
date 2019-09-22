@@ -1,4 +1,4 @@
-package Algorithms.Tree.BinaryTree;
+package Algorithms.BinaryTree;
 
 public class LCAIII {
 	public static class TreeNode {

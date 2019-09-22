@@ -1,4 +1,4 @@
-package Algorithms.Tree.BinaryTree;
+package Algorithms.BinaryTree;
 
 /**
  Method: Hashmap store inOrder list <key: num, value: index> for quick check.
