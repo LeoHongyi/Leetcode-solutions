@@ -1,9 +1,0 @@
-Dependant list elements should be excecuted after the principle list element.
-Input 2 lists of dependant and principle lists.
-Output the number of tasks that can be excecuted at maximum.
-Dependant list: [1,2,3,4,6,5]
-principle list: [7,6,4,1,2,1]
-For these input lists, the output should be "6" for the tasks that can be accomplished.
-
-Algorithms:
-1. Array dependent elements project to each other.
