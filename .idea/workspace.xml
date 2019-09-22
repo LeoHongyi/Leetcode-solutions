@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/SortedSumOfTwoSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/SortedSumOfTwoSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/HashTable/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/HashTable/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -115,10 +122,10 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Tree/NBranchTree/BinaryTree/CheckCousinTest.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/CheckCousinTest.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/BinaryTree/CheckCousinTest.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/test/Algorithms/Sort/InsertionSortTest.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/HashTable/HashMap.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/SortedSumOfTwoSolution.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" />
       </list>
     </option>
   </component>
@@ -469,7 +476,7 @@
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
-      <workItem from="1569175282618" duration="4629000" />
+      <workItem from="1569175282618" duration="4744000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -514,7 +521,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128156000" />
+    <option name="totallyTimeSpent" value="128271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,7 +536,7 @@
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3370044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3370044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -539,7 +546,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27204502" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28424016" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28424016" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -547,7 +554,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15478425" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15478425" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -956,13 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Algorithms/Sort/MergeSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1001,10 +1001,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
