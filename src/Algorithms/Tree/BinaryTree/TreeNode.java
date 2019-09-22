@@ -1,4 +1,4 @@
-package Algorithms.BinaryTree;
+package Algorithms.Tree.BinaryTree;
 
 public class TreeNode {
     public int key;

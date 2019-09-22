@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/BinaryTreeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CheckCousin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/CheckCousin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CheckCousinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/CheckCousinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/ConnectRightPointerToSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/ConnectRightPointerToSuccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CountNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/CountNodeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CousinsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/CousinsInBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/GetPostOrderSequenceByPreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/GetPostOrderSequenceByPreIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/HeightOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/HeightOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/InOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/InOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/LCAII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/LCAIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/LCAIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LongestAscendingPathBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/LongestAscendingPathBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PostOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/PostOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PreOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/PreOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/RightViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/RightViewOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTree/TreePrinter.java" afterDir="false" />
-    </list>
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/BinaryTree/CheckCousinTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="675">
+              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -479,7 +457,7 @@
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
-      <workItem from="1569175282618" duration="2581000" />
+      <workItem from="1569175282618" duration="2826000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -524,7 +502,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126108000" />
+    <option name="totallyTimeSpent" value="126353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1008,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/BinaryTree/CheckCousinTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="675">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
