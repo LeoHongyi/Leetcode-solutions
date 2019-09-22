@@ -1,4 +1,4 @@
-package Algorithms.OOD.SimpleVendingMachine;
+package Algorithms.ObjectOrientedDesign.SimpleVendingMachine;
 
 public class SimpleVendingMachine {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Algorithms.OOD.InMemoryFileSystem;
+package Algorithms.ObjectOrientedDesign.InMemoryFileSystem;
 
 public class FileSystem {
 

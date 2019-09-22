@@ -1,4 +1,4 @@
-package Algorithms.OOD.SimpleVendingMachine;
+package Algorithms.ObjectOrientedDesign.SimpleVendingMachine;
 public class Inventory {
 	protected String product;
 	protected int price;

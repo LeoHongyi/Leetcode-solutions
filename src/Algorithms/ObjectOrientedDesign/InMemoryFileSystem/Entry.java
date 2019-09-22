@@ -1,4 +1,4 @@
-package Algorithms.OOD.InMemoryFileSystem;
+package Algorithms.ObjectOrientedDesign.InMemoryFileSystem;
 
 public abstract class Entry {
 	public Entry(String name, Directory parent) {

@@ -1,4 +1,4 @@
-package Algorithms.OOD.SimpleVendingMachine;
+package Algorithms.ObjectOrientedDesign.SimpleVendingMachine;
 
 import java.util.ArrayList;
 import java.util.List;
