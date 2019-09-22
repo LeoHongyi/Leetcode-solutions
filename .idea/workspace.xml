@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/SortWith3Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/SortWith3Stacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/StackWithMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/StackWithMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/StackWithMinPairSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/StackWithMinPairSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/SumOfNumbersInAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/SumOfNumbersInAStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/QueueAndDeque/stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Queue/stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/The Royal Names/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/TheRoyalNames/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/The Royal Names/royalnames.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/TheRoyalNames/royalnames.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/The Royal Names/unit test file.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/TheRoyalNames/unit test file.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/To Lower Case/To Lower Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/ToLowerCase/To Lower Case.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/CombinationsForTelephonePadI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,6 +221,13 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectOrientedDesign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,7 +449,7 @@
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
-      <workItem from="1569175282618" duration="3102000" />
+      <workItem from="1569175282618" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -498,7 +494,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126629000" />
+    <option name="totallyTimeSpent" value="126855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -980,7 +976,7 @@
     <entry file="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/CombinationsForTelephonePadI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

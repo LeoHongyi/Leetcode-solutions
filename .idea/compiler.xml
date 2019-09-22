@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/Algorithms/HashTable/HashMap.java" />
-      <file url="file://$PROJECT_DIR$/src/Algorithms/OOD/SimpleVendingMachine/compile error.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/compile error.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/SortedSumOfTwoSolution.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Queue/MergeSort.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeGenerator.java" />
@@ -14,19 +14,19 @@
       <file url="file://$PROJECT_DIR$/src/Algorithms/BinarySearchTree/solution.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIV.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/PriorityQueue/KthSmallestNumberInSortedMatrix.java" />
-      <file url="file://$PROJECT_DIR$/src/Algorithms/OOD/InMemoryFileSystem/Directory.java" />
-      <file url="file://$PROJECT_DIR$/src/Algorithms/OOD/InMemoryFileSystem/FileSystem.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/Directory.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/FileSystem.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PostOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PreOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreePrinter.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/BinarySearchTree/ClosestKValues.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAII.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/BinarySearchTree/InsertInBinarySearchTree.java" />
-      <file url="file://$PROJECT_DIR$/src/Algorithms/OOD/InMemoryFileSystem/File.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/File.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/Sort/MergeSort.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/PrintPossibleBlocks.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/CombinationSum.java" />
-      <file url="file://$PROJECT_DIR$/src/Algorithms/OOD/InMemoryFileSystem/Entry.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/Entry.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/RestoreIpAddresses.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/Decode.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/BinarySearchTree/DistanceBetweenTwoNodes.java" />
