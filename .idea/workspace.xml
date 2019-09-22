@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/BinaryTreeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/CheckCousin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CheckCousin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/CheckCousinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CheckCousinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/ConnectRightPointerToSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/ConnectRightPointerToSuccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/CountNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CountNodeOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/CousinsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CousinsInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/GetPostOrderSequenceByPreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/GetPostOrderSequenceByPreIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/HeightOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/HeightOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/InOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/InOrderTraversalOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/LCAII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/LCAIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/LCAIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/LongestAscendingPathBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LongestAscendingPathBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/PostOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PostOrderTraversalOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/PreOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PreOrderTraversalOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/RightViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/RightViewOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinaryTree/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreePrinter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +240,14 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,7 +468,7 @@
       <workItem from="1569084676158" duration="2465000" />
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
-      <workItem from="1569175282618" duration="1924000" />
+      <workItem from="1569175282618" duration="2292000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -484,7 +513,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125451000" />
+    <option name="totallyTimeSpent" value="125819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +527,7 @@
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37004405" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39207047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +545,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22138837" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15478425" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />

@@ -1,4 +1,4 @@
-package Algorithms.BinaryTree;
+package Algorithms.Tree.BinaryTree;
 
 import java.util.Queue;
 import java.util.ArrayDeque;
