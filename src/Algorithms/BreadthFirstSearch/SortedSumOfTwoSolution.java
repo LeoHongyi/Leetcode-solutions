@@ -32,7 +32,7 @@ package Algorithms.BreadthFirstSearch;
  * **/
 public class SortedSumOfTwoSolution {
 	public int sortedSumOfTwo(int[] a, int[] b, int k){
-		return dijk(a, b, k)；
+		return dijk(a, b, k);
 	}
 	private int dijk(int[] a, int[] b, int k) {
 		PriorityQueue<Tuple> minHeap = new PriorityQueue<Tuple>(k, new Comparator<Tuple>() {
@@ -66,6 +66,7 @@ public class SortedSumOfTwoSolution {
 		}
 		return minHeap.peek().key;
 	}
+
 	Class Tuple{
 		int x;
 		int y;

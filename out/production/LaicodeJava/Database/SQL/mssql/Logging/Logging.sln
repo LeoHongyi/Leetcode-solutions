@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Logging", "Logging\Logging.dtproj", "{B7B28B81-65AA-40CE-94F7-F83D6E55B607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B28B81-65AA-40CE-94F7-F83D6E55B607}.Development|Default.ActiveCfg = Development
+		{B7B28B81-65AA-40CE-94F7-F83D6E55B607}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {864BA711-33BE-48DA-B87D-9C8CC059ADBA}
+	EndGlobalSection
+EndGlobal

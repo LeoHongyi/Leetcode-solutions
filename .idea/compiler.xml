@@ -63,6 +63,17 @@
       <file url="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/StringAddToTarget.java" />
       <file url="file://$PROJECT_DIR$/src/Algorithms/BinarySearch/FirstBadVersion.java" />
       <file url="file://$PROJECT_DIR$/test/Algorithms/Sort/MergeSortTest.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/HashTable/HashMap.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/SortedSumOfTwoSolution.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/Queue/MergeSort.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/HashTable/MostPointsOnALine.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/BinarySearchTree/DistanceBetweenTwoNodes.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/InOrderTraversalOfBinaryTree.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeGenerator.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/Decode.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/compile error.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/Queue/SumOfNumbersInAStack.java" />
+      <file url="file://$PROJECT_DIR$/src/Algorithms/Queue/stack.java" />
     </excludeFromCompile>
     <wildcardResourcePatterns>
       <entry name="!?*.java" />

@@ -28,7 +28,7 @@ public class HashMap {
 		int index = key.hashCode() % size;
 		return searchValue(data[index], key);
 	}
-	private void rehash(int newSize) {
-		Node[] oldData =
-	}
+//	private void rehash(int newSize) {
+//		Node[] oldData =;
+//	}
 }

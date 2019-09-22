@@ -1,0 +1,51 @@
+Update 2019 :
+Here is the New Tutorial, Very Easy Steps o Install. No Terminal Command Needed
+How to Install MSSQL Server on Mac Os using Docker Container
+https://www.youtube.com/watch?v=KdvGh...
+
+To Restart Server, could you please follow these steps  
+1. Go to you Docker icon on top and click on Kitematic 
+2. then Download and run the application  Kitematic will automatically detect your containers. 
+3. All you have to do is select the container and click Start.  Attached screenshot image for you 
+https://drive.google.com/file/d/1LCHm...
+
+In this Video tutorial I will show you the step by step process of Installing Microsoft SQL Server 2017 on Mac operating System. By following this tutorial you would have successfully installed SQL Server on MacBook, MacBook Pro, iMac, MacBook Air.
+We no longer need to Install SQL Server on Virtual Machine on a Mac as Docker Container will run SQL Server on Isolated Environment on a Mac.
+My Blog - www.techhowdy.com
+#SqlServerOnMac #SqlServerDockerContainer #mssqlMac
+Download Docker
+https://store.docker.com/editions/com...
+
+Terminal Commands (Copy without **)
+
+This command downloads the latest SQL Server for Linux Docker image to your computer:
+**docker pull microsoft/mssql-server-linux**
+
+Run the following command to launch an instance of the Docker image you just downloaded:
+**docker run -d --name sql_server_name -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=YourPassword123' -p 1433:1433 microsoft/mssql-server-linux**
+
+Run the following command to install the sql-cli command line tool
+**sudo npm install -g sql-cli**
+
+Connect to SQL Server:
+**mssql -u sa -p reallyStrongPwd123**
+
+Run a quick test:
+**select @@version**
+
+Download Azure Data Studio
+https://docs.microsoft.com/en-us/sql/...
+
+
+sql server on mac,
+sql server on macbook,
+sql server on mac using docker,
+sql server on macbook pro,
+install sql server on mac,
+microsoft sql server on mac,
+install sql server on macbook pro,
+run sql server on mac,
+install microsoft sql server on mac,
+sql server on docker mac,
+sql server on mac os,
+mysql server on mac
