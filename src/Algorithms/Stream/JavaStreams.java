@@ -1,5 +1,6 @@
 package Algorithms.Stream;
 
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
@@ -63,7 +64,7 @@ public class JavaStreams {
                 .filter(x -> x.startsWith("a"))
                 .forEach(System.out::println);
     }
-    public void rowsFromFile() {
+    public void rowsFromFile() throws IOException {
         // 8. Stream rows from text file, sort, filter, and print
         Stream<String> bands = Files.lines(Paths.get("bands.txt"));
         bands

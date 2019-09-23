@@ -2,6 +2,8 @@ package Algorithms.Stream;
 
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.junit.Assert.*;
 
 public class JavaStreamsTest {
@@ -41,7 +43,7 @@ public class JavaStreamsTest {
         s.listFilterPrint();
     }
     @Test
-    public void testRowsFromFile() {
+    public void testRowsFromFile() throws IOException {
         JavaStreams s = new JavaStreams();
         s.rowsFromFile();
     }
