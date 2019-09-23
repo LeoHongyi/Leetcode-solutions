@@ -72,4 +72,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.reductionSum();
     }
+    @Test
+    public void testReductionSummaryStatistics() throws IOException {
+        JavaStreams s = new JavaStreams();
+        s.reductionSummaryStatistics();
+    }
 }
