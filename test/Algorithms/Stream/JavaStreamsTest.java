@@ -52,4 +52,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.rowsFromFileAndSave();
     }
+    @Test
+    public void testRowsFromFileAndCount() throws IOException {
+        JavaStreams s = new JavaStreams();
+        s.rowsFromFileAndCount();
+    }
 }

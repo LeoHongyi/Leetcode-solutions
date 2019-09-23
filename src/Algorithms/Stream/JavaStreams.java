@@ -81,4 +81,14 @@ public class JavaStreams {
                 .collect(Collectors.toList());
         bands2.forEach(x -> System.out.println(x));
     }
+    public void rowsFromFileAndCount() throws IOException {
+        // 10. Stream rows from CSV file and count
+        Stream<String> rows1 = Files.lines(Paths.get("src/Algorithms/Stream/bands.txt"));
+        int rowCount = (int)rows1
+                .map(x -> x.split(","))
+                .filter(x -> x.length == 3)
+                .count();
+        System.out.println(rowCount + "rows.");
+        rows1.close();
+    }
 }

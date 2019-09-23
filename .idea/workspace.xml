@@ -26,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1477">
-                  <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+                <state relative-caret-position="1579">
+                  <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -42,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1345">
-                  <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+                <state relative-caret-position="1582">
+                  <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/bands.txt" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/data.txt" />
-        <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" />
+        <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
       </list>
     </option>
   </component>
@@ -484,7 +484,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="4447000" />
+      <workItem from="1569201941613" duration="4744000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -497,9 +497,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JavaStreamsTest_testIntStreamWithSum - 2019.09.22 at 18h 49m 40s.xml">
-      <configuration name="JavaStreamsTest.testIntStreamWithSum" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JavaStreamsTest_testSortedFindFirst - 2019.09.22 at 18h 53m 32s.xml">
       <configuration name="JavaStreamsTest.testSortedFindFirst" configurationId="JUnit" />
     </history-entry>
@@ -527,9 +524,12 @@
     <history-entry file="JavaStreamsTest_testRowsFromFile - 2019.09.22 at 20h 26m 11s.xml">
       <configuration name="JavaStreamsTest.testRowsFromFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JavaStreamsTest_testRowsFromFileAndSave - 2019.09.22 at 20h 31m 31s.xml">
+      <configuration name="JavaStreamsTest.testRowsFromFileAndSave" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133947000" />
+    <option name="totallyTimeSpent" value="134244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,13 +558,13 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32922015" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14313918" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.26702863" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="leetcode" order="0" side_tool="true" weight="0.32976446" />
       <window_info anchor="right" id="Git Scope" order="1" side_tool="true" />
@@ -1003,20 +1003,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1345">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        <state relative-caret-position="1579">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
+    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1477">
-          <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+        <state relative-caret-position="1582">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
