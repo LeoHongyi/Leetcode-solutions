@@ -45,4 +45,11 @@ public class JavaStreams {
                 .sorted()
                 .forEach(System.out::println);
     }
+    public void averageOfSquares() {
+        // 6. average of squares of an int array
+        Arrays.stream(new int[] {2,4,6,8,10})
+                .map(x -> x * x)
+                .average()
+                .ifPresent(System.out::println);
+    }
 }

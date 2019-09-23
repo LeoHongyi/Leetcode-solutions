@@ -26,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="853">
-                  <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+                <state relative-caret-position="1564">
+                  <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -42,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1243">
-                  <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+                <state relative-caret-position="1528">
+                  <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -326,7 +326,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaStreamsTest.testProcessStreamFromSource">
+  <component name="RunManager" selected="JUnit.JavaStreamsTest.testAverageOfSquare">
+    <configuration name="JavaStreamsTest.testAverageOfSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
+      <option name="METHOD_NAME" value="testAverageOfSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaStreamsTest.testIntStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -338,22 +354,6 @@
       <option name="PACKAGE_NAME" value="Algorithms.Stream" />
       <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
       <option name="METHOD_NAME" value="testIntStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaStreamsTest.testIntStreamWithSkip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
-      <option name="METHOD_NAME" value="testIntStreamWithSkip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -409,18 +409,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.JavaStreamsTest.testIntStream" />
-      <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSkip" />
       <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSum" />
       <item itemvalue="JUnit.JavaStreamsTest.testSortedFindFirst" />
       <item itemvalue="JUnit.JavaStreamsTest.testProcessStreamFromSource" />
+      <item itemvalue="JUnit.JavaStreamsTest.testAverageOfSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaStreamsTest.testAverageOfSquare" />
         <item itemvalue="JUnit.JavaStreamsTest.testProcessStreamFromSource" />
         <item itemvalue="JUnit.JavaStreamsTest.testSortedFindFirst" />
         <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSum" />
         <item itemvalue="JUnit.JavaStreamsTest.testIntStream" />
-        <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSkip" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +484,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="1923000" />
+      <workItem from="1569201941613" duration="2604000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -497,9 +497,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Move0sToTheEndITest - 2019.09.21 at 23h 32m 08s.xml">
-      <configuration name="Move0sToTheEndITest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Move0sToTheEndITest - 2019.09.21 at 23h 32m 27s.xml">
       <configuration name="Move0sToTheEndITest" configurationId="JUnit" />
     </history-entry>
@@ -527,9 +524,12 @@
     <history-entry file="JavaStreamsTest_testSortedFindFirst - 2019.09.22 at 18h 53m 32s.xml">
       <configuration name="JavaStreamsTest.testSortedFindFirst" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JavaStreamsTest_testProcessStreamFromSource - 2019.09.22 at 18h 58m 53s.xml">
+      <configuration name="JavaStreamsTest.testProcessStreamFromSource" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131423000" />
+    <option name="totallyTimeSpent" value="132104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,7 +554,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27204502" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28381047" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28381047" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -562,7 +562,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14313918" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14313918" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -1003,20 +1003,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1243">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="1564">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
+    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="1528">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

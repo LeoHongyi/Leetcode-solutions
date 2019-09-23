@@ -30,4 +30,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.processStreamFromSource();
     }
+    @Test
+    public void testAverageOfSquare() {
+        JavaStreams s = new JavaStreams();
+        s.averageOfSquares();
+    }
 }
