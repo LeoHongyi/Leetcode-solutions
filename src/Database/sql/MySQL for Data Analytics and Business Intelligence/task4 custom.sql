@@ -1,6 +1,6 @@
 /*
 Task 4
-Create an SQL stored procedure that will allow you 
+Create an sql stored procedure that will allow you
 to obtain the average male and female salary per 
 department within a centain salary range. Let this 
 range be defined by two values the user can insert
