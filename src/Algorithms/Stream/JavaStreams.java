@@ -57,9 +57,9 @@ public class JavaStreams {
         // 7. Stream from List, filter and print
         List<String> people = Arrays.asList("Al", "Ava", "Aneri", "Alberto","Sarika", "Shazan");
         people
-                .stream()
-                .map(String::toLowerCase)
-                .filter(x -> x.startsWith("a"))
-                .forEach(System.out::println);
+            .stream()
+            .map(String::toLowerCase)
+            .filter(x -> x.startsWith("a"))
+            .forEach(System.out::println);
     }
 }
