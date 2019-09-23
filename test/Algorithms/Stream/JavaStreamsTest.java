@@ -62,4 +62,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.rowsFromFileAndParse();
     }
+    @Test
+    public void testRowsFromFileAndStoreInHashMap() throws IOException {
+        JavaStreams s = new JavaStreams();
+        s.rowsFromFileAndStoreInHashMap();
+    }
 }
