@@ -57,4 +57,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.rowsFromFileAndCount();
     }
+    @Test
+    public void testRowsFromFileAndParse() throws IOException {
+        JavaStreams s = new JavaStreams();
+        s.rowsFromFileAndParse();
+    }
 }

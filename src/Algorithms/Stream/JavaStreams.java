@@ -91,4 +91,14 @@ public class JavaStreams {
         System.out.println(rowCount + " rows.");
         rows1.close();
     }
+    public void rowsFromFileAndParse() throws IOException {
+        // 11. Stream rows from CSV file, parse data from rows
+        Stream<String> rows2 = Files.lines(Paths.get("src/Algorithms/Stream/data.txt"));
+        rows2
+                .map(x -> x.split(","))
+                .filter(x -> x.length == 3)
+                .filter(x -> Integer.parseInt(x[1]) > 15)
+                .forEach(x -> System.out.println(x[0] + " " + x[1] + " " + x[2]));
+        rows2.close();
+    }
 }

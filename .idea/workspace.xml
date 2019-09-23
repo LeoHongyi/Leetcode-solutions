@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1090">
-                  <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+                <state relative-caret-position="1579">
+                  <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -41,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1099">
-                  <caret line="56" selection-start-line="56" selection-end-line="57" />
+                <state relative-caret-position="1582">
+                  <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -126,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/bands.txt" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/data.txt" />
-        <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" />
+        <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
       </list>
     </option>
   </component>
@@ -325,23 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaStreamsTest.testRowsFromFileAndCount">
-    <configuration name="JavaStreamsTest.testAverageOfSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
-      <option name="METHOD_NAME" value="testAverageOfSquare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JavaStreamsTest.testRowsFromFileAndParse">
     <configuration name="JavaStreamsTest.testListFilterPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -390,6 +375,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaStreamsTest.testRowsFromFileAndParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
+      <option name="METHOD_NAME" value="testRowsFromFileAndParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaStreamsTest.testRowsFromFileAndSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -407,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JavaStreamsTest.testAverageOfSquare" />
       <item itemvalue="JUnit.JavaStreamsTest.testListFilterPrint" />
       <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFile" />
       <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndSave" />
       <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndCount" />
+      <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndParse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndParse" />
         <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndCount" />
         <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndSave" />
         <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFile" />
         <item itemvalue="JUnit.JavaStreamsTest.testListFilterPrint" />
-        <item itemvalue="JUnit.JavaStreamsTest.testAverageOfSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +484,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="5103000" />
+      <workItem from="1569201941613" duration="5398000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -528,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134603000" />
+    <option name="totallyTimeSpent" value="134898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +544,7 @@
     <frame x="-3840" y="-1087" width="3840" height="2137" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08183738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08183738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,7 +554,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27204502" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28381047" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28381047" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -561,7 +562,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14313918" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14313918" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26702863" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -988,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/bands.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1002,20 +996,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1099">
-          <caret line="56" selection-start-line="56" selection-end-line="57" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1579">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
+    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        <state relative-caret-position="1582">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
