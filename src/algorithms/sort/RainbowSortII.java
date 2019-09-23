@@ -1,33 +1,50 @@
 package algorithms.sort;
 
 public class RainbowSortII {
-	public static int[] rainbowSortII(int[] array) {
+	/**
+	 * @author: Qihao He
+	 * @date: 09/23/2019
+	 * Method 1: 4 pointers, 2 at left, 2 at right, move towards center
+	 * time: O(n)
+	 * space: O(1)
+	 *      i     j   k    l
+	 * 0000 1111  xxxxx 2222 33333
+	 * Method 2: 2 pointers, move at the same directions to the right
+	 *           s     f
+	 *0000 1111  23232 xxxxxxx
+	 * time: O(n)
+	 * space: O(1)
+	 */
+	public int[] rainbowSortII(int[] array) {
 		// Write your solution here
 		if (array.length <= 1) {
 			return array;
 		}
-		int i = 0, j = 0, k = 0, l = array.length - 1;
-		while (k <= l && j <= l && i <= l) {
-			if (array[k] == 0) {
-				swap(array, j, k++);
-				swap(array, i++, j++);
-			} else if (array[k] == 1) {
-				swap(array, j++, k++);
-			} else if (array[k] == 2) {
-				k++;
-			} else {
-				swap(array, k, l--);
+		int slow = 0;
+		int target = 0;
+		while (slow < array.length && target <= 3) {
+			int fast = slow;
+			while (fast < array.length) {
+				if (array[fast] == target) {
+					swap(array, fast, slow);
+					slow++;
+					fast++;
+				} else {
+					fast++;
+				}
 			}
+			target++;
 		}
 		return array;
 	}
-	private static void swap(int[] array, int left, int right) {
+	private void swap(int[] array, int left, int right) {
 		int temp = array[left];
 		array[left] = array[right];
 		array[right] = temp;
 	}
-	// 方法2  相向走
+
 	public int[] rainbowSortIITwoPointerInward(int[] array) {
+		// method 3: 2 pointers move at the opposite direction
 		if (array == null || array.length <= 1) {
 			return array;
 		}
