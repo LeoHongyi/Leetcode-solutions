@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,22 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/algorithms/sort/RainbowSortIITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/SmallestRectangleEnclosingBlackPixels.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/MissingNumberII.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SmallestElementLargerThanTarget.java" />
@@ -118,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndII.java" />
         <option value="$PROJECT_DIR$/test/algorithms/sort/RainbowSortIITest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" />
       </list>
     </option>
   </component>
@@ -470,7 +458,7 @@
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
       <workItem from="1569201941613" duration="10668000" />
-      <workItem from="1569262241779" duration="5995000" />
+      <workItem from="1569262241779" duration="6430000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -483,9 +471,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortInSpecifiedOrderTest_test1 - 2019.09.23 at 12h 08m 04s.xml">
-      <configuration name="SortInSpecifiedOrderTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 12m 06s.xml">
       <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
@@ -513,9 +498,12 @@
     <history-entry file="RainbowSortIITest - 2019.09.23 at 15h 05m 43s.xml">
       <configuration name="RainbowSortIITest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RainbowSortIITest - 2019.09.23 at 15h 09m 31s.xml">
+      <configuration name="RainbowSortIITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146163000" />
+    <option name="totallyTimeSpent" value="146598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,7 +518,7 @@
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12526767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +528,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27147087" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28330207" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28330207" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -548,7 +536,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15384616" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15384616" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26638478" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -618,13 +606,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/MissingNumberII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInsertPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1000,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/algorithms/sort/RainbowSortIITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="675">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1010,8 +991,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -1,27 +1,40 @@
 package algorithms.sort;
 
 public class RainbowSortIII {
-	public static int[] rainbowSortIII(int[] array, int k) {
-		// Write your solution here
+	/**
+	 * @author: Qihao He
+	 * @date: 09/23/2019
+	 * Method: 2 pointers, move at the same directions to the right
+	 *           s     f
+	 *0000 1111  23232 xxxxxxx
+	 * worst: time: O(kn), space: O(1)
+	 * average: time O(2n), space O(1)
+	 */
+	public int[] rainbowSortIII(int[] array, int k) {
+
 		if (array.length <= 1) {
 			return array;
 		}
-		// 1111111  234567  xxxxxxxxxx
-		//[0     i)[i    j)[j     n-1]
-		int n = array.length, i = 0, j = 0;
-		for (int key = 1; key <= k; key++) {
-			while(j <= n - 1) {
-				if (array[j] == key) {
-					int temp = array[i];
-					array[i++] = array[j];
-					array[j++] = temp;
+		int slow = 0;
+		int target = 1;
+		while (slow < array.length && target <= k) {
+			int fast = slow;
+			while (fast < array.length) {
+				if (array[fast] == target) {
+					swap(array, slow, fast);
+					slow++;
+					fast++;
 				} else {
-					j++;
+					fast++;
 				}
 			}
-			j = i;
+			target++;
 		}
 		return array;
 	}
+	private void swap(int[] array, int left, int right) {
+		int temp = array[left];
+		array[left] = array[right];
+		array[right] = temp;
+	}
 }
-
