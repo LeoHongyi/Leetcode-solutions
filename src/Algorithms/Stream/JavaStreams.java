@@ -88,7 +88,7 @@ public class JavaStreams {
                 .map(x -> x.split(","))
                 .filter(x -> x.length == 3)
                 .count();
-        System.out.println(rowCount + "rows.");
+        System.out.println(rowCount + " rows.");
         rows1.close();
     }
 }
