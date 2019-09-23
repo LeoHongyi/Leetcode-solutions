@@ -47,4 +47,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.rowsFromFile();
     }
+    @Test
+    public void testRowsFromFileAndSave() throws IOException {
+        JavaStreams s = new JavaStreams();
+        s.rowsFromFileAndSave();
+    }
 }

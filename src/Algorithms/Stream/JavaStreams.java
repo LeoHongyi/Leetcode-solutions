@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -72,5 +73,12 @@ public class JavaStreams {
                 .filter(x -> x.length() > 13)
                 .forEach(System.out::println);
         bands.close();
+    }
+    public void rowsFromFileAndSave() throws IOException {
+        // 9. Stream rows from text file and save to List
+        List<String> bands2 = Files.lines(Paths.get("src/Algorithms/Stream/bands.txt"))
+                .filter(x -> x.contains("jit"))
+                .collect(Collectors.toList());
+        bands2.forEach(x -> System.out.println(x));
     }
 }
