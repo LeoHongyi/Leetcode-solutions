@@ -35,4 +35,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.averageOfSquares();
     }
+    @Test
+    public void testListFilterPrint() {
+        JavaStreams s = new JavaStreams();
+        s.listFilterPrint();
+    }
 }

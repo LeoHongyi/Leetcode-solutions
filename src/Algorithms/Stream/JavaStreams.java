@@ -2,6 +2,7 @@ package Algorithms.Stream;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -51,5 +52,14 @@ public class JavaStreams {
                 .map(x -> x * x)
                 .average()
                 .ifPresent(System.out::println);
+    }
+    public void listFilterPrint() {
+        // 7. Stream from List, filter and print
+        List<String> people = Arrays.asList("Al", "Ava", "Aneri", "Alberto","Sarika", "Shazan");
+        people
+                .stream()
+                .map(String::toLowerCase)
+                .filter(x -> x.startsWith("a"))
+                .forEach(System.out::println);
     }
 }
