@@ -9,6 +9,11 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class JavaStreams {
+    /**
+     * @author: Qihao He
+     * @date 06/22/2019
+     * Usage of lambda with streams
+     */
     public void intStream() {
         // 1. Integer stream
         IntStream

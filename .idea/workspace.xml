@@ -2,208 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Array/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/array/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/ClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/ClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/FindLocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FindLocalMinimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/FirstOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FirstOccurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/IntersectionOfTwoArraysII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/KClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/KClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/KthSmallestInTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/KthSmallestInTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/LastOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/LastOccurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/MissingNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/MissingNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInBitonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBitonicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInShiftedSortedArrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInShiftedSortedArrayI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInShiftedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInShiftedSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInSortedMatrixI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInSortedMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInUnknownSizedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInUnknownSizedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/ShiftPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/ShiftPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SmallestElementLargerThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SmallestElementLargerThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SmallestRectangleEnclosingBlackPixels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SmallestRectangleEnclosingBlackPixels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearch/SquareRootI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SquareRootI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearchTree/ClosestKValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearchTree/ClosestKValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearchTree/DistanceBetweenTwoNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearchTree/DistanceBetweenTwoNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearchTree/InsertInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearchTree/InsertInBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BinarySearchTree/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearchTree/solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/PlaceChairI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/PlaceChairI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/BreadthFirstSearch/SortedSumOfTwoSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/SortedSumOfTwoSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Debug/AreEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/debug/AreEqual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Debug/CalculateFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/debug/CalculateFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Debug/ComputeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/debug/ComputeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Debug/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/debug/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Debug/IsPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/debug/IsPrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Debug/SumOfSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/debug/SumOfSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/Archive.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/Archive.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/CombinationsForTelephonePadI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/CombinationsForTelephonePadI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/Decode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/FactorCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/FactorCombinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/FormRing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/FormRing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/FormRingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/FormRingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/PalindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PalindromePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/PermutationsTestII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PermutationsTestII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/PrintPossibleBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PrintPossibleBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/RestoreIpAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/RestoreIpAddresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/SpaceInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/SpaceInsertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/SpaceInsertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/SpaceInsertionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DepthFirstSearch/StringAddToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/StringAddToTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DynamicProgramming/CutNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/CutNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DynamicProgramming/CutNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/CutNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DynamicProgramming/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DynamicProgramming/LargestSetOfPointsWithPositiveSlope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSetOfPointsWithPositiveSlope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DynamicProgramming/MaxWaterTrapped.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/MaxWaterTrapped.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/DynamicProgramming/PaintWoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/PaintWoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/HashTable/CommonNumbersOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/HashTable/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/HashTable/MostPointsOnALine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/MostPointsOnALine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/HashTable/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/heap/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/JewelsAndStones/Jewels and Stones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/jewelsAndStones/Jewels and Stones.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/JewelsAndStones/unit test file.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/jewelsAndStones/unit test file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/Plane seats family numbers/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/planeSeatsFamilyNumbers/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/Plane seats family numbers/codility test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/planeSeatsFamilyNumbers/codility test1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/Plane seats family numbers/plane seats family numbers.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/planeSeatsFamilyNumbers/plane seats family numbers.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/Taskmaster/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/taskmaster/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/The Royal Names/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/The Royal Names/royalnames.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/theRoyalNames/royalnames.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/The Royal Names/unit test file.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/theRoyalNames/unit test file.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/TheRoyalNames/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/theRoyalNames/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/TheRoyalNames/royalnames.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/TheRoyalNames/unit test file.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/InterviewedTasks/ToLowerCase/To Lower Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/toLowerCase/To Lower Case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/InsertInSortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/InsertInSortedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/LinkedListInsertAtIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/LinkedListInsertAtIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/MiddleNodeOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/MiddleNodeOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/ReOrderLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/ReOrderLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack/BlackJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack/BlackJackHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack/BlackJackHand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack/GameAutomator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack/GameAutomator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/BlackJack/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/BlackJack/Suit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/InMemoryFileSystem/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/FileSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/OOD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/OOD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimpleVendingMachine.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimpleVendingMachine/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/SimpleVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimpleVendingMachine/SimpleVendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/VendAutomator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimpleVendingMachine/VendAutomator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimpleVendingMachine/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimpleVendingMachine/compile error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimpleVendingMachine/compile error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ObjectOrientedDesign/SimplifiedParkingLot/VehicleSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/objectOrientedDesign/SimplifiedParkingLot/VehicleSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/PriorityQueue/KthSmallestNumberInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/priorityQueue/KthSmallestNumberInSortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/SortWith3Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/SortWith3Stacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/StackWithMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/StackWithMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/StackWithMinPairSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/StackWithMinPairSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/SumOfNumbersInAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/SumOfNumbersInAStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Queue/stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Recursion/AToThePowerOfB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/AToThePowerOfB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/FirstOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/FirstOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/LastOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/LastOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/Move0sToTheEndI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/MoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MoveZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/MoveZeroII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MoveZeroII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/RainbowSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/RainbowSortII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/RainbowSortIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/SearchInSortedMatrixI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/SearchInSortedMatrixI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/SortWithThreeStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/SortWithThreeStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sort/SortWithTwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/SortWithTwoStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/bands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stream/bands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stream/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/CompressStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/CompressStringII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/CompressStringIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/CompressStringIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/DecompressStringI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/DecompressStringI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/DecompressStringITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/DecompressStringITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/EncodeSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/EncodeSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/RemoveAdjacentRepeatedCharactersII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/RemoveAdjacentRepeatedCharactersIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/RemoveAdjacentRepeatedCharactersIIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/RemoveAdjacentRepeatedCharactersIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ReverseOnlyVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReverseOnlyVowels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ReverseOnlyVowelsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReverseOnlyVowelsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ReverseWordsInASentenceII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReverseWordsInASentenceII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ReverseWordsInASentenceIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReverseWordsInASentenceIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/StringReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/StringReplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/StringReplaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/StringReplaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidAnagramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidPalindromeII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/String/ValidPalindromeIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidPalindromeIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Taskmaster/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/BinaryTreeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CheckCousin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/CheckCousin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CheckCousinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/CheckCousinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/ConnectRightPointerToSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/ConnectRightPointerToSuccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CountNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/CountNodeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/CousinsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/CousinsInBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/GetPostOrderSequenceByPreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/GetPostOrderSequenceByPreIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/HeightOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/HeightOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/InOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/InOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/LCAII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/LCAIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LCAIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/LCAIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/LevelOrderReconstructCompleteBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/LongestAscendingPathBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/LongestAscendingPathBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PostOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/PostOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/PreOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/PreOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/RightViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/RightViewOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Tree/BinaryTree/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/BinaryTree/TreePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/TrieNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trie/TrieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/TrieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/WordSearchII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trie/WordSearchIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/WordSearchIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/BinarySearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/DivideTwoIntegersWithRestrictionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/DivideTwoIntegersWithRestrictionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/IntersectionOfTwoArraysIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/IntersectionOfTwoArraysIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/IntersectionOfTwoArraysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/IntersectionOfTwoArraysTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/MissingNumberIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/MissingNumberIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/SearchInShiftedSortedArrayIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/SearchInShiftedSortedArrayIITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/SearchInShiftedSortedArrayITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/SearchInShiftedSortedArrayITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/SmallestRectangleEnclosingBlackPixelsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/SmallestRectangleEnclosingBlackPixelsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/BinarySearch/SquareRootITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/binarySearch/SquareRootITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/DynamicProgramming/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/dynamicProgramming/FibonacciTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Recursion/AToThePowerOfBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/recursion/AToThePowerOfBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/InsertionSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/MergeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/Move0sToTheEndITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/Move0sToTheEndITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/QuickSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/RainbowSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/RainbowSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/SortWithThreeStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/SortWithThreeStacksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Sort/SortWithTwoStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/sort/SortWithTwoStacksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/stream/JavaStreamsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -221,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="392">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/array/RemoveElement.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -316,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" />
         <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/Stream/JavaStreams.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" />
         <option value="$PROJECT_DIR$/src/algorithms/array/RemoveElement.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" />
       </list>
     </option>
   </component>
@@ -410,20 +210,27 @@
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -666,7 +473,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="7362000" />
+      <workItem from="1569201941613" duration="9728000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -711,7 +518,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136862000" />
+    <option name="totallyTimeSpent" value="139228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,7 +530,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5760" y="-68" width="1920" height="1057" extended-state="6" />
+    <frame x="-1920" y="-1087" width="1920" height="2137" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -734,7 +542,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.2716702" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.27147087" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.28381047" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -743,7 +551,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14313918" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21273445" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26638478" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -1038,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1187,20 +988,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/array/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="704">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/array/RemoveElement.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
