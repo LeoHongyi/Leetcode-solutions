@@ -15,5 +15,14 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.intStreamWithSkip();
     }
-
+    @Test
+    public void testIntStreamWithSum() {
+        JavaStreams s = new JavaStreams();
+        s.intStreamWithSum();
+    }
+    @Test
+    public void testSortedFindFirst() {
+        JavaStreams s = new JavaStreams();
+        s.sortedFindFirst();
+    }
 }

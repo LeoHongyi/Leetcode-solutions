@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/Algorithms/Sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/Algorithms/Sort/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LaicodeJava/Algorithms/Stream/JavaStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LaicodeJava/Algorithms/Stream/JavaStreams.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="588">
-                  <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                <state relative-caret-position="1102">
+                  <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -45,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+                <state relative-caret-position="1243">
+                  <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -329,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaStreams">
+  <component name="RunManager" selected="JUnit.JavaStreamsTest.testIntStreamWithSum">
     <configuration name="JavaStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreams" />
       <module name="LaicodeJava" />
@@ -358,66 +355,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Move0sToTheEndITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaStreamsTest.testIntStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Sort.*" />
+          <option name="PATTERN" value="Algorithms.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Algorithms.Sort" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Sort.Move0sToTheEndITest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Move0sToTheEndITest.testSelect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Algorithms.Sort" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Sort.Move0sToTheEndITest" />
-      <option name="METHOD_NAME" value="testSelect1" />
+      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
+      <option name="METHOD_NAME" value="testIntStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainbowSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaStreamsTest.testIntStreamWithSkip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Sort.*" />
+          <option name="PATTERN" value="Algorithms.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Algorithms.Sort" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Sort.RainbowSortTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
+      <option name="METHOD_NAME" value="testIntStreamWithSkip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaStreamsTest.testIntStreamWithSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
+      <option name="METHOD_NAME" value="testIntStreamWithSum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Move0sToTheEndITest.testSelect1" />
-      <item itemvalue="JUnit.Move0sToTheEndITest" />
-      <item itemvalue="JUnit.RainbowSortTest" />
       <item itemvalue="JUnit.InsertionSortTest" />
       <item itemvalue="Application.JavaStreams" />
+      <item itemvalue="JUnit.JavaStreamsTest.testIntStream" />
+      <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSkip" />
+      <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSum" />
+        <item itemvalue="JUnit.JavaStreamsTest.testIntStream" />
+        <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSkip" />
         <item itemvalue="Application.JavaStreams" />
         <item itemvalue="JUnit.InsertionSortTest" />
-        <item itemvalue="JUnit.RainbowSortTest" />
-        <item itemvalue="JUnit.Move0sToTheEndITest" />
-        <item itemvalue="JUnit.Move0sToTheEndITest.testSelect1" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +480,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="1029000" />
+      <workItem from="1569201941613" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -494,18 +493,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortTest_testSelect3 - 2019.09.21 at 16h 53m 57s.xml">
-      <configuration name="MergeSortTest.testSelect3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2019.09.21 at 17h 25m 54s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuickSortTest - 2019.09.21 at 23h 03m 11s.xml">
-      <configuration name="QuickSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuickSortTest - 2019.09.21 at 23h 22m 48s.xml">
-      <configuration name="QuickSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Move0sToTheEndITest_testSelect1 - 2019.09.21 at 23h 32m 02s.xml">
       <configuration name="Move0sToTheEndITest.testSelect1" configurationId="JUnit" />
     </history-entry>
@@ -524,9 +511,21 @@
     <history-entry file="InsertionSortTest - 2019.09.22 at 15h 03m 16s.xml">
       <configuration name="InsertionSortTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JavaStreamsTest_testIntStream - 2019.09.22 at 18h 46m 44s.xml">
+      <configuration name="JavaStreamsTest.testIntStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaStreamsTest_testIntStreamWithSkip - 2019.09.22 at 18h 46m 50s.xml">
+      <configuration name="JavaStreamsTest.testIntStreamWithSkip" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaStreamsTest_testIntStream - 2019.09.22 at 18h 47m 08s.xml">
+      <configuration name="JavaStreamsTest.testIntStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaStreamsTest_testIntStreamWithSum - 2019.09.22 at 18h 49m 40s.xml">
+      <configuration name="JavaStreamsTest.testIntStreamWithSum" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130529000" />
+    <option name="totallyTimeSpent" value="131035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1002,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="1243">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1012,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="1102">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
