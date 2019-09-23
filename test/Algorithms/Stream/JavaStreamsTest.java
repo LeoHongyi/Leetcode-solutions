@@ -25,4 +25,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.sortedFindFirst();
     }
+    @Test
+    public void testProcessStreamFromSource() {
+        JavaStreams s = new JavaStreams();
+        s.processStreamFromSource();
+    }
 }

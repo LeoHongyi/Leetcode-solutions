@@ -1,6 +1,7 @@
 package Algorithms.Stream;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -34,5 +35,14 @@ public class JavaStreams {
                 .sorted()
                 .findFirst()
                 .ifPresent(System.out::println);
+    }
+    public void processStreamFromSource() {
+        // 5. Stream from Array, sort, filter and print
+        String[] names = {"Al", "Ava", "Aneri", "Alberto","Sarika", "Shazan"};
+        // same as Stream.of(names)
+        Arrays.stream(names)
+                .filter(x -> x.startsWith("S"))
+                .sorted()
+                .forEach(System.out::println);
     }
 }
