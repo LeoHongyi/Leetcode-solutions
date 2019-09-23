@@ -1,2 +1,0 @@
-Input: scammbled Bruce I Bruce II Bruce III, Ben I Ben IV
-Output: sequenced list of string: Ben I, Ben IV, Bruce I, Bruce II, Bruce III

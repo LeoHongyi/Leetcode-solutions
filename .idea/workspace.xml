@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sort/SortInSpecifiedOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/algorithms/sort/SortInSpecifiedOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="210">
               <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -31,10 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/SortInSpecifiedOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="589">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/algorithms/sort/SortInSpecifiedOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -42,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -54,9 +67,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
+        <option value="JavaScript File" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/ShiftPosition.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/FindLocalMinimum.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInSortedMatrixII.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SquareRootI.java" />
@@ -125,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/algorithms/array/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" />
         <option value="$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js" />
+        <option value="$PROJECT_DIR$/test/algorithms/sort/SortInSpecifiedOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sort/SortInSpecifiedOrder.java" />
       </list>
     </option>
   </component>
@@ -196,6 +209,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="sorting" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,23 +248,25 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="closure" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-              <item name="sorting" type="1f31426a:PackageElementNode" />
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,25 +302,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithms.sort" />
       <recent name="Algorithms.Stream" />
       <recent name="Algorithms.Sort" />
       <recent name="sorting" />
       <recent name="BinarySearch" />
-      <recent name="Recursion" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Sort" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/BinarySearch" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Algorithms/Queue" />
       <recent name="$PROJECT_DIR$/src/Database" />
       <recent name="$PROJECT_DIR$/test/BinarySearch" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Sort" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BinarySearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaStreamsTest.testReductionSummaryStatistics">
+  <component name="RunManager" selected="JUnit.SortInSpecifiedOrderTest">
     <configuration name="JavaStreamsTest.testReductionSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -337,68 +368,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaStreamsTest.testRowsFromFileAndCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortInSpecifiedOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.stream.*" />
+          <option name="PATTERN" value="algorithms.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.stream" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.stream.JavaStreamsTest" />
-      <option name="METHOD_NAME" value="testRowsFromFileAndCount" />
+      <option name="PACKAGE_NAME" value="algorithms.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sort.SortInSpecifiedOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortInSpecifiedOrderTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sort.SortInSpecifiedOrderTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaStreamsTest.testRowsFromFileAndParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortInSpecifiedOrderTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.stream.*" />
+          <option name="PATTERN" value="algorithms.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="algorithms.stream" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.stream.JavaStreamsTest" />
-      <option name="METHOD_NAME" value="testRowsFromFileAndParse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaStreamsTest.testRowsFromFileAndStoreInHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.stream" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.stream.JavaStreamsTest" />
-      <option name="METHOD_NAME" value="testRowsFromFileAndStoreInHashMap" />
+      <option name="PACKAGE_NAME" value="algorithms.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sort.SortInSpecifiedOrderTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndCount" />
-      <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndParse" />
-      <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndStoreInHashMap" />
       <item itemvalue="JUnit.JavaStreamsTest.testReductionSum" />
       <item itemvalue="JUnit.JavaStreamsTest.testReductionSummaryStatistics" />
+      <item itemvalue="JUnit.SortInSpecifiedOrderTest" />
+      <item itemvalue="JUnit.SortInSpecifiedOrderTest.test1" />
+      <item itemvalue="JUnit.SortInSpecifiedOrderTest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortInSpecifiedOrderTest" />
+        <item itemvalue="JUnit.SortInSpecifiedOrderTest.test1" />
+        <item itemvalue="JUnit.SortInSpecifiedOrderTest.test2" />
         <item itemvalue="JUnit.JavaStreamsTest.testReductionSummaryStatistics" />
         <item itemvalue="JUnit.JavaStreamsTest.testReductionSum" />
-        <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndStoreInHashMap" />
-        <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndParse" />
-        <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFileAndCount" />
       </list>
     </recent_temporary>
   </component>
@@ -463,6 +493,7 @@
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
       <workItem from="1569201941613" duration="10668000" />
+      <workItem from="1569262241779" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -475,39 +506,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JavaStreamsTest_testRowsFromFile - 2019.09.22 at 20h 25m 51s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFile" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest_test1 - 2019.09.23 at 12h 00m 05s.xml">
+      <configuration name="SortInSpecifiedOrderTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFile - 2019.09.22 at 20h 26m 00s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFile" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest_test2 - 2019.09.23 at 12h 00m 30s.xml">
+      <configuration name="SortInSpecifiedOrderTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFile - 2019.09.22 at 20h 26m 11s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFile" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest_test1 - 2019.09.23 at 12h 00m 43s.xml">
+      <configuration name="SortInSpecifiedOrderTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFileAndSave - 2019.09.22 at 20h 31m 31s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFileAndSave" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 07m 12s.xml">
+      <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFileAndCount - 2019.09.22 at 20h 41m 45s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFileAndCount" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest_test1 - 2019.09.23 at 12h 08m 04s.xml">
+      <configuration name="SortInSpecifiedOrderTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFileAndParse - 2019.09.22 at 20h 46m 54s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFileAndParse" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 12m 06s.xml">
+      <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFileAndStoreInHashMap - 2019.09.22 at 20h 56m 29s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFileAndStoreInHashMap" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 16m 16s.xml">
+      <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testRowsFromFileAndStoreInHashMap - 2019.09.22 at 21h 01m 12s.xml">
-      <configuration name="JavaStreamsTest.testRowsFromFileAndStoreInHashMap" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 16m 49s.xml">
+      <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testReductionSum - 2019.09.22 at 21h 03m 53s.xml">
-      <configuration name="JavaStreamsTest.testReductionSum" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 24m 07s.xml">
+      <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JavaStreamsTest_testReductionSummaryStatistics - 2019.09.22 at 21h 08m 11s.xml">
-      <configuration name="JavaStreamsTest.testReductionSummaryStatistics" configurationId="JUnit" />
+    <history-entry file="SortInSpecifiedOrderTest - 2019.09.23 at 12h 29m 23s.xml">
+      <configuration name="SortInSpecifiedOrderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140168000" />
+    <option name="totallyTimeSpent" value="143368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,9 +550,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-1087" width="1920" height="2137" extended-state="0" />
+    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25770926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -531,7 +563,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27147087" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.28381047" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28330207" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -539,7 +571,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21273445" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15384616" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26638478" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -609,20 +641,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/SquareRootI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBitonicArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -976,16 +994,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/project/closure/ClosurePractice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="300">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="210">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -993,10 +1011,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/algorithms/sort/SortInSpecifiedOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/SortInSpecifiedOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

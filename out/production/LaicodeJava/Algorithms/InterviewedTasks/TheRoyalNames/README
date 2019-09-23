@@ -1,9 +1,9 @@
 Input: scammbled Bruce I Bruce II Bruce III, Ben I Ben IV
 Output: sequenced list of string: Ben I, Ben IV, Bruce I, Bruce II, Bruce III
 
-Algorithms:
+algorithms:
 1. search for 1st space
-2. Algorithms.String search and compare
+2. algorithms.string search and compare
 3. Roman letters translate to decimal and compare
 
 Syntex:
