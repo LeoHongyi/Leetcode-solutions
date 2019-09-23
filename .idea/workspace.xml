@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
@@ -29,6 +29,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="14" selection-start-line="14" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -50,6 +59,7 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayI.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInShiftedSortedArrayII.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/ShiftPosition.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/FindLocalMinimum.java" />
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/Stream/JavaStreams.java" />
         <option value="$PROJECT_DIR$/src/algorithms/array/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js" />
       </list>
     </option>
   </component>
@@ -212,25 +222,7 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="closure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -473,7 +465,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="9728000" />
+      <workItem from="1569201941613" duration="10553000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -518,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139228000" />
+    <option name="totallyTimeSpent" value="140053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,13 +613,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1009,6 +994,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/closure/ClosurePractice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="14" selection-start-line="14" selection-end-line="18" />
         </state>
       </provider>
     </entry>
