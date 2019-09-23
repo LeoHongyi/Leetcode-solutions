@@ -4,6 +4,7 @@ public class RainbowSortII {
 	/**
 	 * @author: Qihao He
 	 * @date: 09/23/2019
+	 * https://app.laicode.io/app/problem/399
 	 * Method 1: 4 pointers, 2 at left, 2 at right, move towards center
 	 * time: O(n)
 	 * space: O(1)

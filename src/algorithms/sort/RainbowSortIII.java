@@ -4,6 +4,7 @@ public class RainbowSortIII {
 	/**
 	 * @author: Qihao He
 	 * @date: 09/23/2019
+	 * https://app.laicode.io/app/problem/400
 	 * Method: 2 pointers, move at the same directions to the right
 	 *           s     f
 	 *0000 1111  23232 xxxxxxx

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +24,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -104,8 +114,8 @@
         <option value="$PROJECT_DIR$/test/algorithms/sort/Move0sToTheEndIITest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndII.java" />
         <option value="$PROJECT_DIR$/test/algorithms/sort/RainbowSortIITest.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" />
         <option value="$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" />
       </list>
     </option>
   </component>
@@ -458,7 +468,7 @@
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
       <workItem from="1569201941613" duration="10668000" />
-      <workItem from="1569262241779" duration="6430000" />
+      <workItem from="1569262241779" duration="6536000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -503,7 +513,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146598000" />
+    <option name="totallyTimeSpent" value="146704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/stream/bands.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -989,17 +992,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="483">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sort/RainbowSortIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="162">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
