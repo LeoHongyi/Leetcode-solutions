@@ -326,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaStreamsTest.testListFilterPrint">
+  <component name="RunManager" selected="JUnit.JavaStreamsTest.testRowsFromFile">
     <configuration name="JavaStreamsTest.testAverageOfSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -338,22 +338,6 @@
       <option name="PACKAGE_NAME" value="Algorithms.Stream" />
       <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
       <option name="METHOD_NAME" value="testAverageOfSquare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaStreamsTest.testIntStreamWithSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
-      <option name="METHOD_NAME" value="testIntStreamWithSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -391,6 +375,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaStreamsTest.testRowsFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Algorithms.Stream" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Stream.JavaStreamsTest" />
+      <option name="METHOD_NAME" value="testRowsFromFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaStreamsTest.testSortedFindFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -408,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSum" />
       <item itemvalue="JUnit.JavaStreamsTest.testSortedFindFirst" />
       <item itemvalue="JUnit.JavaStreamsTest.testProcessStreamFromSource" />
       <item itemvalue="JUnit.JavaStreamsTest.testAverageOfSquare" />
       <item itemvalue="JUnit.JavaStreamsTest.testListFilterPrint" />
+      <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaStreamsTest.testRowsFromFile" />
         <item itemvalue="JUnit.JavaStreamsTest.testListFilterPrint" />
         <item itemvalue="JUnit.JavaStreamsTest.testAverageOfSquare" />
         <item itemvalue="JUnit.JavaStreamsTest.testProcessStreamFromSource" />
         <item itemvalue="JUnit.JavaStreamsTest.testSortedFindFirst" />
-        <item itemvalue="JUnit.JavaStreamsTest.testIntStreamWithSum" />
       </list>
     </recent_temporary>
   </component>

@@ -66,7 +66,7 @@ public class JavaStreams {
     }
     public void rowsFromFile() throws IOException {
         // 8. Stream rows from text file, sort, filter, and print
-        Stream<String> bands = Files.lines(Paths.get("bands.txt"));
+        Stream<String> bands = Files.lines(Paths.get("src/Algorithms/Stream/bands.txt"));
         bands
                 .sorted()
                 .filter(x -> x.length() > 13)
