@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stream/bands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stream/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +24,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-767">
@@ -31,6 +32,15 @@
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/data.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -78,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/FirstOccurance.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/LastOccurance.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/KClosestInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/KthSmallestInTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch/SearchInUnknownSizedSortedArray.java" />
@@ -129,6 +137,8 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Stream/bands.txt" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Stream/data.txt" />
       </list>
     </option>
   </component>
@@ -484,7 +494,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="3477000" />
+      <workItem from="1569201941613" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -529,7 +539,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132977000" />
+    <option name="totallyTimeSpent" value="133057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,7 +554,7 @@
     <frame x="-3840" y="-1087" width="3840" height="2137" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08183738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08183738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,7 +572,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14313918" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14313918" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -632,20 +642,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearch/SearchInShiftedSortedArrayII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearch/ShiftPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/BinarySearch/FindLocalMinimum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1013,6 +1009,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/bands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-767">
@@ -1020,6 +1023,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
