@@ -40,4 +40,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.listFilterPrint();
     }
+    @Test
+    public void testRowsFromFile() {
+        JavaStreams s = new JavaStreams();
+        s.rowsFromFile();
+    }
 }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="928">
-                  <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+                <state relative-caret-position="-767">
+                  <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -41,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1383">
-                  <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+                <state relative-caret-position="1555">
+                  <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -483,7 +484,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="3095000" />
+      <workItem from="1569201941613" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -528,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132595000" />
+    <option name="totallyTimeSpent" value="132977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,7 +554,7 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27204502" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28381047" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28381047" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -561,7 +562,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14313918" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14313918" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.2673546" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -1004,8 +1005,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1383">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="1555">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1014,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="-767">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

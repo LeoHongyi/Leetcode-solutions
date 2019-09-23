@@ -1,6 +1,7 @@
 package Algorithms.Stream;
 
-import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
@@ -57,9 +58,18 @@ public class JavaStreams {
         // 7. Stream from List, filter and print
         List<String> people = Arrays.asList("Al", "Ava", "Aneri", "Alberto","Sarika", "Shazan");
         people
-            .stream()
-            .map(String::toLowerCase)
-            .filter(x -> x.startsWith("a"))
-            .forEach(System.out::println);
+                .stream()
+                .map(String::toLowerCase)
+                .filter(x -> x.startsWith("a"))
+                .forEach(System.out::println);
+    }
+    public void rowsFromFile() {
+        // 8. Stream rows from text file, sort, filter, and print
+        Stream<String> bands = Files.lines(Paths.get("bands.txt"));
+        bands
+                .sorted()
+                .filter(x -> x.length() > 13)
+                .forEach(System.out::println);
+        bands.close();
     }
 }
