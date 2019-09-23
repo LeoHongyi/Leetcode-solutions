@@ -67,4 +67,9 @@ public class JavaStreamsTest {
         JavaStreams s = new JavaStreams();
         s.rowsFromFileAndStoreInHashMap();
     }
+    @Test
+    public void testReductionSum() throws IOException {
+        JavaStreams s = new JavaStreams();
+        s.reductionSum();
+    }
 }
