@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1579">
-                  <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+                <state relative-caret-position="1273">
+                  <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -127,8 +126,8 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/bands.txt" />
         <option value="$PROJECT_DIR$/src/Algorithms/Stream/data.txt" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" />
         <option value="$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java" />
       </list>
     </option>
   </component>
@@ -484,7 +483,7 @@
       <workItem from="1569088939506" duration="171000" />
       <workItem from="1569089126321" duration="9980000" />
       <workItem from="1569175282618" duration="5973000" />
-      <workItem from="1569201941613" duration="4744000" />
+      <workItem from="1569201941613" duration="4920000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -529,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134244000" />
+    <option name="totallyTimeSpent" value="134420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1003,20 +1002,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
+    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1579">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        <state relative-caret-position="1582">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Algorithms/Stream/JavaStreamsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Stream/JavaStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1582">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="1273">
+          <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

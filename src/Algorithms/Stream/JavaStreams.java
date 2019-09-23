@@ -83,7 +83,7 @@ public class JavaStreams {
     }
     public void rowsFromFileAndCount() throws IOException {
         // 10. Stream rows from CSV file and count
-        Stream<String> rows1 = Files.lines(Paths.get("src/Algorithms/Stream/bands.txt"));
+        Stream<String> rows1 = Files.lines(Paths.get("src/Algorithms/Stream/data.txt"));
         int rowCount = (int)rows1
                 .map(x -> x.split(","))
                 .filter(x -> x.length == 3)
