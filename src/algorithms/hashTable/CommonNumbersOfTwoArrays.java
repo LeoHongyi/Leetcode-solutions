@@ -5,11 +5,17 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
- Method 1: HashSet
- Step 1: insert all smaller[] numbers into a hashSet, O(n) on average, o(n^2) in worst case
- Step 2: Find in bigger[] common elements, O(m) in average, O(m*n) in worst case.
- time: O(n^2 + m*n) worst, O(m + n) average
- space: O(n)
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/652
+ * Method 1: HashSet
+ *  Step 1: insert all smaller[] numbers into a hashSet, O(n) on average, o(n^2) in worst case
+ *  Step 2: Find in bigger[] common elements, O(m) in average, O(m*n) in worst case.
+ *  time: O(n^2 + m*n) worst, O(m + n) average
+ *  space: O(n)
+ */
+/**
+
  **/
 public class CommonNumbersOfTwoArrays {
 	public List<Integer> common(List<Integer> a, List<Integer> b) {

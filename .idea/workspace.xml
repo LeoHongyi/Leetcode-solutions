@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/hashTable/MissingNumberI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/hashTable/TopKFrequentWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,47 +23,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/ClosestKValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetKeysInBinarySearchTreeInGivenRange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/DistanceBetweenTwoNodes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/InsertInBinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="627">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetRange.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="164">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/ConnectRightPointerToSuccessor.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CountNode.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CountNodeOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CousinsInBinaryTree.java" />
@@ -147,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetRange.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/DistanceBetweenTwoNodes.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/ClosestKValues.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java" />
       </list>
     </option>
   </component>
@@ -195,6 +166,13 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -493,7 +471,7 @@
       <workItem from="1569201941613" duration="10668000" />
       <workItem from="1569262241779" duration="8006000" />
       <workItem from="1569299564776" duration="3151000" />
-      <workItem from="1569343283752" duration="10567000" />
+      <workItem from="1569343283752" duration="10831000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -538,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161892000" />
+    <option name="totallyTimeSpent" value="162156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,13 +619,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/GetPostOrderSequenceByPreIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1023,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/ClosestKValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetKeysInBinarySearchTreeInGivenRange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1056,8 +1020,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetRange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="814">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/ClosestKValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
