@@ -8,9 +8,6 @@ public class StackWithMin {
      * @author Qihao He
      * @date 09/24/2019
      * https://app.laicode.io/app/problem/32
-     */
-
-    /**
      * time complexity: pop: O(1), push O(1), top O(1), min O(1)
      * space complexity: stack: worst case descending order: O(n), heap: O(1)
      * return special value "-1" when stack is empty

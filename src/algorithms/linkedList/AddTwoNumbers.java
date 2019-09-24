@@ -1,5 +1,15 @@
 package algorithms.linkedList;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/223
+ * time complexity: traverse, O(one.length + two.length)
+ *  space complexity: stack: O(1) heap: O(1)
+ *  Assumption:
+ *  List one and two can have different length,
+ *  length of list is very big, holding value can be greater than Integer.MAX_VALUE
+ */
+/**
  * class ListNode {
  *   public int value;
  *   public ListNode next;
@@ -8,13 +18,6 @@ package algorithms.linkedList;
  *     next = null;
  *   }
  * }
- */
-/**
- time complexity: traverse, O(one.length + two.length)
- space complexity: stack: O(1) heap: O(1)
- Assumption:
- List one and two can have different length,
- length of list is very big, holding value can be greater than Integer.MAX_VALUE
  */
 public class AddTwoNumbers {
 	public ListNode addTwoNumbers(ListNode one, ListNode two) {

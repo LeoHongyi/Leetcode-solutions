@@ -1,7 +1,10 @@
 package algorithms.sort;
 import java.util.LinkedList;
 /**
- * Method: use s2 as a buffer and a storage for global MIN,
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/280
+ * Method: selection sort, use s2 as a buffer and a storage for global MIN,
  *  s1: used for storing all unsorted elements
  *  s2: left part | right part
  *  time: O(n^2)

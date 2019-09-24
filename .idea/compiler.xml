@@ -11,7 +11,7 @@
       <file url="file://$PROJECT_DIR$/src/algorithms/hashTable/MostPointsOnALine.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/InOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/queue/stack.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/binarySearchTree/solution.java" />
+      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/solution.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/priorityQueue/KthSmallestNumberInSortedMatrix.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/Directory.java" />
@@ -19,9 +19,9 @@
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/PostOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/PreOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreePrinter.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/binarySearchTree/ClosestKValues.java" />
+      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/ClosestKValues.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAII.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/binarySearchTree/InsertInBinarySearchTree.java" />
+      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/InsertInBinarySearchTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/File.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/depthFirstSearch/PrintPossibleBlocks.java" />
@@ -29,7 +29,7 @@
       <file url="file://$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/Entry.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/depthFirstSearch/RestoreIpAddresses.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/depthFirstSearch/Decode.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/binarySearchTree/DistanceBetweenTwoNodes.java" />
+      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/DistanceBetweenTwoNodes.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/PaintWoods.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/binarySearch/KClosestInSortedArray.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/binarySearch/FirstOccurance.java" />
