@@ -1,6 +1,6 @@
-import algorithms.Tree.binaryTree.TreeNode;
+package algorithms.tree.binarySearchTree;
 
-public class Solution {
+public class GetRange {
   public List<Integer> getRange(TreeNode root, int min, int max) {
     List<Integer> sol = new ArrayList<>();
     TreeNode helper = root;

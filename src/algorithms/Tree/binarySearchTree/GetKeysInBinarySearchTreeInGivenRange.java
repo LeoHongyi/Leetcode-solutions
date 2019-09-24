@@ -1,4 +1,4 @@
-package algorithms.tree.binaryTree.binarySearchTree;
+package algorithms.tree.binarySearchTree;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

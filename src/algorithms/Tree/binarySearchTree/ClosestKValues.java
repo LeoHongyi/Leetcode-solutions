@@ -1,4 +1,5 @@
-import algorithms.Tree.binaryTree.TreeNode;
+package algorithms.tree.binarySearchTree;
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  Assumption: root is not null, no duplicate keys in the BST.

@@ -1,4 +1,4 @@
-package algorithms.tree.binaryTree.binarySearchTree;
+package algorithms.tree.binarySearchTree;
 
 public class InsertInBinarySearchTree {
 /**

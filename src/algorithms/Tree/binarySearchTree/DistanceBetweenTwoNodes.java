@@ -1,4 +1,5 @@
-// 2. Distance between two given nodes in a given binary search tree. 
+package algorithms.tree.binarySearchTree;
+// 2. Distance between two given nodes in a given binary search tree.
 //     Assuming:
 // there is no parent pointer. 
 // both nodes belong to the tree.
