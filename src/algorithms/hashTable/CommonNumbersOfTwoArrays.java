@@ -14,9 +14,6 @@ import java.util.HashSet;
  *  time: O(n^2 + m*n) worst, O(m + n) average
  *  space: O(n)
  */
-/**
-
- **/
 public class CommonNumbersOfTwoArrays {
 	public List<Integer> common(List<Integer> a, List<Integer> b) {
 		// Write your solution here
