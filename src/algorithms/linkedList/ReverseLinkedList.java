@@ -27,17 +27,17 @@ public class ReverseLinkedList {
 	//iterative
 	// Traverse LinkedList, time O(n), space O(1)
 	public ListNode reverseIterative(ListNode root) {
-	if (root == null || root.next == null) {
-	  return root;
-	}
-	ListNode prev = null;
-	ListNode curr = root;
-	while (curr != null) {
-	  ListNode post = curr.next;
-	  curr.next = prev;
-	  prev = curr;
-	  curr = curr.next;
-	}
-	return prev;
+		if (root == null || root.next == null) {
+			return root;
+		}
+		ListNode prev = null;
+		ListNode curr = root;
+		while (curr != null) {
+			  ListNode post = curr.next;
+			  curr.next = prev;
+			  prev = curr;
+			  curr = curr.next;
+		}
+		return prev;
 	}
 }
