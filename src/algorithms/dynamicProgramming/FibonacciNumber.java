@@ -1,16 +1,18 @@
 package algorithms.dynamicProgramming;
 /**
- Method: algorithms.dynamicProgramming
- dp[0] = 0,
- dp[1] = 1,
- dp[2] = 1,
- dp[3] = 2,
- ...
- dp[i] = dp[i - 1] + dp[i - 2]
- **/
-//https://app.laicode.io/app/problem/624
-public class Fibonacci {
-    public int fibonacci(int K) {
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/12
+ * Method: algorithms.dynamicProgramming
+ *  dp[0] = 0,
+ *  dp[1] = 1,
+ *  dp[2] = 1,
+ *  dp[3] = 2,
+ *  ...
+ *  dp[i] = dp[i - 1] + dp[i - 2]
+ */
+public class FibonacciNumber {
+    public int fibonacciDP(int K) {
         if (K < 0) {
             return 0;
         } else if (K == 0) {

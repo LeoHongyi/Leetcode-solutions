@@ -1,6 +1,21 @@
 package algorithms.string;
 
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/611
+ * Restriction: in-place
+ * Method: slow fast pointer
+ * Data structure
+ * slow: the letters to the left of s (not including s) are the processed
+ * fast: the charater being processed.
+ * step 1: Same as above, ignore all single characters. compress shorter
+ * step 2: Handle all the single characters. extend longer
+ */
 public class CompressStringII {
+    /**
+
+     **/
     public String compress(String input) {
         // Write your solution here
         if (input == null || input.length() == 0) {
@@ -29,9 +44,9 @@ public class CompressStringII {
                 singleCount++;
                 array[slow++] = array[fastBegin];
             } else {
-                // We could use algorithms.math.log10 to get number of digits of count
+                // We could use Math.log10 to get number of digits of count
                 // divide count by decreasing power of 10 to get individual
-                // digits. Or we could use algorithms.string utility to covert it to string
+                // digits. Or we could use String utility to covert it to string
                 // directly. More space used but less code.
                 array[slow++] = array[fastBegin];
                 String countString = String.valueOf(count);
