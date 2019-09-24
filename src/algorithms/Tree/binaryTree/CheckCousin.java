@@ -23,14 +23,14 @@ import java.util.ArrayDeque;
  * Method: Breadth First Search + check same parent when expanding one node
  * time: O(n), space O(n)
  * **/
-class TreeNode {
-	int key;
-	TreeNode left;
-	TreeNode right;
-	public TreeNode(int key) {
-		this.key = key;
-	}
-}
+//class TreeNode {
+//	int key;
+//	TreeNode left;
+//	TreeNode right;
+//	public TreeNode(int key) {
+//		this.key = key;
+//	}
+//}
 public class CheckCousin {
 	public boolean checkCousin(TreeNode root, TreeNode a, TreeNode b) {
 		// sanity check

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-    </list>
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,107 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LongestAscendingPathBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/PostOrderTraversalOfBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/PreOrderTraversalOfBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#455#464#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/RightViewOfBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreePrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="e#518#528#0" expanded="true" />
-                <element signature="e#575#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="909">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckIfBinaryTreeIsBalanced.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/BinaryTreeGenerator.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/BinaryTreeLevelOrderTraversalII.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousinTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/ConnectRightPointerToSuccessor.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CountNode.java" />
@@ -194,7 +97,6 @@
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/InOrderTraversalOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAII.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIII.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LongestAscendingPathBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/PostOrderTraversalOfBinaryTree.java" />
@@ -203,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreePrinter.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java" />
       </list>
     </option>
   </component>
@@ -266,14 +170,6 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
               <item name="BinaryTreeGenerator.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckCousin.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -575,7 +471,7 @@
       <workItem from="1569201941613" duration="10668000" />
       <workItem from="1569262241779" duration="8006000" />
       <workItem from="1569299564776" duration="3151000" />
-      <workItem from="1569343283752" duration="5500000" />
+      <workItem from="1569343283752" duration="5560000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -620,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156825000" />
+    <option name="totallyTimeSpent" value="156885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1093,14 +982,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="187">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
