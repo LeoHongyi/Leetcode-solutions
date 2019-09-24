@@ -1,4 +1,4 @@
-package algorithms.Tree.binaryTree;
+package algorithms.tree.binaryTree;
 
 /**
  Method: Hashmap store inOrder list <key: num, value: index> for quick check.

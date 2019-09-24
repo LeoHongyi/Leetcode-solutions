@@ -1,4 +1,4 @@
-package algorithms.Tree.binaryTree;
+package algorithms.tree.binaryTree;
 /**
  * @author Saiteja Tokala
  * Adapted By Youcheng Ye

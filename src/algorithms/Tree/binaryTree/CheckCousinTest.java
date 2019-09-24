@@ -1,4 +1,4 @@
-package algorithms.Tree.binaryTree;
+package algorithms.tree.binaryTree;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
