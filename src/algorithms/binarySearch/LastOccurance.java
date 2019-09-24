@@ -1,6 +1,10 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/16
 public class LastOccurance {
+  /**
+   * @author Qihao He
+   * @date 09/24/2019
+   * https://app.laicode.io/app/problem/16
+   */
   public int lastOccur(int[] array, int target) {
     // Write your solution here
     if (array == null || array.length == 0) {

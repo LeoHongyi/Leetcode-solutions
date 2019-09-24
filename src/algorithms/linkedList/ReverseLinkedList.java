@@ -1,7 +1,12 @@
 package algorithms.linkedList;
 
 public class ReverseLinkedList {
-	static class ListNode {
+	/**
+	 * @author Qihao He
+	 * @date 09/24/2019
+	 * https://app.laicode.io/app/problem/34
+	 */
+	class ListNode {
 		public int value;
 		public ListNode next;
 		public ListNode(int value) {
@@ -9,15 +14,30 @@ public class ReverseLinkedList {
 			next = null;
 		}
 	}
-	public static ListNode reverse(ListNode head) {
+	public ListNode reverseRecusive(ListNode head) {
 		if (head == null || head.next == null){
 			return head;
 		}
-		ListNode newHead = reverse(head.next);//breaking point
-//        System.out.println(newHead.value);
-		System.out.println(head.value);
+		ListNode newHead = reverseRecusive(head.next);
 		head.next.next = head;
 		head.next = null;
 		return newHead;
+	}
+
+	//iterative
+	// Traverse LinkedList, time O(n), space O(1)
+	public ListNode reverseIterative(ListNode root) {
+	if (root == null || root.next == null) {
+	  return root;
+	}
+	ListNode prev = null;
+	ListNode curr = root;
+	while (curr != null) {
+	  ListNode post = curr.next;
+	  curr.next = prev;
+	  prev = curr;
+	  curr = curr.next;
+	}
+	return prev;
 	}
 }

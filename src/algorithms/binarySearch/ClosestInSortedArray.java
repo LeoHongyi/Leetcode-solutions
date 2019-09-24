@@ -1,6 +1,10 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/17
 public class ClosestInSortedArray {
+  /**
+   * @author Qihao He
+   * @date 09/24/2019
+   * https://app.laicode.io/app/problem/17
+   */
   public int closest(int[] array, int target) {
     // Write your solution here
     if (array == null || array.length == 0) {

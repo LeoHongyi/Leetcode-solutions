@@ -1,6 +1,10 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/14
 public class BinarySearch {
+	/**
+	 * @author Qihao He
+	 * @date 09/24/2019
+	 * https://app.laicode.io/app/problem/14
+	 */
 	public int binarySearch(int[] array, int target) {
 		// Write your solution here
 		if (array == null || array.length == 0){

@@ -21,12 +21,12 @@
 
 class TreeNode {
 	int val;
-	algorithms.Tree.BinaryTree.TreeNode left;
-	algorithms.Tree.BinaryTree.TreeNode right;
+	algorithms.Tree.binaryTree.TreeNode left;
+	algorithms.Tree.binaryTree.TreeNode right;
 }
 
 
-public int distanceInBST(algorithms.Tree.BinaryTree.TreeNode root, algorithms.Tree.BinaryTree.TreeNode n1, algorithms.Tree.BinaryTree.TreeNode n2) {
+public int distanceInBST(algorithms.Tree.binaryTree.TreeNode root, algorithms.Tree.binaryTree.TreeNode n1, algorithms.Tree.binaryTree.TreeNode n2) {
 	if (root == null || n1 == null || n2 == null) return -1;
 	int distance = -1;
 	while (root != null) {
@@ -40,7 +40,7 @@ public int distanceInBST(algorithms.Tree.BinaryTree.TreeNode root, algorithms.Tr
 }
 return distance;
 }
-private int findDistance(algorithms.Tree.BinaryTree.TreeNode lca, algorithms.Tree.BinaryTree.TreeNode n) {
+private int findDistance(algorithms.Tree.binaryTree.TreeNode lca, algorithms.Tree.binaryTree.TreeNode n) {
 	int distance = 0;
 	while (lca != n) {
 	if (lca.val < n.val) {

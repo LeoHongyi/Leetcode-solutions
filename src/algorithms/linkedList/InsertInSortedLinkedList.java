@@ -1,30 +1,37 @@
 package algorithms.linkedList;
 
 public class InsertInSortedLinkedList {
-
-	static class ListNode {
-		public int value;
-		public ListNode next;
-		public ListNode(int value) {
-			this.value = value;
-			next = null;
-		}
-	}
-	public static ListNode insert(ListNode head, int value) {
+	/**
+	 * @author Qihao He
+	 * @date 09/24/2019
+	 * https://app.laicode.io/app/problem/39
+	 * time complexity: traverse O(n)
+	 * 	 space complexity: simple if else O(1)
+	 * 	 Assumption:
+	 * 	 head may be null
+	 * 	 value may smaller than head.value,
+	 */
+	/**
+	 * class ListNode {
+	 *   public int value;
+	 *   public ListNode next;
+	 *   public ListNode(int value) {
+	 *     this.value = value;
+	 *     next = null;
+	 *   }
+	 * }
+	 */
+	public ListNode insert(ListNode head, int value) {
 		// Write your solution here
-		ListNode newNode = new ListNode(value);
-		//case 1
-		if (head == null || value <= head.value){
-			newNode.next = head;
-			return newNode;
+		ListNode valueNode = new ListNode(value);
+		ListNode dummy = new ListNode(0);
+		dummy.next = head;
+		ListNode cur = dummy;
+		while (cur.next != null && cur.next.value < value) {
+			cur = cur.next;
 		}
-		//case 2
-		ListNode curr = head;
-		while(curr.next != null && curr.next.value < value){
-			curr = curr.next;
-		}
-		newNode.next = curr.next;
-		curr.next = newNode;
-		return head;
+		valueNode.next = cur.next;
+		cur.next = valueNode;
+		return dummy.next;
 	}
 }

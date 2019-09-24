@@ -1,4 +1,4 @@
-import algorithms.Tree.BinaryTree.TreeNode;
+import algorithms.Tree.binaryTree.TreeNode;
 
 /**
  Assumption: root is not null, no duplicate keys in the BST.

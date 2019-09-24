@@ -1,4 +1,4 @@
-import algorithms.Tree.BinaryTree.TreeNode;
+import algorithms.Tree.binaryTree.TreeNode;
 
 public class Solution {
   public List<Integer> getRange(TreeNode root, int min, int max) {
