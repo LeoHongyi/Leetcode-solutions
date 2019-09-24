@@ -13,7 +13,8 @@ public class Queue {
 	ListNode tail;
 
 	public Queue(){
-		head = tail = null;//head = null;
+		head = tail = null;
+		//head = null;
 	}
 	public void offer(Integer ele) {
 		if (head == null){
@@ -43,5 +44,11 @@ public class Queue {
 			return null;
 		}
 		return head.value;
+	}
+	public boolean isEmpty() {
+		if (head == null) {
+			return true;
+		}
+		return false;
 	}
 }

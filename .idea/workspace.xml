@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/Queue.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +22,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="909">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="540">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/queue/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/sort/FindIndexOfMinimumValue.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/sort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/algorithms/sort/MergeTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/algorithms/sort/BoundedRandomNumber.java" />
         <option value="$PROJECT_DIR$/src/algorithms/sort/Partition.java" />
@@ -107,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreePrinter.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java" />
       </list>
     </option>
   </component>
@@ -161,33 +174,15 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeGenerator.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -471,7 +466,7 @@
       <workItem from="1569201941613" duration="10668000" />
       <workItem from="1569262241779" duration="8006000" />
       <workItem from="1569299564776" duration="3151000" />
-      <workItem from="1569343283752" duration="5560000" />
+      <workItem from="1569343283752" duration="6699000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -516,7 +511,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156885000" />
+    <option name="totallyTimeSpent" value="158024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,31 +614,10 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/stack/SumOfNumbersInAStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/recursion/AToThePowerOfB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -994,11 +968,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="722">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
