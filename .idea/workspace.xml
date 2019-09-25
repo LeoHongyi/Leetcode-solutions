@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/heap/MergeKSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/heap/MergeKSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/ImplementLRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/ImplementLRUCache.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/heap/MergeKSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/ImplementLRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="1770">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -57,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/string/AddBinary.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/string/AllAnagrams.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/CompressStringII.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/DecompressStringII.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/DetermineIfOneStringIsAnothersSubString.java" />
@@ -108,13 +106,15 @@
         <option value="$PROJECT_DIR$/src/algorithms/trie/TrieNode.java" />
         <option value="$PROJECT_DIR$/src/algorithms/heap/MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/src/algorithms/heap/MergeKSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/heap/ImplementLRUCache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/hashTable/ImplementLRUCache.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="257" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -140,6 +140,13 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -452,7 +459,7 @@
       <workItem from="1569299564776" duration="3151000" />
       <workItem from="1569343283752" duration="37469000" />
       <workItem from="1569396881172" duration="362000" />
-      <workItem from="1569433359698" duration="812000" />
+      <workItem from="1569433359698" duration="1538000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -497,7 +504,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189968000" />
+    <option name="totallyTimeSpent" value="190694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,9 +516,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15952891" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32819384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,20 +577,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/LargestNumberSmallerInBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/LowestCommonAncestorBinarySearchTreeI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -930,8 +924,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/heap/MergeKSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="608">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/heap/ImplementLRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/ImplementLRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
