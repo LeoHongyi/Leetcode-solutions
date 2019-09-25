@@ -20,7 +20,6 @@ import algorithms.tree.binaryTree.TreeNode;
  */
 public class MaximumPathSumBinaryTreeII {
     public int maxPathSum(TreeNode root) {
-        // Write your solution here
         int[] result = new int[]{Integer.MIN_VALUE};
         maxPathSumDFS(root, result);
         return result[0];

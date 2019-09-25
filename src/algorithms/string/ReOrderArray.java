@@ -1,6 +1,4 @@
 package algorithms.string;
-
-public class ReOrderArray {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -8,6 +6,7 @@ public class ReOrderArray {
  * Method: break the array into half,
  * and combine them using reverse.
  */
+public class ReOrderArray {
     public int[] reorder(int[] array) {
         // Write your solution here
         // Assumption: array is not null.

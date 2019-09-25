@@ -2,8 +2,6 @@ package algorithms.dynamicProgramming;
 
 import java.util.HashSet;
 import java.util.Set;
-
-public class DictionaryWordI {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +9,7 @@ public class DictionaryWordI {
  * Method: DP
  *  O(n^2)
  */
+public class DictionaryWordI {
     public boolean canBreak(String input, String[] dict) {
         // Write your solution here
         Set<String> dictSet = toSet(dict);

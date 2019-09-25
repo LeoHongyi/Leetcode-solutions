@@ -1,14 +1,13 @@
 package algorithms.sort;
-
+/**
+ * @author: Qihao He
+ * @date 06/20/2019
+ * https://app.laicode.io/app/problem/9
+ * Method: Merge sort
+ * time: O(nlogn)
+ * space heap: n, stack: nlogn
+ */
 public class MergeSort {
-    /**
-     * @author: Qihao He
-     * @date 06/20/2019
-     * https://app.laicode.io/app/problem/9
-     * Method: Merge sort
-     * time: O(nlogn)
-     * space heap: n, stack: nlogn
-     */
     public int[] mergeSort(int[] array) {
         if (array == null || array.length == 0 || array.length == 1){
             //corner case
@@ -49,20 +48,5 @@ public class MergeSort {
             // if we still have some elements at left side, we need to copy them
             array[left++] = helper[leftIndex++];
         }
-    }
-
-    public static void main(String[] args) {
-        int[] input = new int[] {5,6,3,12,1,8,2};
-        int[] expect = new int[] {1,2,3,5,6,8,12};
-        MergeSort sort = new MergeSort();
-        sort.mergeSort2(input);
-        for (int j = 0; j < expect.length; j++) {
-            if (input[j] != expect[j]) {
-                System.out.println("fail, not equal");
-                return;
-            }
-        }
-        System.out.println("success");
-        return;
     }
 }

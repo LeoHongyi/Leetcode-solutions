@@ -22,7 +22,6 @@ package algorithms.dynamicProgramming;
  *  Assumption: the matrix is not null, size N * M, N, M >= 0
  */
 public class LargestRectangleOf1s {
-
     public int largest(int[][] matrix) {
         // Write your solution here
         if (matrix.length == 0 || matrix[0].length == 0) {
@@ -35,6 +34,7 @@ public class LargestRectangleOf1s {
         int[][] down = down(matrix, N, M);
         return maxRec(right, down, N, M);
     }
+
     private int maxRec(int[][] right, int[][] down, int N, int M) {
         int result = 0;
         int cur = 0;
@@ -52,8 +52,9 @@ public class LargestRectangleOf1s {
         }
         return result;
     }
-    // num of 1s from right to left
+
     private int[][] right(int[][] matrix, int N, int M) {
+        // num of 1s from right to left
         int[][] right = new int[N][M];
         for (int i = N - 1; i >= 0; i--) {
             for (int j = M - 1; j >= 0; j--) {
@@ -68,8 +69,9 @@ public class LargestRectangleOf1s {
         }
         return right;
     }
-    // num of 1s from down to up
+
     private int[][] down(int[][] matrix, int N, int M) {
+        // num of 1s from down to up
         int[][] down = new int[N][M];
         for (int i = N - 1; i >= 0; i--) {
             for (int j = M - 1; j >= 0; j--) {

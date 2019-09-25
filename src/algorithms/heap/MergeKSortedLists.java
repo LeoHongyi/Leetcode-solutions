@@ -6,7 +6,7 @@ package algorithms.heap;
  * Assumptions: listOfLists is not null, none of the lists is null.
  */
 
-import algorithms.linkedList.ListNode;
+import algorithms.linkedlist.ListNode;
 
 import java.util.Comparator;
 import java.util.List;

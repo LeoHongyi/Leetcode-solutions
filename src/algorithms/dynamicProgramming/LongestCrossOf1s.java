@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class LongestCrossOf1s {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -9,6 +7,7 @@ public class LongestCrossOf1s {
  *  Method: DP, 2d, preprocess the matrix from left, up, right down
  *  time: O(n*m*3) space: O(n*m*4)
  */
+public class LongestCrossOf1s {
     public int largest(int[][] matrix) {
         // Write your solution here
         int n = matrix.length;

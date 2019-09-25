@@ -1,5 +1,8 @@
 package algorithms.string;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
 public class ValidPalindrome {
     public boolean valid(String input) {
         // Write your solution here
@@ -27,6 +30,8 @@ public class ValidPalindrome {
             return true;
         } else if (c >= 'A' && c <= 'Z') {
             return true;
-        } else return c >= 'a' && c <= 'z';
+        } else {
+            return c >= 'a' && c <= 'z';
+        }
     }
 }

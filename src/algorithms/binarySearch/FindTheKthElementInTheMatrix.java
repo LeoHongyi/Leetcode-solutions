@@ -1,11 +1,10 @@
 package algorithms.binarySearch;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/561
+ */
 public class FindTheKthElementInTheMatrix {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/561
-     */
     public int findElement(int[][] matrix, int k) {
         // Write your solution here
         //map the 1d index to 2d index

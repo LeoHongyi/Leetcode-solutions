@@ -1,11 +1,10 @@
 package algorithms.sort;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/549
+ */
 public class Partition {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/549
-     */
     public void partition(int[] array, int pivotIndex) {
         int pivot = array[pivotIndex];
         swap(array, pivotIndex, array.length - 1);
@@ -22,7 +21,7 @@ public class Partition {
         swap(array, left, array.length - 1);
         return;
     }
-    private static void swap(int[] array, int a, int b){
+    private void swap(int[] array, int a, int b){
         int temp = array[a];
         array[a] = array[b];
         array[b] = temp;

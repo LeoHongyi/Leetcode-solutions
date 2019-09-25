@@ -1,8 +1,6 @@
 package algorithms.recursion;
 
 import algorithms.tree.binaryTree.TreeNodeLeft;
-
-public class StoreNumberOfNodesInLeftSubtree {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -20,6 +18,7 @@ public class StoreNumberOfNodesInLeftSubtree {
  *   }
  * }
  */
+public class StoreNumberOfNodesInLeftSubtree {
     public void numNodesLeft(TreeNodeLeft root) {
         // Write your solution here
     }

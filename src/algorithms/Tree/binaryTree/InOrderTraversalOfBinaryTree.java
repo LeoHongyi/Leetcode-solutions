@@ -4,6 +4,8 @@ import java.util.*;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/654
+ * https://app.laicode.io/app/problem/43
+ * iterative method
  */
 /**
  * public class TreeNode {
@@ -16,10 +18,6 @@ import java.util.*;
  * }
  */
 public class InOrderTraversalOfBinaryTree {
-	/**
-	 * https://app.laicode.io/app/problem/43
-	 * iterative method
-	 */
 	public List<Integer> inOrderIterative(TreeNode root) {
 		Deque<TreeNode> stack = new ArrayDeque<>();
 		List<Integer> result = new ArrayList<>();
@@ -34,8 +32,9 @@ public class InOrderTraversalOfBinaryTree {
 		}
 		return result;
 	}
-	// maintain top Node in stack is the left most Node
+
 	private void pushLeft(TreeNode cur, Deque<TreeNode> stack) {
+		// maintain top Node in stack is the left most Node
 		while (cur != null) {
 			stack.offerFirst(cur);
 			cur = cur.left;

@@ -1,5 +1,8 @@
 package algorithms.sort;
-
+/**
+ * @author: Qihao He
+ * @date: 09/24/2019
+ */
 public class SearchInSortedMatrixI {
 	public static int[] search(int[][] matrix, int target) {
 		// Write your solution here

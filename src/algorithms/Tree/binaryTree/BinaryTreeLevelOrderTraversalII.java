@@ -5,6 +5,13 @@ import java.util.Queue;
 import java.util.ArrayList;
 import java.util.ArrayDeque;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: BFS, queue for TreeNode, List<Ineger> for result
+ * if not the last level: (queue still has elements after expand)
+ * clear the result
+ */
+/**
  * public class TreeNode {
  *   public int key;
  *   public TreeNode left;
@@ -14,11 +21,6 @@ import java.util.ArrayDeque;
  *   }
  * }
  */
-/**
- Method: BFS, queue for TreeNode, List<Ineger> for result
- if not the last level: (queue still has elements after expand)
- clear the result
- **/
 public class BinaryTreeLevelOrderTraversalII {
     public List<Integer> levelOrderBottom(TreeNode root) {
         // Write your solution here

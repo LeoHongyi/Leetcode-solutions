@@ -13,7 +13,8 @@ public class CombinationSum {
 		DFS(candidates, target, 0, cur, result);
 		return result;
 	}
-	private static void DFS(int[] candidates, int targetRemain, int level, List<Integer> cur, List<List<Integer>> result) {
+	private static void DFS(int[] candidates, int targetRemain, int level,
+							List<Integer> cur, List<List<Integer>> result) {
 		if (level == candidates.length) {
 			if (targetRemain == 0) {
 				result.add(new ArrayList(cur));
@@ -24,7 +25,8 @@ public class CombinationSum {
 			for (int j = i; j > 0; j--) {
 				cur.add(candidates[level]);
 			}
-			DFS(candidates, targetRemain - i * candidates[level], level + 1, cur, result);
+			DFS(candidates, targetRemain - i * candidates[level],
+					level + 1, cur, result);
 			for (int j = i; j > 0; j--) {
 				cur.remove(cur.size() - 1);
 			}

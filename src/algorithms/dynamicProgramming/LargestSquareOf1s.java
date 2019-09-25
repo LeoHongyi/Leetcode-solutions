@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class LargestSquareOf1s {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -12,6 +10,7 @@ public class LargestSquareOf1s {
  *  =0  else
  *  global max record the largest square
  */
+public class LargestSquareOf1s {
     public int largest(int[][] matrix) {
         // Write your solution here
         int n = matrix.length;

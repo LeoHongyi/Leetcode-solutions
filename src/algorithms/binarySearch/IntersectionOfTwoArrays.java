@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * @author Qihao He
+ * @date 09/24/2019
  * size m > n, sort the bigger m array, use the smaller n array to do a binary search
  * and add existed results to result set.
  * time: O(mlogm + nlogm + 1) = O((m + n)logm)

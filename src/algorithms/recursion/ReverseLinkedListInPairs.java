@@ -1,8 +1,6 @@
 package algorithms.recursion;
 
-import algorithms.linkedList.ListNode;
-
-public class ReverseLinkedListInPairs {
+import algorithms.linkedlist.ListNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -20,6 +18,7 @@ public class ReverseLinkedListInPairs {
  *   }
  * }
  */
+public class ReverseLinkedListInPairs {
     public ListNode reverseInPairs(ListNode head) {
         // Write your solution here
         if (head == null || head.next == null) {

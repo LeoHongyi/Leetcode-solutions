@@ -2,8 +2,6 @@ package algorithms.heap;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
-
-public class KSmallestInUnsortedArray {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -12,6 +10,7 @@ public class KSmallestInUnsortedArray {
  *  Method: use maxHeap, maintain a k size maxheap
  *  time: O(klogk + (n-k)logk = nlogk), space: O(k)
  */
+public class KSmallestInUnsortedArray {
     public int[] kSmallest(int[] array, int k) {
         // Write your solution here
         if (array.length == 0 || k == 0) {

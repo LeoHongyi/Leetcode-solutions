@@ -1,11 +1,10 @@
 package algorithms.recursion;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/550
+ */
 public class CalculateFactorialOfN {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/550
-     */
     public long factorial(int n) {
         // Write your solution here
         long[] temp = new long[n + 1];

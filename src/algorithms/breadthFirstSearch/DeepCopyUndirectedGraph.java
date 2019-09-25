@@ -1,4 +1,11 @@
 package algorithms.breadthFirstSearch;
+
+import algorithms.graph.GraphNode;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -7,14 +14,6 @@ package algorithms.breadthFirstSearch;
  *  for every single recursion function call, we make a copy of the input node,
  *  and leave all other copies of the successors to the recursion functions.
  */
-
-import algorithms.graph.GraphNode;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 /**
  * class GraphNode {
  *   public int key;
@@ -25,7 +24,6 @@ import java.util.Map;
  *   }
  * }
  */
-
 public class DeepCopyUndirectedGraph {
     public List<GraphNode> copy(List<GraphNode> graph) {
         // Write your solution here.

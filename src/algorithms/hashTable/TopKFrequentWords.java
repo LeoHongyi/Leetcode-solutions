@@ -4,8 +4,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
-
-public class TopKFrequentWords {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -14,6 +12,7 @@ public class TopKFrequentWords {
  *  2. use minHeap size k to pick the top k most frequent words
  *  3. minHeap to String[]
  */
+public class TopKFrequentWords {
     public String[] topKFrequent(String[] combo, int k) {
         // Write your solution here
         if (combo.length == 0) {

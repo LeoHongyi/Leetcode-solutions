@@ -1,12 +1,11 @@
 package algorithms.recursion;
-
-public class StringAbbreviationMatching {
 /**
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/292
  * Method: DFS, recursion
  */
+public class StringAbbreviationMatching {
     public boolean match(String input, String pattern) {
         // Write your solution here
         return match(input, pattern, 0, 0);

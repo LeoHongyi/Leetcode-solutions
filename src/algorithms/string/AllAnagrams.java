@@ -4,13 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/398
+ */
 public class AllAnagrams {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/398
-     */
     public List<Integer> allAnagrams(String sh, String lo) {
         // Write your solution here
         List<Integer> result = new ArrayList<>();

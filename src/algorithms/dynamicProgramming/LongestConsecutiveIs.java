@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class LongestConsecutiveIs {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -14,6 +12,7 @@ public class LongestConsecutiveIs {
  *  global max record the max
  *  time: O(n), space: O(1)
  */
+public class LongestConsecutiveIs {
     public int longest(int[] array) {
         // Write your solution here
         if (array.length == 0) {

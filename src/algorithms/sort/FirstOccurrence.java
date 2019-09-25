@@ -1,7 +1,9 @@
 package algorithms.sort;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
 public class FirstOccurrence {
-
 	public static int firstOccur(int[] array, int target) {
 		// Write your solution here
 		if (array == null || array.length == 0) {

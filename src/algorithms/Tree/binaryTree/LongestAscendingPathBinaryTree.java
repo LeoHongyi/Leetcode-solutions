@@ -1,5 +1,14 @@
 package algorithms.tree.binaryTree;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: algorithms.depthFirstSearch, top down,
+ *  pass down values:
+ *  1. Parent value, the parent node key value,
+ *  2. length of ascending path ends at Parent node
+ */
+
+/**
  * public class TreeNode {
  *   public int key;
  *   public TreeNode left;
@@ -9,12 +18,6 @@ package algorithms.tree.binaryTree;
  *   }
  * }
  */
-/**
- Method: algorithms.depthFirstSearch, top down,
- pass down values:
- 1. Parent value, the parent node key value,
- 2. length of ascending path ends at Parent node
- **/
 public class LongestAscendingPathBinaryTree {
     public int longest(TreeNode root) {
         // Write your solution here

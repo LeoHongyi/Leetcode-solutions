@@ -2,13 +2,12 @@ package algorithms.depthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/530
+ */
 public class AllValidPermutationsOfParenthesesI {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/530
-     */
     public List<String> validParentheses(int n) {
         // Write your solution here
         List<String> result = new ArrayList<>();

@@ -1,5 +1,10 @@
 package algorithms.tree.binaryTree;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: BFS reconstruct complete tree.
+ */
+/**
  * public class TreeNode {
  *   public int key;
  *   public TreeNode left;
@@ -9,9 +14,6 @@ package algorithms.tree.binaryTree;
  *   }
  * }
  */
-/**
- Method: BFS reconstruct complete tree.
- **/
 public class LevelOrderReconstructCompleteBinaryTree {
         public TreeNode construct(int[] level) {
             // Write your solution here

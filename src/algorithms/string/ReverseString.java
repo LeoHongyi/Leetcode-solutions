@@ -1,12 +1,11 @@
 package algorithms.string;
-
-public class ReverseString {
 /**
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/396
  * Method: iterative
  */
+public class ReverseString {
     public String reverse(String input) {
         // Write your solution here
         // sanity check

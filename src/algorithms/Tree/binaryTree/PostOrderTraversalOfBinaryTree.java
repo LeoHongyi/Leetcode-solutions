@@ -5,6 +5,12 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/656
+ * https://app.laicode.io/app/problem/45
+ */
+/**
  * public class TreeNode {
  *   public int key;
  *   public TreeNode left;
@@ -15,15 +21,9 @@ import java.util.List;
  * }
  */
 public class PostOrderTraversalOfBinaryTree {
-	/**
-	 * @author Qihao He
-	 * @date 09/24/2019
-	 * https://app.laicode.io/app/problem/656
-	 * Method: recursive
-	 */
 	List<Integer> results = new ArrayList<Integer>(0);
 	public List<Integer> postOrderRecursive(TreeNode root) {
-		// Write your solution here
+		// Method: recursive
 		if (root == null) {
 			return results;
 		}
@@ -32,13 +32,9 @@ public class PostOrderTraversalOfBinaryTree {
 		results.add(root.key);
 		return results;
 	}
-	/**
-	 * @author Qihao He
-	 * @date 09/24/2019
-	 * https://app.laicode.io/app/problem/45
-	 * Method: iterative
-	 */
+
 	public List<Integer> postOrderIterative(TreeNode root) {
+		// Method: Iterative
 		List<Integer> results = new ArrayList<>();
 		if (root == null) {
 			return results;

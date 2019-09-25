@@ -2,8 +2,6 @@ package algorithms.depthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class CombinationsOfCoins {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -13,6 +11,7 @@ public class CombinationsOfCoins {
  * Assumption: target >= 0,
  * coins[i] have infinite number for each of the denominations.
  */
+public class CombinationsOfCoins {
     public List<List<Integer>> combinations(int target, int[] coins) {
         // Write your solution here
         List<List<Integer>> result = new ArrayList<>();

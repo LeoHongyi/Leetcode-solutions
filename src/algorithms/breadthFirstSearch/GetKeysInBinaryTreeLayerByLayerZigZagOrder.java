@@ -3,8 +3,6 @@ package algorithms.breadthFirstSearch;
 import algorithms.tree.binaryTree.TreeNode;
 
 import java.util.*;
-
-public class GetKeysInBinaryTreeLayerByLayerZigZagOrder {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -23,6 +21,7 @@ public class GetKeysInBinaryTreeLayerByLayerZigZagOrder {
  *   }
  * }
  */
+public class GetKeysInBinaryTreeLayerByLayerZigZagOrder {
     public List<Integer> zigZag(TreeNode root) {
         // Write your solution here
         if (root == null) {

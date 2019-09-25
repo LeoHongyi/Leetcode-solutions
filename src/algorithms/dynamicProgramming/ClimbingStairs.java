@@ -8,7 +8,6 @@ package algorithms.dynamicProgramming;
  *  F(n) = F(n - 1) + F(n - 2)
  *  base case:  F(1) = 1, F(2) = 2,
  */
-
 public class ClimbingStairs {
     public int stairs(int n) {
         if (n <= 0) {

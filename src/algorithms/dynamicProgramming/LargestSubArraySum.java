@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class LargestSubArraySum {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -12,6 +10,7 @@ public class LargestSubArraySum {
  *  = dp[i - 1] + array[i]  else
  *  time: O(n), space: O(1)
  */
+public class LargestSubArraySum {
     public int largestSum(int[] array) {
         // Write your solution here
         // initialize as 1st element

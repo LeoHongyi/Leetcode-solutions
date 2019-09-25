@@ -1,6 +1,4 @@
 package algorithms.string;
-
-public class RemoveAdjacentRepeatedCharactersIV {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -8,6 +6,7 @@ public class RemoveAdjacentRepeatedCharactersIV {
  * j = 0; (fast) the letter being processed. In other words, all letters to the left of j (not including j) are processed letters.
  *  i = 0; (slow) the letters to be return (not including i).
  */
+public class RemoveAdjacentRepeatedCharactersIV {
     public String deDup(String input) {
         // Write your solution here
         if (input == null || input.length() <= 1) {

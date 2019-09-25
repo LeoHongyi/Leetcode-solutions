@@ -1,10 +1,10 @@
 package algorithms.binarySearch;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/267
+ */
 public class SearchInSortedMatrixI {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/267
-     */
     public int[] search(int[][] matrix, int target) {
         // Write your solution here
         if (matrix.length == 0 || matrix[0].length == 0) {

@@ -1,13 +1,21 @@
 package algorithms.queue;
 
-class ListNode{
-	int value;
-	ListNode next;
-	public ListNode(int value){
-		this.value = value;
-	}
-}
 
+import algorithms.linkedlist.ListNode;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
+/**
+ * public class ListNode {
+ *     public int value;
+ *     public ListNode next;
+ *     public ListNode(int value) {
+ *         this.value = value;
+ *         next = null;
+ *     }
+ * }
+ */
 public class Queue {
 	ListNode head;
 	ListNode tail;

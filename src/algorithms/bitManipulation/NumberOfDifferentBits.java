@@ -1,11 +1,10 @@
 package algorithms.bitManipulation;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/75
+ */
 public class NumberOfDifferentBits {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/75
-     */
     public int diffBits(int a, int b) {
         // Write your solution here
         a ^= b;

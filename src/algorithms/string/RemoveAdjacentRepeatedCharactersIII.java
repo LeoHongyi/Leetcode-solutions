@@ -1,14 +1,17 @@
 package algorithms.string;
 /**
- Method: slow, fast pointer
- slow: [0, slow - 1] the result to return
- fastBegin: the letter that is waiting for fast to count duplicate
- fast: [0, fast - 1], the letters that are processed.
- a a a a b b b c c c
- s
- fB
- f
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: slow, fast pointer
+ *  slow: [0, slow - 1] the result to return
+ *  fastBegin: the letter that is waiting for fast to count duplicate
+ *  fast: [0, fast - 1], the letters that are processed.
+ *  a a a a b b b c c c
+ *  s
+ *  fB
+ *  f
+ */
+
 public class RemoveAdjacentRepeatedCharactersIII {
     public String deDup(String input) {
         // Write your solution here

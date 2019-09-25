@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/401
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/401
+ */
 public class SearchInBitonicArray {
     public int search(int[] array, int target) {
         if (array.length == 0) {

@@ -1,5 +1,8 @@
 package algorithms.trie;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
 class Trie {
 	private TrieNode root;
 

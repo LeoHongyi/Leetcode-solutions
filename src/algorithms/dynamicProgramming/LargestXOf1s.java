@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class LargestXOf1s {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -12,6 +10,7 @@ public class LargestXOf1s {
  *  dp[i][j] = min(dpLeft[i+1][j-1],dpUp[i-1][j-1],dpRight[i-1][j+1],dpDown[i+1][j+1]) + 1,iff matrix[i][j] == 1
  *  time: O(n*m*3), space: O(n*m*4)
  */
+public class LargestXOf1s {
     public int largest(int[][] matrix) {
         // Write your solution here
         int n = matrix.length;
@@ -35,9 +34,10 @@ public class LargestXOf1s {
         }
         return result;
     }
-    // filling the dpUp[][], dpLeft[][] from 0 to n,
-    // left: from left top, up: from right top,
+
     private int[][] leftUp(int[][] matrix, int n, int m) {
+        // filling the dpUp[][], dpLeft[][] from 0 to n,
+        // left: from left top, up: from right top,
         int[][] left = new int[n][m];
         int[][] up = new int[n][m];
         for (int i = 0; i < n; i++) {
@@ -52,9 +52,10 @@ public class LargestXOf1s {
         merge(left, up, n, m);
         return left;
     }
-    // filling the dpRight[][] dpDown[][] from n - 1 to 0,
-    // down: from left down, right: from right down.
+
     private int[][] rightDown(int[][] matrix, int n, int m) {
+        // filling the dpRight[][] dpDown[][] from n - 1 to 0,
+        // down: from left down, right: from right down.
         int[][] right = new int[n][m];
         int[][] down = new int[n][m];
         for (int i = n - 1; i >= 0; i--) {
@@ -68,8 +69,9 @@ public class LargestXOf1s {
         merge(right, down, n, m);
         return right;
     }
-    // return the dpXXXX[i][j] for new dpXXXX[][]
+
     private int getDP(int[][] DP, int x, int y, int n, int m) {
+        // return the dpXXXX[i][j] for new dpXXXX[][]
         if (x < 0 || x >= n || y < 0 || y >= m) {
             return 0;
         }

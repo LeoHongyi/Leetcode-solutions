@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/636
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/636
+ */
 public class SmallestElementLargerThanTarget {
   public int largerThanTarget(int[] array, int target) {
     if (array == null || array.length == 0) {

@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * Method: algorithms.depthFirstSearch, trie tree
  * 	 solution 1(brutal force): each character has a target in the dictionary pattern to follow.
  * 	 algorithms.depthFirstSearch recursion tree, time: O(k*m*n*4^l)
- * 	 solution 2(Optimized): trie + dfs backtracking,
+ * 	 solution 2(Optimized): trie + dfs backTracking,
  * 	 step 1: Build trie, using all words in dictionary
  * 	 step 2: for for i,j, run a algorithms.depthFirstSearch starting from (i, j) to find all words in the trie
  * 	 case 1: board[x][y] is in cur.children, explore four directions

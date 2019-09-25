@@ -1,8 +1,10 @@
 package algorithms.string;
 /**
- Method 1: O(n^2)
- for i to i + t.length() - 1 = s.length() - 1
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method 1: O(n^2)
+ * for i to i + t.length() - 1 = s.length() - 1
+ */
 public class ValidAnagram {
     public boolean isAnagram(String source, String target) {
         // Write your solution here

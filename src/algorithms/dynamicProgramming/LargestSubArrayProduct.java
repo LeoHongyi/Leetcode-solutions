@@ -10,8 +10,6 @@ package algorithms.dynamicProgramming;
  * Assumption: the array is not null, length >= 1
  **/
 public class LargestSubArrayProduct {
-
-
     public double largestProduct(double[] array) {
         // Write your solution here
         double curMin = array[0];

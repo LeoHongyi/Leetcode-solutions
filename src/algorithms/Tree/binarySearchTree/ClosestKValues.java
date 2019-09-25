@@ -4,11 +4,12 @@ import algorithms.tree.binaryTree.TreeNode;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Queue;
-
 /**
- Assumption: root is not null, no duplicate keys in the BST.
- Method 2: iterative in order traverse tree
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * Assumption: root is not null, no duplicate keys in the BST.
+ *  Method 2: iterative in order traverse tree
+ */
 public class ClosestKValues {
 	public int[] closestKValues(TreeNode root, double target, int k) {
 		// Write your solution here

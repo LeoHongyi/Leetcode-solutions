@@ -13,7 +13,6 @@ package algorithms.dynamicProgramming;
  */
 public class LongestAscendingSubsequence {
     public int longest(int[] array) {
-        // Write your solution here
         if (array.length == 0) {
             return 0;
         }

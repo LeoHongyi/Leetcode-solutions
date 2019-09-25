@@ -21,7 +21,6 @@ import java.util.Map;
  */
 public class ReconstructBinaryTreeWithPostorderAndInorder {
     public TreeNode reconstruct(int[] inOrder, int[] postOrder) {
-        // Write your solution here
         int n = inOrder.length;
         // map<key: num, value: index>
         Map<Integer, Integer> inMap = new HashMap<>();

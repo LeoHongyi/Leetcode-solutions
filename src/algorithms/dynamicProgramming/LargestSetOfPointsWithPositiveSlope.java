@@ -1,4 +1,6 @@
 package algorithms.dynamicProgramming;
+import algorithms.graph.Point;
+
 import java.util.Arrays;
 import java.util.Comparator;
 /**
@@ -15,14 +17,7 @@ import java.util.Comparator;
  *  Find the longest ascending sub-sequence in A[n] according to their y-coordinates.
  *  Time: O(nlogn)
  */
-class Point {
-	public int x;
-	public int y;
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-}
+
 public class LargestSetOfPointsWithPositiveSlope {
 	public int largest(Point[] points) {
 		// Write your solution here.

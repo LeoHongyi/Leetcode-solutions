@@ -1,6 +1,4 @@
 package algorithms.tree.binaryTree;
-
-public class CheckIfBinaryTreeIsBalanced {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -17,6 +15,7 @@ public class CheckIfBinaryTreeIsBalanced {
  *   }
  * }
  */
+public class CheckIfBinaryTreeIsBalanced {
     public boolean isBalanced(TreeNode root) {
         // Write your solution here
         if (root == null) {

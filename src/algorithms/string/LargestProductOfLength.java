@@ -70,8 +70,9 @@ public class LargestProductOfLength {
         }
         return largest;
     }
-    // get the bit mask for each of the words.
+
     private HashMap<String, Integer> getBitMasks(String[] dict) {
+        // get the bit mask for each of the words.
         HashMap<String, Integer> map = new HashMap<>();
         for (String str : dict) {
             int bitMask = 0;

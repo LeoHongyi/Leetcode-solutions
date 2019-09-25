@@ -37,10 +37,10 @@ public class StringAddToTarget {
         stringAddDFS(s, target, prev, index + 1, list, result, find);
     }
     private boolean isValidList(List<String> list, int target) {
-
+        return false;
     }
-    // if can not reach target, return empty algorithms.string.
     private String addPlus(List<String> reuslt) {
-
+        // if can not reach target, return empty algorithms.string.
+        return "";
     }
 }

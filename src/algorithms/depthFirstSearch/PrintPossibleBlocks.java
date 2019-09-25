@@ -2,10 +2,13 @@ package algorithms.depthFirstSearch;
 import java.util.List;
 import java.util.ArrayList;
 /**
- * 	should use indent == 2
- * 				time: O(2^2N)
- * 				space:O(n)
- * **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: algorithms.depthFirstSearch, swap swap + check palindrome
+ * should use indent == 2
+ *  time: O(2^2N)
+ *  space:O(n)
+ */
 public class PrintPossibleBlocks {
 	public void printPossibleIfBlocks(int n) {
 		List<List<String>> result = new ArrayList<>();

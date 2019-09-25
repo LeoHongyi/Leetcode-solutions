@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/236
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/236
+ */
 public class SearchInsertPosition {
     public int searchInsert(int[] input, int target) {
         // Write your solution here

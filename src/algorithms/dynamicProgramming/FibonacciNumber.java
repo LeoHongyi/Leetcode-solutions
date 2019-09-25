@@ -29,7 +29,7 @@ public class FibonacciNumber {
         return dp[K];
     }
 
-    public int fibonacciRecursion(int K) {
+    private int fibonacciRecursion(int K) {
         if (K == 0) {
             return 0;
         } else if (K == 1) {

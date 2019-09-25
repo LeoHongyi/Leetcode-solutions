@@ -7,7 +7,12 @@
 // You do not need to implement the Dictionary interface.
 // You can use it directly, the implementation is provided when testing your solution.
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/20
+
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/20
+ */
 public class SearchInUnknownSizedSortedArray {
   public int search(Dictionary dict, int target) {
     // Write your solution here
@@ -39,5 +44,12 @@ public class SearchInUnknownSizedSortedArray {
     } else {
       return -1;
     }
+  }
+}
+
+class Dictionary{
+  Integer[] array = new Integer[1000];
+  public Integer get(int i) {
+    return array[i];
   }
 }

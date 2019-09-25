@@ -2,8 +2,6 @@ package algorithms.depthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class AllPermutationsI {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +9,7 @@ public class AllPermutationsI {
  * Method: DFS with SWAP SWAP
  * Assumption: no duplicate characters
  */
+public class AllPermutationsI {
     public List<String> permutations(String set) {
         // Write your solution here
         List<String> result = new ArrayList<>();

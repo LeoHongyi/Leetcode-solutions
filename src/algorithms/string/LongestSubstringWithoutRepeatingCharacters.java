@@ -2,13 +2,12 @@ package algorithms.string;
 
 import java.util.HashSet;
 import java.util.Set;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/253
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/253
-     */
     public int longest(String input) {
         // Write your solution here
         Set<Character> distinct = new HashSet<>();

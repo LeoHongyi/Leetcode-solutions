@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class LongestAscendingSubArray {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +9,7 @@ public class LongestAscendingSubArray {
  *  dp[i] = 1,  (array[i] <= array[i - 1])
  *  = dp[i - 1] + 1 (array[i] > array[i - 1])
  */
+public class LongestAscendingSubArray {
     public int longest(int[] array) {
         // Write your solution here
         if (array.length == 0) {

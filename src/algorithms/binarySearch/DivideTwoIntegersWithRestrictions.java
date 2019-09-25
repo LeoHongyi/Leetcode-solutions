@@ -1,5 +1,7 @@
 package algorithms.binarySearch;
 /**
+ *  @author Qihao He
+ *  @date 09/24/2019
  * https://leetcode.com/problems/divide-two-integers/
  * https://app.laicode.io/app/problem/321
  * time: O(logn)

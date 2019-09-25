@@ -1,5 +1,8 @@
 package algorithms.dynamicProgramming;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ * SplitNumber
  * How to cut/split the number into a minimum number of items such that each item is equal to an integer's square value.
  * For example
  * 4 can be split to 1+1+1+1 (4 items) or 2^2 (1 item, which is the solution)
@@ -14,7 +17,6 @@ package algorithms.dynamicProgramming;
  * induction rule:
  * dp[i] = min(dp[i - j^2] + 1) where j >= 1 && j^2 <= i
  * **/
-//SplitNumber
 public class CutNumber {
 	public int cutNumber(int input) {
 		if (input < 1) {

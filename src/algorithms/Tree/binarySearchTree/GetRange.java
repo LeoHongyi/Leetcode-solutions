@@ -6,6 +6,10 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ **/
 
 public class GetRange {
   public List<Integer> getRange(TreeNode root, int min, int max) {

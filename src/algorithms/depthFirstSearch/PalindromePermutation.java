@@ -1,7 +1,9 @@
 package algorithms.depthFirstSearch;
 /**
- Method: algorithms.depthFirstSearch, swap swap + check palindrome
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: algorithms.depthFirstSearch, swap swap + check palindrome
+ */
 public class PalindromePermutation {
 	public boolean canPermutePalindrome(String input) {
 		// Write your solution here

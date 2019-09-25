@@ -2,6 +2,8 @@ package algorithms.tree.binaryTree;
 import java.util.Queue;
 import java.util.ArrayDeque;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
  * Description:
  * Check if two nodes are cousins in a Binary algorithms.Tree
  * Given the binary algorithms.Tree and the two nodes say ‘a’ and ‘b’, determine whether the two nodes are cousins of each other or not.
@@ -23,14 +25,18 @@ import java.util.ArrayDeque;
  * Method: Breadth First Search + check same parent when expanding one node
  * time: O(n), space O(n)
  * **/
-//class TreeNode {
-//	int key;
-//	TreeNode left;
-//	TreeNode right;
-//	public TreeNode(int key) {
-//		this.key = key;
-//	}
-//}
+
+/**
+ * class TreeNode {
+ * 	int key;
+ * 	TreeNode left;
+ * 	TreeNode right;
+ * 	public TreeNode(int key) {
+ * 		this.key = key;
+ *        }
+ * }
+ */
+
 public class CheckCousin {
 	public boolean checkCousin(TreeNode root, TreeNode a, TreeNode b) {
 		// sanity check

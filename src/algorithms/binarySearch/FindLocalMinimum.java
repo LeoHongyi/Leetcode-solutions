@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/327
+/**
+ *  @author Qihao He
+ *  @date 09/24/2019
+ * https://app.laicode.io/app/problem/327
+ */
 public class FindLocalMinimum {
     public int localMinimum(int[] array) {
         if (array.length == 1) {

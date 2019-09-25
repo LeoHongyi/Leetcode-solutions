@@ -1,6 +1,4 @@
 package algorithms.string;
-
-public class DecompressStringII {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +9,7 @@ public class DecompressStringII {
  *  starting from index 0, and usually the length to represent the
  *  original string is given.
  */
+public class DecompressStringII {
     public String decompress(String input) {
         // Write your solution here
         // Assumption: the string is not null, there are no adjacent repeated

@@ -1,3 +1,4 @@
+package algorithms.depthFirstSearch;
 // Question 1. Find all possible decode ways.
 // The decoding scheme is:
 // 1 -> A
@@ -30,36 +31,40 @@
 //    1/   1/  23       11 /2/ 3    11/23   
 // 1/1/2/3
 // Time  2^(n-1)        Space O(n)
-public class Solution {
-private void printAllDecodeWays(String input) {
-	if(input == null || input.length() == 0) return;
-	StringBuilder sb = new StringBuilder();
-	dfs(0, input, sb);
-}
+public class Decode {
+	public void printAllDecodeWays(String input) {
+		if (input == null || input.length() == 0) {
+			return;
+		}
+		StringBuilder sb = new StringBuilder();
+		dfs(0, input, sb);
+	}
 
-private void dfs(int start, String input, StringBuilder sb) {
-	if(start == input.length()) {
-	System.out.println(sb.toString());
-	return;
-}
-// number cannot start with 0
-/ "0xxx"
-// "1"
-if(input.charAt(start) == 0) return;
-int size = sb.length();
-for(int i = start; i < start + 2 && i < input.length() ; i++) {
-	if(i == start) {
-// one bit
-	sb.append((Char)(‘A’ + input.charAt(i) - ‘1’))
-        dfs(i + 1, input, sb);
-	sb.deleteCharAt(sb.length() - 1);
-} else {
-	// two bits
-	int n = Integer.valueOf(input.substring(start, i + 1);
-	if( n <= 26)) {
-	sb.append((char)(n - 1 + ‘A’))
-            dfs(i + 1, input, sb);
-	sb.setLength(size);
-}
-}
+	private void dfs(int start, String input, StringBuilder sb) {
+		if (start == input.length()) {
+			System.out.println(sb.toString());
+			return;
+		}
+		// number cannot start with 0
+		//"0xxx"
+		// "1"
+		if (input.charAt(start) == 0) return;
+		int size = sb.length();
+		for (int i = start; i < start + 2 && i < input.length(); i++) {
+			if (i == start) {
+				// one bit
+				sb.append((Char)(‘A’ + input.charAt(i) - ‘1’));
+				dfs(i + 1, input, sb);
+				sb.deleteCharAt(sb.length() - 1);
+			} else {
+				// two bits
+				int n = Integer.valueOf(input.substring(start, i + 1);
+				if (n <= 26)){
+					sb.append((char) (n - 1 + ‘A’));
+					dfs(i + 1, input, sb);
+					sb.setLength(size);
+				}
+			}
+		}
+	}
 }

@@ -1,12 +1,13 @@
 package algorithms.tree.binaryTree;
 
-import java.util.List;
-
+import java.util.*;
 
 /**
- Method: hashmap for in-Order <key: num, value: index> for quick check index.
- list of pre.
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: hashmap for in-Order <key: num, value: index> for quick check index.
+ *  list of pre.
+ */
 public class GetPostOrderSequenceByPreIn {
     public int[] postOrder(int[] pre, int[] in) {
         // Write your solution here

@@ -1,5 +1,5 @@
 package algorithms.hashTable;
-import algorithms.linkedList.RandomListNode;
+import algorithms.linkedlist.RandomListNode;
 
 import java.util.HashMap;
 import java.util.Map;

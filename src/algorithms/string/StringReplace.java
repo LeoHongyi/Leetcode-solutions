@@ -6,8 +6,9 @@ import java.util.ArrayList;
  * https://app.laicode.io/app/problem/172
  */
 public class StringReplace {
-//Method 1: Not using any algorithms.string/StringBuilder utility, and using char[] to do it "in place".
+
     public String replace(String input, String source, String target) {
+        //Method 1: Not using any algorithms.string/StringBuilder utility, and using char[] to do it "in place".
         // Write your solution here
         //Assumption: input, s, t are not null, s is not empty string
         char[] array = input.toCharArray();
@@ -17,9 +18,10 @@ public class StringReplace {
         }
         return replaceLonger(array, source, target);
     }
-    //case 1: if s.length() >= t.length()
-    //Step 1: find every single occurrence of s in the original string, and just replace s with t, until we are done.
+
     public String replaceShorter(char[] input, String s, String t) {
+        //case 1: if s.length() >= t.length()
+        //Step 1: find every single occurrence of s in the original string, and just replace s with t, until we are done.
         // We reuse the input char array since the number of characters needed is less.
         // fast and slow pointers both from left to right direction.
         int slow = 0;
@@ -37,11 +39,12 @@ public class StringReplace {
         }
         return new String(input, 0, slow);
     }
-    //case 2: if s.length() < t.length()
-    //How many extra spaces should we get?
-    //Step 1: count how many times s1 show up in the original string. for example: 2 times
-    //Step 2: 2 * (t.size() - s.size())
+
     public String replaceLonger(char[] input, String s, String t) {
+        //case 2: if s.length() < t.length()
+        //How many extra spaces should we get?
+        //Step 1: count how many times s1 show up in the original string. for example: 2 times
+        //Step 2: 2 * (t.size() - s.size())
         ArrayList<Integer> matches = getAllMatches(input, s);
         char[] result = new char[input.length + matches.size() * (t.length() - s.length())];
         int lastIndex = matches.size() - 1;
@@ -61,8 +64,9 @@ public class StringReplace {
         }
         return new String(result);
     }
-    //check if the substring from fromIndex is the same as s.
+
     private boolean equalSubstring(char[] input, int fromIndex, String s) {
+        //check if the substring from fromIndex is the same as s.
         for (int i = 0; i < s.length(); i++) {
             if (input[fromIndex + i] != s.charAt(i)) {
                 return false;
@@ -70,8 +74,9 @@ public class StringReplace {
         }
         return true;
     }
-    // copy the string t to result at fromIndex
+
     private void copySubstring(char[] result, int fromIndex, String t) {
+        // copy the string t to result at fromIndex
         for (int i = 0; i < t.length(); i++) {
             result[fromIndex + i] = t.charAt(i);
         }

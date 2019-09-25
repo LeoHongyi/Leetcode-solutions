@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/19
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/19
+ */
 public class KClosestInSortedArray {
   public int[] kClosest(int[] array, int target, int k) {
     // Write your solution here

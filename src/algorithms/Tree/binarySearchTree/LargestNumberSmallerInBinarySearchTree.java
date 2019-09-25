@@ -20,7 +20,6 @@ import algorithms.tree.binaryTree.TreeNode;
  */
 public class LargestNumberSmallerInBinarySearchTree {
     public int largestSmaller(TreeNode root, int target) {
-        // Write your solution here
         int[] max = new int[]{Integer.MIN_VALUE};
         largestSmaller(root, target, max);
         return max[0];

@@ -3,6 +3,11 @@ package algorithms.tree.binaryTree;
 import java.util.Queue;
 import java.util.ArrayDeque;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
+ *  Method: BFS, counter
+ */
+/**
  * public class TreeNode {
  *   public int key;
  *   public TreeNode left;
@@ -12,12 +17,8 @@ import java.util.ArrayDeque;
  *   }
  * }
  */
-/**
- Method: BFS, counter
- **/
 public class CousinsInBinaryTree {
     public boolean isCousin(TreeNode root, int a, int b) {
-        // Write your solution here
         if (root == null) {
             return false;
         }
@@ -26,11 +27,11 @@ public class CousinsInBinaryTree {
         int count = 0;
         while (!queue.isEmpty()) {
             int curSize = queue.size();
-            // for each level
             for (int i = 0; i < curSize; i++) {
+                // for each level
                 TreeNode temp = queue.poll();
-                // check two children are from one parent
                 if (temp.left != null && temp.right != null) {
+                    // check two children are from one parent
                     if ((temp.left.key == a && temp.right.key == b) ||
                             (temp.left.key == b && temp.right.key == a)) {
                         return false;
@@ -48,13 +49,13 @@ public class CousinsInBinaryTree {
                         count++;
                     }
                 }
-                // 2 cousins are found in the same level
                 if (count == 2) {
+                    // 2 cousins are found in the same level
                     return true;
                 }
             }
-            // 2 cousins should be on the same level, but only find one, so no need to continue
             if (count == 1) {
+                // 2 cousins should be on the same level, but only find one, so no need to continue
                 return false;
             }
         }

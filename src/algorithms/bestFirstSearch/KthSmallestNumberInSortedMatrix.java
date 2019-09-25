@@ -2,8 +2,6 @@ package algorithms.bestFirstSearch;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-
-public class KthSmallestNumberInSortedMatrix {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -16,6 +14,7 @@ public class KthSmallestNumberInSortedMatrix {
  *  Assumption: matrix is not null, N * M where N > 0 and M > 0
  *  K > 0 and K <= N * M
  */
+public class KthSmallestNumberInSortedMatrix {
     public int kthSmallest(int[][] matrix, int k) {
         // Write your solution here
         int r = matrix.length;

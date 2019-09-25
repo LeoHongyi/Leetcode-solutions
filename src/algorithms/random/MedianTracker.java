@@ -2,13 +2,12 @@ package algorithms.random;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/113
+ */
 public class MedianTracker {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/113
-     */
     private PriorityQueue<Integer> smallerHalf;
     private PriorityQueue<Integer> largerHalf;
     public MedianTracker() {

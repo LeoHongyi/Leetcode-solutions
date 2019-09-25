@@ -1,7 +1,7 @@
 package algorithms.sort;
 
 public class MoveZeroII {
-	public static int[] moveZeroII(int[] array) {
+	public int[] moveZeroII(int[] array) {
 		// Write your solution here
 		if(array.length <= 1){
 			return array;
@@ -15,7 +15,7 @@ public class MoveZeroII {
 		return array;
 	}
 
-	private static void mergeSortII(int[] array, int[] helper, int left, int right) {
+	private void mergeSortII(int[] array, int[] helper, int left, int right) {
 		if (left >= right) {
 			return;
 		}
@@ -25,7 +25,7 @@ public class MoveZeroII {
 		merge(array, helper, left, mid, right);
 	}
 
-	private static void merge(int[] array, int[] helper, int left, int mid, int right) {
+	private void merge(int[] array, int[] helper, int left, int mid, int right) {
 		int leftIndex = left, rightIndex = mid + 1;
 		while (leftIndex <= mid && rightIndex <= right) {
 			if (helper[leftIndex] != 0) {

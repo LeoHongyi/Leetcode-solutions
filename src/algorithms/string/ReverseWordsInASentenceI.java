@@ -1,6 +1,4 @@
 package algorithms.string;
-
-public class ReverseWordsInASentenceI {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -10,6 +8,7 @@ public class ReverseWordsInASentenceI {
  *  step 1: reverse the whole sentence
  *  step 2: reverse each word in the sentence (slow and fast pointer)
  */
+public class ReverseWordsInASentenceI {
     public String reverseWords(String input) {
         // Write your solution here
         if (input == null || input.length() <= 1) {

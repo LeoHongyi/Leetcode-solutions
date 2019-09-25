@@ -1,10 +1,13 @@
 package algorithms.sort;
+/**
+ * @author Qihao He
+ * @date 09/21/2019
+ * https://app.laicode.io/app/problem/11
+
+ */
 
 public class RainbowSort {
 	/**
-	 * @author Qihao He
-	 * @date 09/21/2019
-	 * https://app.laicode.io/app/problem/11
 	 * Method: rainbow sort, 3 pointers
 	 * time: O(n)
 	 * space: O(1)
@@ -39,9 +42,6 @@ public class RainbowSort {
 	}
 
 	/**
-	 * @author Qihao He
-	 * @date 09/21/2019
-	 * https://app.laicode.io/app/problem/11
 	 * Method: rainbow sort, slow, fast pointers
 	 * time: worst case: O(n^2)
 	 * space: O(1)

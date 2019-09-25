@@ -2,13 +2,12 @@ package algorithms.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/121
+ */
 public class SpiralOrderTraverseI {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/121
-     */
     public List<Integer> spiral(int[][] matrix) {
         // Write your solution here
         List<Integer> result = new ArrayList<>();

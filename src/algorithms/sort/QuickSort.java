@@ -1,13 +1,13 @@
 package algorithms.sort;
+/**
+ * @author Qihao He
+ * @date 09/21/2019
+ * https://app.laicode.io/app/problem/10
+ * Method: quick sort
+ * worst case: time: O(n^2), space: stack: O(n)
+ * average case: time: O(nlogn), space: number of levels logn, O(logn)
+ */
 public class QuickSort {
-	/**
-	 * @author Qihao He
-	 * @date 09/21/2019
-	 * https://app.laicode.io/app/problem/10
-	 * Method: quick sort
-	 * worst case: time: O(n^2), space: stack: O(n)
-	 * average case: time: O(nlogn), space: number of levels logn, O(logn)
-	 */
 	public int[] quickSort(int[] array) {
 		if (array == null || array.length <= 1) {
 			return array;

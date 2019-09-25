@@ -15,9 +15,7 @@ package algorithms.tree.binaryTree;
  * }
  */
 public class BinaryTreeDiameter {
-
     public int diameter(TreeNode root) {
-        // Write your solution here
         int[] max = new int[1];
         diameter(root, max);
         return max[0];

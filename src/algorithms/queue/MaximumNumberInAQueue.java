@@ -1,11 +1,10 @@
 package algorithms.queue;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/551
+ */
 public class MaximumNumberInAQueue {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/551
-     */
     public int maxInQueue(Queue queue) {
         int max = queue.peek();
         while (!queue.isEmpty()) {

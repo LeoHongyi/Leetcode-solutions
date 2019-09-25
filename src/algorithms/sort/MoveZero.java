@@ -1,7 +1,10 @@
 package algorithms.sort;
-
+/**
+ * @author: Qihao He
+ * @date 06/21/2019
+ */
 public class MoveZero {
-	private static int[] moveZero(int[] array) {
+	private int[] moveZero(int[] array) {
 		// Write your solution here
 		if(array.length == 0){
 			return array;
@@ -20,7 +23,7 @@ public class MoveZero {
 		return array;
 	}
 
-	private static void swap(int[] array, int left, int right){
+	private void swap(int[] array, int left, int right){
 		int temp = array[left];
 		array[left] =  array[right];
 		array[right] = temp;

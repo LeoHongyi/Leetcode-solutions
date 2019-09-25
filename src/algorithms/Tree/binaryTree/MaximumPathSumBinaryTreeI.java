@@ -19,7 +19,6 @@ package algorithms.tree.binaryTree;
  */
 public class MaximumPathSumBinaryTreeI {
     public int maxPathSum(TreeNode root) {
-        // Write your solution here
         if (root == null) {
             return Integer.MIN_VALUE;
         }

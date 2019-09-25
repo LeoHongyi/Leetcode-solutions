@@ -1,6 +1,4 @@
 package algorithms.string;
-
-public class RemoveAdjacentRepeatedCharactersI {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -9,6 +7,7 @@ public class RemoveAdjacentRepeatedCharactersI {
  *  or an empty Stirng are both valid.
  *  Method: 2 pointers
  */
+public class RemoveAdjacentRepeatedCharactersI {
     public String deDup(String input) {
         // Write your solution here
         if (input.length() <= 1) {

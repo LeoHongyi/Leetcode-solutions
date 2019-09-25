@@ -1,8 +1,6 @@
 package algorithms.random;
 
 import java.util.List;
-
-public class Percentile95 {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -18,6 +16,7 @@ public class Percentile95 {
  *  step 1: for each url, insert them to buckets---O(n)
  *  step 2: find the minimum L such that sum(bucket[0...L] >= 0.95n --- O(4096) = O(1))
  */
+public class Percentile95 {
     public int percentile95(List<Integer> lengths) {
         // Write your solution here.
         int[] count = new int[4097];

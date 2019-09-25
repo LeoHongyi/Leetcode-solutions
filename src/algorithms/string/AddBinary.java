@@ -1,5 +1,8 @@
 package algorithms.string;
-
+/**
+ * @author: Qihao He
+ * @date 09/25/2019
+ */
 public class AddBinary {
     public String addBinary(String a, String b) {
         if (a == null || a.isEmpty()) {

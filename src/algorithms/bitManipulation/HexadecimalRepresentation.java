@@ -1,11 +1,11 @@
 package algorithms.bitManipulation;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/78
+ */
 public class HexadecimalRepresentation {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/78
-     */
+
     public String hex(int number) {
         // Write your solution here
         // Assumption: number >= 0

@@ -1,20 +1,24 @@
 package algorithms.heap;
-
-//method: maxHeap,
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * method: maxHeap,
+ */
 public class HeapSort {
     public int[] heapsort(int[] array) {
-        // Write your solution here
         heapSort(array);
         return array;
     }
     public void heapSort(int[] array) {
-        //sanity check
-        if (array == null || array.length == 0) return;
+        if (array == null || array.length == 0) {
+            //sanity check
+            return;
+        }
         // step 1 heapify
         heapify(array);
-        // step 2
-        // use the length of the heap to conduct the for loop.
         for (int size = array.length; size > 1; size--) {
+            // step 2
+            // use the length of the heap to conduct the for loop.
             swap(array, 0, size - 1);
             percolateDown(array, 0, size - 1);
         }
@@ -24,21 +28,24 @@ public class HeapSort {
             percolateDown(array, i, array.length);
         }
     }
-    // using the first len elements as the heap, percolate down the element at index.
+
     private void percolateDown(int[] array, int index, int len) {
-        while (index < len) {  // each time swap   index.
+        while (index < len) {
+            // using the first len elements as the heap, percolate down the element at index.
+            // each time swap   index.
             int max = index;
             int left = index * 2 + 1;
             int right = index * 2 + 2;
-            // find the maximum one among cur, left child, right child.
             if (left < len && array[left] > array[max]) {
+                // find the maximum one among cur, left child, right child.
                 max = left;
             }
             if (right < len && array[right] > array[max]) {
                 max = right;
             }
-            // check if it is cur itself.
+
             if (max == index) {
+                // check if it is cur itself.
                 break;
             }
             swap(array, index, max);

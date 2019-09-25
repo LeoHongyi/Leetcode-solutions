@@ -2,8 +2,6 @@ package algorithms.depthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class AllSubsetsI {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,8 +9,9 @@ public class AllSubsetsI {
  * Method: DFS,
  *  recursion tree, String set.length() levels,
  *  each level decide to put the index char of the string or not
- *  time: O()
  */
+public class AllSubsetsI {
+
     public List<String> subSets(String set) {
         // Write your solution here.
         List<String> result = new ArrayList<>();

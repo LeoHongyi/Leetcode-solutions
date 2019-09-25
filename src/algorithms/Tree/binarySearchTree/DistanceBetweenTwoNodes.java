@@ -1,6 +1,8 @@
 package algorithms.tree.binarySearchTree;
 import algorithms.tree.binaryTree.TreeNode;
 /**
+ * @author Qihao He
+ * @date 09/24/2019
  * 2. Distance between two given nodes in a given binary search tree.
  *      Assuming:
  *  there is no parent pointer.
@@ -24,16 +26,18 @@ import algorithms.tree.binaryTree.TreeNode;
  * Time:       O(height)
  * Space:     O(1)
  */
+
 /**
  * class TreeNode {
  * 	int val;
  * 	TreeNode left;
  * 	TreeNode right;
  */
-
 public class DistanceBetweenTwoNodes {
 	public int distanceInBST(TreeNode root, TreeNode n1, TreeNode n2) {
-		if (root == null || n1 == null || n2 == null) return -1;
+		if (root == null || n1 == null || n2 == null) {
+			return -1;
+		}
 		int distance = -1;
 		while (root != null) {
 			if (root.key < n1.key && root.key < n2.key) {

@@ -6,8 +6,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
-public class Bipartite {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -27,6 +25,7 @@ public class Bipartite {
  *   }
  * }
  */
+public class Bipartite {
     public boolean isBipartite(List<GraphNode> graph) {
         // write your solution here
         // use 0 and 1 to denote two different groups.

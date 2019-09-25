@@ -6,8 +6,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
-
-public class GetKeysInBinaryTreeLayerByLayer {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -27,6 +25,7 @@ public class GetKeysInBinaryTreeLayerByLayer {
  *   }
  * }
  */
+public class GetKeysInBinaryTreeLayerByLayer {
     public List<List<Integer>> layerByLayer(TreeNode root) {
         // Write your solution here
         if (root == null) {

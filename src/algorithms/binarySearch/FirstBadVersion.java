@@ -28,4 +28,7 @@ public class FirstBadVersion {
             return -1;
         }
     }
+    private boolean isBadVersion(int a) {
+        return false;
+    }
 }

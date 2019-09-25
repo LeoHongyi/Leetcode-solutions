@@ -16,7 +16,7 @@ public class MissingNumberII {
         return i;
     }
 
-    public int binarySearchMissing(int[] array) {
+    private int binarySearchMissing(int[] array) {
         int left = 0;
         int right = array.length - 1;
         if (array.length == 0) {

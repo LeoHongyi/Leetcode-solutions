@@ -13,9 +13,6 @@ package algorithms.string;
  * step 2: Handle all the single characters. extend longer
  */
 public class CompressStringII {
-    /**
-
-     **/
     public String compress(String input) {
         // Write your solution here
         if (input == null || input.length() == 0) {

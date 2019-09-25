@@ -63,8 +63,9 @@ public class DeleteInBinarySearchTree {
             }
         }
     }
-    //find the closest (smallest larger) Node in the subTree
+
     private TreeNode findSmallest(TreeNode root) {
+        //find the closest (smallest larger) Node in the subTree
         TreeNode prev = root;
         TreeNode curr = root.left;
         while (curr.left != null) {

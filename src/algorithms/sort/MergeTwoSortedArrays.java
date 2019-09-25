@@ -1,11 +1,10 @@
 package algorithms.sort;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/547
+ */
 public class MergeTwoSortedArrays {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/547
-     */
     public int[] merge(int[] one, int[] two) {
         // Write your solution here
         int[] three = new int[one.length + two.length];

@@ -1,7 +1,10 @@
 package algorithms.trie;
 import java.util.Map;
 import java.util.HashMap;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
 class TrieNode {
 	private final Map<Character, TrieNode> children = new HashMap<>();
 	private boolean endOfWord;

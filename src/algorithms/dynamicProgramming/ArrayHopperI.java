@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class ArrayHopperI {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -12,6 +10,7 @@ public class ArrayHopperI {
  *  = false, else
  *  time: O(n^2), space O(n)
  */
+public class ArrayHopperI {
     public boolean canJump(int[] array) {
         // Write your solution here
         if (array.length == 1) {

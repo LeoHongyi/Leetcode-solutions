@@ -15,7 +15,6 @@ package algorithms.sort;
  * space: O(1)
  */
 public class RainbowSortII {
-
 	public int[] rainbowSortII(int[] array) {
 		// Write your solution here
 		if (array.length <= 1) {

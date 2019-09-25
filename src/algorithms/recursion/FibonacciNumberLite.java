@@ -1,13 +1,11 @@
 package algorithms.recursion;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/624
+ */
 public class FibonacciNumberLite {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/624
-     */
     public int fibonacci(int K) {
-        // Write your solution here
         if (K < 0) {
             return 0;
         } else if (K == 0) {

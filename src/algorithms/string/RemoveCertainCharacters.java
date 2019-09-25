@@ -2,14 +2,13 @@ package algorithms.string;
 
 import java.util.HashSet;
 import java.util.Set;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/395
+ * hashset
+ */
 public class RemoveCertainCharacters {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/395
-     * hashset
-     */
     public String remove(String input, String t) {
         // Write your solution here
         char[] array = input.toCharArray();

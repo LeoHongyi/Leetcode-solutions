@@ -1,6 +1,4 @@
 package algorithms.tree.binaryTree;
-
-public class IsBinarySearchTreeOrNot {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -18,6 +16,7 @@ public class IsBinarySearchTreeOrNot {
  *   }
  * }
  */
+public class IsBinarySearchTreeOrNot {
     public boolean isBST(TreeNode root) {
         // Write your solution here
         return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);

@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class EditDistance {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +9,7 @@ public class EditDistance {
  *  dp[i][j] = dp[i - 1][j - 1]  when one[i] == two[j]
  *  = Min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1, else
  */
+public class EditDistance {
     public int editDistance(String one, String two) {
         // Write your solution here
         int rows = one.length();

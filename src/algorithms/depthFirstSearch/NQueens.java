@@ -2,13 +2,12 @@ package algorithms.depthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/233
+ */
 public class NQueens {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/233
-     */
     public List<List<Integer>> nqueens(int n) {
         // Write your solution here
         List<List<Integer>> result = new ArrayList<>();

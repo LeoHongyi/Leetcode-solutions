@@ -4,13 +4,12 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/65
+ */
 public class AllPermutationsII {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/65
-     */
     public List<String> permutations(String input) {
         // Write your solution here
         if (input == null) {

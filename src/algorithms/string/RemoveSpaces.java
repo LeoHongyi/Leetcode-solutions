@@ -1,13 +1,12 @@
 package algorithms.string;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/281
+ * case 1: if a[j] == ' ', if i == 0, if i != 0
+ * case 2: if a[j] != ' '
+ */
 public class RemoveSpaces {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/281
-     * case 1: if a[j] == ' ', if i == 0, if i != 0
-     * case 2: if a[j] != ' '
-     */
     public String removeSpaces(String input) {
         // Write your solution here
         if (input.isEmpty()) {

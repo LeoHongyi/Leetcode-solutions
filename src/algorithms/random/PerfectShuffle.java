@@ -1,11 +1,10 @@
 package algorithms.random;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/108
+ */
 public class PerfectShuffle {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/108
-     */
     public void shuffle(int[] array) {
         // Write your solution here.
         if (array.length <= 1) {

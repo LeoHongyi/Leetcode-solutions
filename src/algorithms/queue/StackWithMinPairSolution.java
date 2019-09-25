@@ -15,8 +15,8 @@ public class StackWithMinPairSolution {
         minStack = new LinkedList<>();
     }
 
-    // Define Pair Class
     public class Pair<T extends Object, F extends Object> {
+        // Define Pair Class
         public T key;
         public F value;
         public Pair(T key, F value) {

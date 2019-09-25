@@ -30,10 +30,12 @@ package algorithms.breadthFirstSearch;
  * 3. deduplication
  * Do we need to populate the matrix at the beginning? No
  * **/
+
 public class SortedSumOfTwoSolution {
-	public int sortedSumOfTwo(int[] a, int[] b, int k){
+	public int sortedSumOfTwo(int[] a, int[] b, int k) {
 		return dijk(a, b, k);
 	}
+
 	private int dijk(int[] a, int[] b, int k) {
 		PriorityQueue<Tuple> minHeap = new PriorityQueue<Tuple>(k, new Comparator<Tuple>() {
 			@Override
@@ -66,15 +68,16 @@ public class SortedSumOfTwoSolution {
 		}
 		return minHeap.peek().key;
 	}
-
 	Class Tuple{
 		int x;
 		int y;
 		int key;
-		public Tuple(int x, int y, int key) {
+public Tuple(int x, int y, int key) {
 			this.x = x;
 			this.y = y;
 			this.key = key;
 		}
 	}
 }
+
+

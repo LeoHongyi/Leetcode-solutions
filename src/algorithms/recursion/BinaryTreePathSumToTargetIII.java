@@ -23,7 +23,6 @@ import java.util.Set;
  */
 public class BinaryTreePathSumToTargetIII {
     public boolean exist(TreeNode root, int target) {
-        // Write your solution here
         if (root == null) {
             return false;
         }

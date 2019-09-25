@@ -1,6 +1,4 @@
 package algorithms.tree.binaryTree;
-
-public class CountNode {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -16,6 +14,7 @@ public class CountNode {
  *   }
  * }
  */
+public class CountNode {
     public int countNodes(TreeNode root) {
         // Write your solution here
         if (root == null) {

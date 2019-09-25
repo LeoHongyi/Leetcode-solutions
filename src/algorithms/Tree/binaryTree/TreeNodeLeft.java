@@ -1,5 +1,8 @@
 package algorithms.tree.binaryTree;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
 public class TreeNodeLeft {
     public int key;
     public TreeNodeLeft left;

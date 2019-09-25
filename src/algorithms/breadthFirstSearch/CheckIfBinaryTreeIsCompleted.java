@@ -4,8 +4,6 @@ import algorithms.tree.binaryTree.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
-
-public class CheckIfBinaryTreeIsCompleted {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -23,6 +21,7 @@ public class CheckIfBinaryTreeIsCompleted {
  *   }
  * }
  */
+public class CheckIfBinaryTreeIsCompleted {
     public boolean isCompleted(TreeNode root) {
         // Write your solution here
         if (root == null) {

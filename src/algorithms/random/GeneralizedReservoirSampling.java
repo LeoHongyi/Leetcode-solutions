@@ -2,13 +2,12 @@ package algorithms.random;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/110
+ */
 public class GeneralizedReservoirSampling {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/110
-     */
     private final int k;
     private int count;
     private List<Integer> sample;

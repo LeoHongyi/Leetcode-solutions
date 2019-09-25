@@ -20,27 +20,33 @@ import algorithms.tree.binaryTree.TreeNode;
  *   }
  * }
  */
-
 public class FlattenBinaryTreeToLinkedList {
     public TreeNode flatten(TreeNode root) {
-        // Write your solution here
-        // base case: for null node, return null
+        /**
+         * base case: for null node, return null
+         */
         if (root == null) {
-            return root;
+            return null;
         }
-        // current level, pre order traverse
-        // recursion rule: left and right are returned flattened subtree,
-        // The rest we need to do is to insert the left between root and
-        // right subtree. Then return root to upper level function.
+        /**
+         *  current level, pre order traverse
+         *  recursion rule: left and right are returned flattened subtree,
+         *  The rest we need to do is to insert the left between root and
+         *  right subtree. Then return root to upper level function.
+         */
         TreeNode left = flatten(root.left);
         TreeNode right = flatten(root.right);
         if (left != null) {
-            // find the most right child in the left subtree
+            /**
+             * find the most right child in the left subtree
+             */
             TreeNode next = left;
             while (next.right != null) {
                 next = next.right;
             }
-            // reorder the left and right subtree
+            /**
+             * reorder the left and right subtree
+             */
             next.right = right;
             root.right = left;
             root.left = null;

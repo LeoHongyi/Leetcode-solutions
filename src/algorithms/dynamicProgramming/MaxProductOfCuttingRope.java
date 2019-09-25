@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class MaxProductOfCuttingRope {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -13,6 +11,7 @@ public class MaxProductOfCuttingRope {
  *  dp[i] = Math.max(array[i], j * Math.max(i - j, array[i - j]));
  *  Assumption: length >= 2
  */
+public class MaxProductOfCuttingRope {
     public int maxProduct(int length) {
         // Write your solution here
         if (length == 2) {

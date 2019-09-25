@@ -1,10 +1,10 @@
 package algorithms.binarySearch;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/15
+ */
 public class FirstOccurance {
-  /**
-   * @author Qihao He
-   * @date 09/24/2019
-   * https://app.laicode.io/app/problem/15
-   */
   public int firstOccur(int[] array, int target) {
     // Write your solution here
     if (array == null || array.length == 0) {

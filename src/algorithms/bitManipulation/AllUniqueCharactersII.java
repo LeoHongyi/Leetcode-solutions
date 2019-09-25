@@ -1,11 +1,10 @@
 package algorithms.bitManipulation;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/77
+ */
 public class AllUniqueCharactersII {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/77
-     */
     public boolean allUnique(String word) {
         // Write your solution here
         int[] bitVector = new int[8];

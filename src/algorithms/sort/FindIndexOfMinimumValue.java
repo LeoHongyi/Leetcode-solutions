@@ -1,11 +1,10 @@
 package algorithms.sort;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/546
+ */
 public class FindIndexOfMinimumValue {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/546
-     */
     public int minIndex(int[] array, int i) {
         // Write your solution here
         int minIndex = i;

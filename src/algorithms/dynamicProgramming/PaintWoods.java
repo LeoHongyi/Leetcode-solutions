@@ -1,25 +1,30 @@
 package algorithms.dynamicProgramming;
-// Q4 There are N pieces of wood, with their lengths (in meters) stored in Bords[N]. k painters are assigned to paint all these wood together.
-// For each piece of wood, it can only be painted by 1 and only 1 painter, and each painter can only paint contiguous woods.
-// Each painter can paint wood at the same speed, say 1 meter per minute.
-// How can we find an assignments such that the total time for painting the wood is minimized.   
-// return the minimum minutes to finish painting all the wood.
-// e.g.
-// k = 2
-// woods[N] = {3, 6,  |  5, 5}
-// return 10.
-// {3 | 6,5,5}      16
-// {3,6 |     5,5}  10
-// {3,6,5 | 5}      14
-                                      
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * Q4 There are N pieces of wood, with their lengths (in meters) stored in Bords[N]. k painters are assigned to paint all these wood together.
+ *  For each piece of wood, it can only be painted by 1 and only 1 painter, and each painter can only paint contiguous woods.
+ *  Each painter can paint wood at the same speed, say 1 meter per minute.
+ *  How can we find an assignments such that the total time for painting the wood is minimized.
+ *  return the minimum minutes to finish painting all the wood.
+ *  e.g.
+ *  k = 2
+ *  woods[N] = {3, 6,  |  5, 5}
+ *  return 10.
+ *  {3 | 6,5,5}      16
+ *  {3,6 |     5,5}  10
+ *  {3,6,5 | 5}      14
+ *
+ *
+ *  左大段  +  右小段
+ *
+ *  definition:
+ *  dp[i][j] = i个工人paint前j个wood，minimum minutes to finish.
+ *  induction rule:
+ *  dp[i][j] =  min(max(dp[i-1][k],  subarray_sum[k+1, j])   for k 0 → j -1)
+ *  base case
+ */
 
-// 左大段  +  右小段
-
-// definition:
-// dp[i][j] = i个工人paint前j个wood，minimum minutes to finish.
-// induction rule:
-// dp[i][j] =  min(max(dp[i-1][k],  subarray_sum[k+1, j])   for k 0 → j -1)
-// base case
 public class PaintWoods {
 	public int paint(int[] board, int k) {
 		int length = board.length;

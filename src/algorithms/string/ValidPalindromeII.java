@@ -1,5 +1,8 @@
 package algorithms.string;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ */
 public class ValidPalindromeII {
     public boolean validPalindrome(String input) {
         // Write your solution here
@@ -26,7 +29,9 @@ public class ValidPalindromeII {
                 left++;
                 count--;
                 continue;
-            } else return left + 1 == right;
+            } else {
+                return left + 1 == right;
+            }
         }
         return true;
     }

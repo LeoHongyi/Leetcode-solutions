@@ -16,7 +16,6 @@ import java.util.HashSet;
  */
 public class CommonNumbersOfTwoArrays {
 	public List<Integer> common(List<Integer> a, List<Integer> b) {
-		// Write your solution here
 		// the smaller one is a, bigger one is b
 		Set<Integer> set = new HashSet<>();
 		if (a.size() > b.size()) {
@@ -36,8 +35,9 @@ public class CommonNumbersOfTwoArrays {
 		result = sort(result);
 		return result;
 	}
-	// quick sort the input
+
 	private List<Integer> sort(List<Integer> input) {
+		// quick sort the input
 		if (input == null || input.size() <= 1) {
 			return input;
 		}

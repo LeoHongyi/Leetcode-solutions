@@ -1,14 +1,13 @@
 package algorithms.sort;
-
+/**
+ * @author: Qihao He
+ * @date 06/21/2019
+ * https://app.laicode.io/app/problem/258
+ * Method: rainbow sort
+ * time: O(n)
+ * space O(1)
+ */
 public class Move0sToTheEndI {
-    /**
-     * @author: Qihao He
-     * @date 06/21/2019
-     * https://app.laicode.io/app/problem/258
-     * Method: rainbow sort
-     * time: O(n)
-     * space O(1)
-     */
     public int[] moveZero(int[] array) {
         // Write your solution here
         if (array == null || array.length <= 1) {

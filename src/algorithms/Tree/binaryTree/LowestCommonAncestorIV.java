@@ -1,9 +1,6 @@
 package algorithms.tree.binaryTree;
 
-import java.util.Iterator;
 import java.util.List;
-
-public class LowestCommonAncestorIV {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -23,6 +20,7 @@ public class LowestCommonAncestorIV {
  *   }
  * }
  */
+public class LowestCommonAncestorIV {
 	public TreeNode lowestCommonAncestor(TreeNode root, List<TreeNode> nodes) {
 		// Write your solution here.
 		// base case and corner case

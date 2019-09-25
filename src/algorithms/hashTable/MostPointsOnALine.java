@@ -1,6 +1,22 @@
 package algorithms.hashTable;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ *  Method:
+ *  HashMap key = <k, b>, value = a hashSet of points that are on this line
+ *  for for P1, P2, compute the fomula of the line that passes P1 and P2
+ *  ax + by + c = 0
+ *  hashMap[<k, b>].add(P1)
+ *  hashMap[<k, b>].add(P2)
+ */
 
-/*
+import algorithms.graph.Point;
+
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+/**
  * class Point {
  *   public int x;
  *   public int y;
@@ -10,14 +26,6 @@ package algorithms.hashTable;
  *   }
  * }
  */
-/**
- Method:
- HashMap key = <k, b>, value = a hashSet of points that are on this line
- for for P1, P2, compute the fomula of the line that passes P1 and P2
- ax + by + c = 0
- hashMap[<k, b>].add(P1)
- hashMap[<k, b>].add(P2)
- **/
 public class MostPointsOnALine {
 	public int most(Point[] points) {
 		// Write your solution here.
@@ -62,4 +70,5 @@ public class MostPointsOnALine {
 			this.c = c;
 		}
 	}
+
 }

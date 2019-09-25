@@ -1,11 +1,10 @@
 package algorithms.string;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/85
+ */
 public class DetermineIfOneStringIsAnothersSubString {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/85
-     */
     public int strstr(String large, String small) {
         // Write your solution here
         if (large.length() < small.length()) {
