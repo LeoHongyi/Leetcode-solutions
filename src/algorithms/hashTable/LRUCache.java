@@ -42,11 +42,11 @@ public class LRUCache<K, V> {
 
     public void set(K key, V value) {
         CacheNode<K, V> cacheNode = null;
-        /**
-         *  1. if the key already in the cache, we need to update its value
-         *  and move it to head(most recent position).
-         */
         if (map.containsKey(key)) {
+            /**
+             *  1. if the key already in the cache, we need to update its value
+             *  and move it to head(most recent position).
+             */
             cacheNode = map.get(key);
             cacheNode.value = value;
             remove(cacheNode);
