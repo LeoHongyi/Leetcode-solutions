@@ -1,10 +1,11 @@
 package algorithms.tree.binarySearchTree;
 
+import algorithms.tree.binaryTree.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
-
-public class GetKeysInBinarySearchTreeInGivenRange {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -22,6 +23,7 @@ public class GetKeysInBinarySearchTreeInGivenRange {
  *   }
  * }
  */
+public class GetKeysInBinarySearchTreeInGivenRange {
     public List<Integer> getRange(TreeNode root, int min, int max) {
         // Write your solution here
         List<Integer> solu = new ArrayList<>();

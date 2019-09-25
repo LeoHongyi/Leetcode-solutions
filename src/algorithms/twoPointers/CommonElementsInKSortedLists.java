@@ -1,5 +1,6 @@
 package algorithms.twoPointers;
 
+import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Qihao He
@@ -9,5 +10,6 @@ import java.util.List;
 public class CommonElementsInKSortedLists {
     public List<Integer> commonElementsInKSortedArrays(List<List<Integer>> input) {
         // Write your solution here
+        return new ArrayList<Integer>();
     }
 }

@@ -10,7 +10,7 @@ public class ReservoirSampling {
     private int count;
     // only need to maintain the current sample.
     private Integer sample;
-    public Solution() {
+    public ReservoirSampling() {
         // Write your constructor code here if necessary.
         this.count = 0;
         this.sample = null;

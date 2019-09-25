@@ -1,5 +1,7 @@
 package algorithms.recursion;
 
+import algorithms.tree.binaryTree.TreeNodeLeft;
+
 public class StoreNumberOfNodesInLeftSubtree {
 /**
  * @author Qihao He

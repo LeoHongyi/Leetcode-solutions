@@ -11,7 +11,7 @@ public class MedianTracker {
      */
     private PriorityQueue<Integer> smallerHalf;
     private PriorityQueue<Integer> largerHalf;
-    public Solution() {
+    public MedianTracker() {
         // add new fields and complete the constructor if necessary.
         smallerHalf = new PriorityQueue<>(11, Collections.reverseOrder());
         largerHalf = new PriorityQueue<>();

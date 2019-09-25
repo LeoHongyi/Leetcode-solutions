@@ -17,5 +17,6 @@ package algorithms.tree.knaryTree;
 public class LowestCommonAncestorV {
     public KnaryTreeNode lowestCommonAncestor(KnaryTreeNode root, KnaryTreeNode a, KnaryTreeNode b) {
         // Write your solution here
+        return new KnaryTreeNode(0);
     }
 }

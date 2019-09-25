@@ -1,5 +1,6 @@
 package algorithms.hashTable;
 
+import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Qihao He
@@ -9,5 +10,6 @@ import java.util.List;
 public class MajorityNumberII {
     public List<Integer> majority(int[] array) {
         // Write your solution here
+        return new ArrayList<Integer>();
     }
 }

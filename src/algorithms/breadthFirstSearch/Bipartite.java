@@ -1,5 +1,12 @@
 package algorithms.breadthFirstSearch;
 
+import algorithms.graph.GraphNode;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public class Bipartite {
 /**
  * @author Qihao He

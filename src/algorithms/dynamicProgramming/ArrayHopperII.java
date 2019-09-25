@@ -1,6 +1,4 @@
 package algorithms.dynamicProgramming;
-
-public class ArrayHopperII {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -8,7 +6,7 @@ public class ArrayHopperII {
  * Method: DP, from right to left
  *  dp[i] represent the minimum steps to reach to the end.
  */
-public class Solution {
+public class ArrayHopperII {
     public int minJump(int[] array) {
         // Write your solution here
         if (array.length == 1) {

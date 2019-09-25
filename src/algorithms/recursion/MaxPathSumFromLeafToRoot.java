@@ -5,6 +5,8 @@ package algorithms.recursion;
  * https://app.laicode.io/app/problem/639
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;
@@ -18,5 +20,6 @@ package algorithms.recursion;
 public class MaxPathSumFromLeafToRoot {
     public int maxPathSumLeafToRoot(TreeNode root) {
         // Write your solution here
+        return 0;
     }
 }

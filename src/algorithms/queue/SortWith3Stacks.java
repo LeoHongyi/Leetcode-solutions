@@ -5,14 +5,14 @@ public class SortWith3Stacks {
 	private static LinkedList<Integer> s2;
 	private static LinkedList<Integer> s3;
 
-	public static class ListNode {
+	/*public class ListNode {
 		public int value;
 		public SortWith3Stacks.ListNode next;
 		public ListNode(int value) {
 			this.value = value;
 			next = null;
 		}
-	}
+	}*/
 	public void sort(LinkedList<Integer> s1) {
 		LinkedList<Integer> s2 = new LinkedList<Integer>();
 		LinkedList<Integer> s3 = new LinkedList<Integer>();

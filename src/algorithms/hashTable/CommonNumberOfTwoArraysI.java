@@ -1,5 +1,6 @@
 package algorithms.hashTable;
 
+import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Qihao He
@@ -10,6 +11,8 @@ public class CommonNumberOfTwoArraysI {
     public class Solution {
         public List<Integer> common(int[] a, int[] b) {
             // Write your solution here
+            return new ArrayList<Integer>();
         }
     }
+}
 

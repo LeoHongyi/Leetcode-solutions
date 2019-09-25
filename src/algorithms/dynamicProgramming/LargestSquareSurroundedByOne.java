@@ -7,5 +7,6 @@ package algorithms.dynamicProgramming;
 public class LargestSquareSurroundedByOne {
     public int largestSquareSurroundedByOne(int[][] matrix) {
         // Write your solution here
+        return 0;
     }
 }

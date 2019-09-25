@@ -1,4 +1,8 @@
 package algorithms.hashTable;
+import algorithms.linkedList.RandomListNode;
+
+import java.util.HashMap;
+import java.util.Map;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -15,7 +19,6 @@ package algorithms.hashTable;
  * }
  */
 public class DeepCopyLinkedListWithRandomPointer {
-
     public RandomListNode copy(RandomListNode head) {
         // Write your solution here.
         if (head == null) {

@@ -8,6 +8,7 @@ import java.util.Set;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/180
+ * https://leetcode.com/problems/two-sum/
  * Assumptions: the given array is not null and has length of at least 2
  */
 public class TwoSum {

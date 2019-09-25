@@ -1,5 +1,10 @@
 package algorithms.breadthFirstSearch;
 
+import algorithms.tree.binaryTree.TreeNode;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class CheckIfBinaryTreeIsCompleted {
 /**
  * @author Qihao He

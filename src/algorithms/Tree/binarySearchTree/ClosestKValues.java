@@ -1,6 +1,10 @@
 package algorithms.tree.binarySearchTree;
 import algorithms.tree.binaryTree.TreeNode;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
+
 /**
  Assumption: root is not null, no duplicate keys in the BST.
  Method 2: iterative in order traverse tree

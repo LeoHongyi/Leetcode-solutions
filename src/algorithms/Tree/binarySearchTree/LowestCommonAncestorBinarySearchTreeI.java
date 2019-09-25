@@ -1,6 +1,6 @@
 package algorithms.tree.binarySearchTree;
 
-public class LowestCommonAncestorBinarySearchTreeI {
+import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -16,6 +16,7 @@ public class LowestCommonAncestorBinarySearchTreeI {
  *   }
  * }
  */
+public class LowestCommonAncestorBinarySearchTreeI {
     public TreeNode lca(TreeNode root, int p, int q) {
         //know p, q which one is smaller
         if (q < p) {

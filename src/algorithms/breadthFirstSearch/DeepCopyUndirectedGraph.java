@@ -8,6 +8,13 @@ package algorithms.breadthFirstSearch;
  *  and leave all other copies of the successors to the recursion functions.
  */
 
+import algorithms.graph.GraphNode;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * class GraphNode {
  *   public int key;

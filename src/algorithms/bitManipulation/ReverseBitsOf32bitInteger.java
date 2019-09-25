@@ -8,5 +8,6 @@ public class ReverseBitsOf32bitInteger {
      */
     public long reverseBits(long n) {
         // Write your solution here
+        return 0;
     }
 }

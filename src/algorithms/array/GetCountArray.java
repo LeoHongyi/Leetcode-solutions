@@ -7,5 +7,6 @@ package algorithms.array;
 public class GetCountArray {
     public int[] countArray(int[] array) {
         // Write your solution here
+        return new int[0];
     }
 }

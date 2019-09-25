@@ -1,4 +1,7 @@
 package algorithms.tree.binarySearchTree;
+
+
+import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -16,8 +19,6 @@ package algorithms.tree.binarySearchTree;
  * }
  */
 public class LargestNumberSmallerInBinarySearchTree {
-
-
     public int largestSmaller(TreeNode root, int target) {
         // Write your solution here
         int[] max = new int[]{Integer.MIN_VALUE};

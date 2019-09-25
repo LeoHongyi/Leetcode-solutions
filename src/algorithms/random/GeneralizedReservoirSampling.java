@@ -13,7 +13,7 @@ public class GeneralizedReservoirSampling {
     private int count;
     private List<Integer> sample;
 
-    public Solution(int k) {
+    public GeneralizedReservoirSampling(int k) {
         // Complete the constructor if necessary.
         if (k <= 0) {
             throw new IllegalArgumentException("k must be > 0");

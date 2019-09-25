@@ -1,4 +1,8 @@
 package algorithms.heap;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 /**
  * @author Qihao He
  * @date 09/24/2019

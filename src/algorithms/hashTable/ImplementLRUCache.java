@@ -1,4 +1,8 @@
 package algorithms.hashTable;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -40,7 +44,7 @@ public class ImplementLRUCache<K, V> {
     // in the double linked list.
     private Map<K, Node<K, V>> map;
 
-    public Solution(int limit) {
+    public ImplementLRUCache(int limit) {
         this.limit = limit;
         this.map = new HashMap<K, Node<K, V>>();
     }

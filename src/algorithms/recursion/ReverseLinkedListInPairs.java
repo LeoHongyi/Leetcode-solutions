@@ -1,5 +1,7 @@
 package algorithms.recursion;
 
+import algorithms.linkedList.ListNode;
+
 public class ReverseLinkedListInPairs {
 /**
  * @author Qihao He

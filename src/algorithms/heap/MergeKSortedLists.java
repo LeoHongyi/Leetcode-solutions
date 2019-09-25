@@ -5,6 +5,13 @@ package algorithms.heap;
  * https://app.laicode.io/app/problem/134
  * Assumptions: listOfLists is not null, none of the lists is null.
  */
+
+import algorithms.linkedList.ListNode;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
+
 /**
  * class ListNode {
  *   public int value;
@@ -16,8 +23,6 @@ package algorithms.heap;
  * }
  */
 public class MergeKSortedLists {
-
-public class Solution {
     public ListNode merge(List<ListNode> listOfLists) {
         // Write your solution here/.
         PriorityQueue<ListNode> minHeap = new PriorityQueue<ListNode>(11, new MyComparator());
@@ -37,13 +42,14 @@ public class Solution {
         }
         return dummy.next;
     }
-    static class MyComparator implements Comparator<ListNode> {
-        @Override
-        public int compare(ListNode o1, ListNode o2) {
-            if (o1.value == o2.value) {
-                return 0;
-            }
-            return o1.value < o2.value ? -1 : 1;
+
+}
+class MyComparator implements Comparator<ListNode> {
+    @Override
+    public int compare(ListNode o1, ListNode o2) {
+        if (o1.value == o2.value) {
+            return 0;
         }
+        return o1.value < o2.value ? -1 : 1;
     }
 }

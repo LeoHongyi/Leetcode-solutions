@@ -1,4 +1,6 @@
 package algorithms.recursion;
+
+import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -10,7 +12,6 @@ package algorithms.recursion;
  *  dp[i] = if dp[i - 1] >= 0, then dp[i - 1] + input[i]
  *  else input[i]
  */
-
 /**
  * public class TreeNode {
  *   public int key;

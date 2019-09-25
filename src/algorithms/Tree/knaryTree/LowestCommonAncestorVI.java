@@ -4,6 +4,9 @@ package algorithms.tree.knaryTree;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/648
  */
+
+import java.util.List;
+
 /**
  * public class KnaryTreeNode {
  *     int key;
@@ -17,5 +20,6 @@ package algorithms.tree.knaryTree;
 public class LowestCommonAncestorVI {
     public KnaryTreeNode lowestCommonAncestor(KnaryTreeNode root, List<KnaryTreeNode> nodes) {
         // Write your solution here
+        return new KnaryTreeNode(0);
     }
 }

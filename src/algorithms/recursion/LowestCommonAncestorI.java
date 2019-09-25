@@ -1,6 +1,6 @@
 package algorithms.recursion;
 
-public class LowestCommonAncestorI {
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * @author Qihao He
@@ -17,6 +17,7 @@ public class LowestCommonAncestorI {
  *   }
  * }
  */
+public class LowestCommonAncestorI {
     public TreeNode lowestCommonAncestor(TreeNode root,
                                          TreeNode one, TreeNode two) {
         // Write your solution here.

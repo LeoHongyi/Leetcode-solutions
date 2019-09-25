@@ -1,5 +1,6 @@
 package algorithms.depthFirstSearch;
 
+import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Qihao He
@@ -9,5 +10,6 @@ import java.util.List;
 public class AllPermutationsOfSubsets {
     public List<String> allPermutationsOfSubsets(String set) {
         // Write your solution here
+        return new ArrayList<String>();
     }
 }

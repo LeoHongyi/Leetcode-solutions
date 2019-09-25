@@ -1,5 +1,6 @@
 package algorithms.hashTable;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
@@ -33,7 +34,7 @@ public class FirstNonRepeatingCharactorInStream {
     private Map<Character, Node> singled;
     private Set<Character> repeated;
 
-    public Solution() {
+    public FirstNonRepeatingCharactorInStream() {
         // Initialize the class.
         // an example of using sentinel node to eliminate some corner cases.
         tail = new Node(null);

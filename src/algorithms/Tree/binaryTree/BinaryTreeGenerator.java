@@ -1,14 +1,5 @@
 package algorithms.tree.binaryTree;
 
-public static class TreeNode {
-	public int key;
-	public TreeNode left;
-	public TreeNode right;
-
-	public TreeNode(int key) {
-		this.key = key;
-	}
-}
 /**
  * Assumption: input List<algorithms.string> should be in Breadth First Search Order
  * # in the List<algorithms.string> should be consider as null.

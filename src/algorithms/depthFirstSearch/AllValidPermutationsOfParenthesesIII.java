@@ -1,5 +1,6 @@
 package algorithms.depthFirstSearch;
 
+import java.util.ArrayList;
 import java.util.List;
 /**
  * @author Qihao He
@@ -9,5 +10,6 @@ import java.util.List;
 public class AllValidPermutationsOfParenthesesIII {
     public List<String> validParenthesesIII(int l, int m, int n) {
         // Write your solution here
+        return new ArrayList<String>();
     }
 }

@@ -7,5 +7,6 @@ package algorithms.dynamicProgramming;
 public class LargestSquareOfMatches {
     public int largestSquareOfMatches(int[][] matrix) {
         // Write your solution here
+        return 0;
     }
 }
