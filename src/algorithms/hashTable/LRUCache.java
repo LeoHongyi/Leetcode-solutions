@@ -70,50 +70,50 @@ public class LRUCache<K, V> {
     }
 
     public V get(K key) {
-        CacheNode<K, V> Cachenode = map.get(key);
-        if (Cachenode == null) {
+        CacheNode<K, V> cacheNode = map.get(key);
+        if (cacheNode == null) {
             return null;
         }
         /**
          *  even it is a read operation, it is still a write operation to
          *  the double linked list, and we need to move the Cachenode to head.
          */
-        remove(Cachenode);
-        append(Cachenode);
-        return Cachenode.value;
+        remove(cacheNode);
+        append(cacheNode);
+        return cacheNode.value;
     }
 
-    private CacheNode<K, V> remove(CacheNode<K, V> Cachenode) {
-        map.remove(Cachenode.key);
-        if (Cachenode.prev != null) {
-            Cachenode.prev.next = Cachenode.next;
+    private CacheNode<K, V> remove(CacheNode<K, V> cacheNode) {
+        map.remove(cacheNode.key);
+        if (cacheNode.prev != null) {
+            cacheNode.prev.next = cacheNode.next;
         }
-        if (Cachenode.next != null) {
-            Cachenode.next.prev = Cachenode.prev;
+        if (cacheNode.next != null) {
+            cacheNode.next.prev = cacheNode.prev;
         }
-        if (Cachenode == head) {
+        if (cacheNode == head) {
             head = head.next;
         }
-        if (Cachenode == tail) {
+        if (cacheNode == tail) {
             tail = tail.prev;
         }
         /**
          *  break apart the curr Cachenode
          */
-        Cachenode.next = Cachenode.prev = null;
-        return Cachenode;
+        cacheNode.next = cacheNode.prev = null;
+        return cacheNode;
     }
 
-    private CacheNode<K, V> append(CacheNode<K, V> Cachenode) {
-        map.put(Cachenode.key, Cachenode);
+    private CacheNode<K, V> append(CacheNode<K, V> cacheNode) {
+        map.put(cacheNode.key, cacheNode);
         if (head == null) {
-            head = tail = Cachenode;
+            head = tail = cacheNode;
         } else {
-            Cachenode.next = head;
-            head.prev = Cachenode;
-            head = Cachenode;
+            cacheNode.next = head;
+            head.prev = cacheNode;
+            head = cacheNode;
         }
-        return Cachenode;
+        return cacheNode;
     }
 
     static class CacheNode<K, V> {
