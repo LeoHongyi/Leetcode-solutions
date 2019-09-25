@@ -1,21 +1,21 @@
 package algorithms.sort;
-
+/**
+ * @author: Qihao He
+ * @date: 09/23/2019
+ * https://app.laicode.io/app/problem/399
+ * Method 1: 4 pointers, 2 at left, 2 at right, move towards center
+ * time: O(n)
+ * space: O(1)
+ *      i     j   k    l
+ * 0000 1111  xxxxx 2222 33333
+ * Method 2: 2 pointers, move at the same directions to the right
+ *           s     f
+ *0000 1111  23232 xxxxxxx
+ * time: O(n)
+ * space: O(1)
+ */
 public class RainbowSortII {
-	/**
-	 * @author: Qihao He
-	 * @date: 09/23/2019
-	 * https://app.laicode.io/app/problem/399
-	 * Method 1: 4 pointers, 2 at left, 2 at right, move towards center
-	 * time: O(n)
-	 * space: O(1)
-	 *      i     j   k    l
-	 * 0000 1111  xxxxx 2222 33333
-	 * Method 2: 2 pointers, move at the same directions to the right
-	 *           s     f
-	 *0000 1111  23232 xxxxxxx
-	 * time: O(n)
-	 * space: O(1)
-	 */
+
 	public int[] rainbowSortII(int[] array) {
 		// Write your solution here
 		if (array.length <= 1) {

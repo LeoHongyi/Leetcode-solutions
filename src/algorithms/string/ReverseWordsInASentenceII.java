@@ -1,12 +1,14 @@
 package algorithms.string;
-
 /**
- problem type: reverse string, deduplicate space
- Method: slow, fast pointer
- [0, index - 1]: are the result to return
- [start, i]: are the word to reverse, deduplicate space, and then copy to result
- [i, array.length - 1] unknown part needs to process
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/383
+ * problem type: reverse string, deduplicate space
+ *  Method: slow, fast pointer
+ *  [0, index - 1]: are the result to return
+ *  [start, i]: are the word to reverse, deduplicate space, and then copy to result
+ *  [i, array.length - 1] unknown part needs to process
+ */
 public class ReverseWordsInASentenceII {
     public String reverseWords(String input) {
         // Write your solution here

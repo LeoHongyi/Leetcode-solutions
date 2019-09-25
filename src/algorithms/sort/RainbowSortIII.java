@@ -1,18 +1,16 @@
 package algorithms.sort;
-
+/**
+ * @author: Qihao He
+ * @date: 09/23/2019
+ * https://app.laicode.io/app/problem/400
+ * Method: 2 pointers, move at the same directions to the right
+ *           s     f
+ *0000 1111  23232 xxxxxxx
+ * worst: time: O(kn), space: O(1)
+ * average: time O(2n), space O(1)
+ */
 public class RainbowSortIII {
-	/**
-	 * @author: Qihao He
-	 * @date: 09/23/2019
-	 * https://app.laicode.io/app/problem/400
-	 * Method: 2 pointers, move at the same directions to the right
-	 *           s     f
-	 *0000 1111  23232 xxxxxxx
-	 * worst: time: O(kn), space: O(1)
-	 * average: time O(2n), space O(1)
-	 */
 	public int[] rainbowSortIII(int[] array, int k) {
-
 		if (array.length <= 1) {
 			return array;
 		}

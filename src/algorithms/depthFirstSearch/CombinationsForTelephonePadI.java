@@ -2,8 +2,11 @@ package algorithms.depthFirstSearch;
 import java.util.List;
 import java.util.ArrayList;
 /**
- Method: algorithms.depthFirstSearch
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/272
+ * Method: DFS
+ */
 public class CombinationsForTelephonePadI {
 	public String[] combinations(int number) {
 		// Write your solution here

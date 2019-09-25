@@ -1,8 +1,11 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/161
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/161
+ */
 public class SquareRootI {
     public int sqrt(int x) {
-        // Write your solution here
         if (x == 0) {
             return  0;
         }

@@ -1,16 +1,15 @@
 package algorithms.sort;
 
 import java.util.Arrays;
-
+/**
+ * @author: Qihao He
+ * @date 06/23/2019
+ * https://app.laicode.io/app/problem/261
+ * Method: Rainbow sort
+ * worst: time: O(n^2), space O(n)
+ * average: time: O(n^2), space O(logn)
+ */
 public class SortInSpecifiedOrder {
-    /**
-     * @author: Qihao He
-     * @date 06/23/2019
-     * https://app.laicode.io/app/problem/261
-     * Method: Rainbow sort
-     * worst: time: O(n^2), space O(n)
-     * average: time: O(n^2), space O(logn)
-     */
     public int[] sortSpecial(int[] A1, int[] A2) {
         Arrays.sort(A1);
         int slow = 0;

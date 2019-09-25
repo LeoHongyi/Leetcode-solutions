@@ -1,17 +1,23 @@
 package algorithms.tree.binaryTree;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/128
+ */
+/**
+ * public class TreeNode {
+ *   public int key;
+ *   public TreeNode left;
+ *   public TreeNode right;
+ *   public TreeNode(int key) {
+ *     this.key = key;
+ *   }
+ * }
+ */
 
 public class LowestCommonAncestorIII {
-	public static class TreeNode {
-		public int key;
-		public TreeNode left;
-		public TreeNode right;
-
-		public TreeNode(int key) {
-			this.key = key;
-		}
-	}
-	public static TreeNode lowestCommonAncestor(TreeNode root,
-																			 TreeNode one, TreeNode two) {
+	public TreeNode lowestCommonAncestor(TreeNode root,
+										 TreeNode one, TreeNode two) {
 		// write your solution here
 		//do LCA if both TreeNode in the tree
 		if (checkExist(root, one) != null && checkExist(root, two) != null) {
@@ -20,14 +26,13 @@ public class LowestCommonAncestorIII {
 			return null;
 		}
 	}
-
 	private static TreeNode LCA(TreeNode root, TreeNode one, TreeNode two) {
 		if (root == null || root == one || root == two) {
 			return root;
 		}
 		TreeNode left = LCA(root.left, one, two);
 		TreeNode right = LCA(root.right, one, two);
-		if (left == null && right == null) {
+		if(left == null && right == null) {
 			return null;
 		} else if (left == null || right == null) {
 			return left == null ? right : left;
@@ -35,7 +40,6 @@ public class LowestCommonAncestorIII {
 			return root;
 		}
 	}
-
 	private static TreeNode checkExist(TreeNode root, TreeNode one) {
 		if (root == null || root == one) {
 			return root;

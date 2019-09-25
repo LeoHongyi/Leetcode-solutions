@@ -1,12 +1,11 @@
 package algorithms.string;
 import java.util.ArrayList;
-
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/172
+ */
 public class StringReplace {
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/649
-     */
 //Method 1: Not using any algorithms.string/StringBuilder utility, and using char[] to do it "in place".
     public String replace(String input, String source, String target) {
         // Write your solution here

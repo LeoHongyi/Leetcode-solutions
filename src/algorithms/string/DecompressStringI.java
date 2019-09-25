@@ -1,11 +1,13 @@
 package algorithms.string;
-
 /**
- Decompress algorithms.string, in this form, algorithms.string is extend
- Method: slow and fast pointer
- slow: [slow - 1, end] are the letters to return
- fast: [fast - 1, end] are the letters that processed
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/174
+ * Decompress algorithms.string, in this form, algorithms.string is extend
+ *  Method: slow and fast pointer
+ *  slow: [slow - 1, end] are the letters to return
+ *  fast: [fast - 1, end] are the letters that processed
+ */
 public class DecompressStringI {
     public String decompress(String input) {
         // Write your solution here

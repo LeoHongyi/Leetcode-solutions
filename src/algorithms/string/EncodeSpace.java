@@ -6,9 +6,6 @@ package algorithms.string;
  * algorithms.string replace " " with "20%" that get longer
  *  Method: slow, fast pointer from right to left because the extension
  */
-/**
-
- **/
 public class EncodeSpace {
     public String encode(String input) {
         // Write your solution here

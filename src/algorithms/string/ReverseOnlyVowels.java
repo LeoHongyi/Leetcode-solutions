@@ -1,7 +1,10 @@
 package algorithms.string;
 /**
- Method: slow, fast pointer, interative
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/348
+ * Method: slow, fast pointer, interative
+ */
 public class ReverseOnlyVowels {
     public String reverse(String input) {
         // Write your solution here
