@@ -2,208 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TreeNodeP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/graph/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tree/binaryTree/CheckCousinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/ClosestKValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/ClosestKValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/DeleteInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/DeleteInBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/DistanceBetweenTwoNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/DistanceBetweenTwoNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/GetRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/GetRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/LargestNumberSmallerInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/LargestNumberSmallerInBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/BinaryTreeDiameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/BinaryTreeDiameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/BinaryTreeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/BinaryTreeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CheckCousin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CheckCousin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CheckCousinTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CheckIfBinaryTreeIsBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CheckIfBinaryTreeIsBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/ConnectRightPointerToSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/ConnectRightPointerToSuccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CountNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CountNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CountNodeOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CountNodeOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CousinsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/CousinsInBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/GetPostOrderSequenceByPreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/GetPostOrderSequenceByPreIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/InOrderTraversalOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/InOrderTraversalOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/IsBinarySearchTreeOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/IsBinarySearchTreeOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LongestAscendingPathBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LongestAscendingPathBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TreeNodeLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TreeNodeLeft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/knaryTree/KnaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/knaryTree/KnaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/array/Move0sToTheEndII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthSmallestNumberInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthSmallestNumberInSortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/ClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/ClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/DivideTwoIntegersWithRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/DivideTwoIntegersWithRestrictions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/FindLocalMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FindLocalMinimum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/FindTheKthElementInTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FindTheKthElementInTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/FirstOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/FirstOccurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/IntersectionOfTwoArraysII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/KClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/KClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/LastOccurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/LastOccurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/MissingNumberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/MissingNumberII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBitonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBitonicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInSortedMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInUnknownSizedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInUnknownSizedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SmallestElementLargerThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SmallestElementLargerThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/binarySearch/SmallestRectangleEnclosingBlackPixels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/binarySearch/SmallestRectangleEnclosingBlackPixels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bitManipulation/AllUniqueCharactersII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/AllUniqueCharactersII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bitManipulation/HexadecimalRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/HexadecimalRepresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bitManipulation/NumberOfDifferentBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/NumberOfDifferentBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bitManipulation/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/PowerOfTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/bitManipulation/ReverseBitsOf32bitInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/ReverseBitsOf32bitInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/Bipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/Bipartite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/CheckIfBinaryTreeIsCompleted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/CheckIfBinaryTreeIsCompleted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/DeepCopyUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/DeepCopyUndirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayerZigZagOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayerZigZagOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/PlaceChairI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/SortedSumOfTwoSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/SortedSumOfTwoSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllPermutationsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllPermutationsI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllPermutationsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllPermutationsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllSubsetsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllSubsetsI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllValidPermutationsOfParenthesesI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllValidPermutationsOfParenthesesI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/CombinationsOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/CombinationsOfCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/Decode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/FormRingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/depthFirstSearch/FormRingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PalindromePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PalindromePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PrintPossibleBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/PrintPossibleBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/StringAddToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/StringAddToTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/ArrayHopperI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/ArrayHopperI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/ClimbingStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/CutNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/CutNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/CutNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/dynamicProgramming/CutNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/DictionaryWordI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/DictionaryWordI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/FibonacciNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestRectangleOf1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestRectangleOf1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSetOfPointsWithPositiveSlope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSetOfPointsWithPositiveSlope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSquareOf1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSquareOf1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrayProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrayProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestXOf1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestXOf1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestAscendingSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestAscendingSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestAscendingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestAscendingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestConsecutiveIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestConsecutiveIs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestCrossOf1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestCrossOf1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/MaxProductOfCuttingRope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/MaxProductOfCuttingRope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/PaintWoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/PaintWoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/graph/GraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/graph/GraphNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/CommonNumbersOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/MostPointsOnALine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/MostPointsOnALine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/TopKFrequentWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/heap/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/heap/KSmallestInUnsortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/heap/KSmallestInUnsortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/heap/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/heap/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/interviewedTasks/CellCompete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/amazonMock/CellCompete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/interviewedTasks/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/amazonMock/GreatestCommonDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/CheckIfLinkedListHasACycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/CheckIfLinkedListHasACycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/CheckIfLinkedListIsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/CheckIfLinkedListIsPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/CountNodesInALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/CountNodesInALinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/CycleNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/CycleNodeInLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/FindMiddleNodeOfALinedListEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/FindMiddleNodeOfALinedListEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/FindMiddleNodeOfALinkedListEvenSecondOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/FindMiddleNodeOfALinkedListEvenSecondOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/FindMiddleNodeOfALinkedListOddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/FindMiddleNodeOfALinkedListOddNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/GenerateLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/GenerateLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/InsertANodeInASortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/InsertANodeInASortedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/InsertANodeToTheTailOfALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/InsertANodeToTheTailOfALinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/InsertInSortedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/InsertInSortedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/LinkedListInsertAtIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/LinkedListInsertAtIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/MergeSortLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/MergeTwoSortedLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/MiddleNodeOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/MiddleNodeOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/NumberOfNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/NumberOfNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/PartitionLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/PartitionLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/QuickSortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/QuickSortLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/RandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/RandomListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/ReOrderLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/ReOrderLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/RemoveLinkedListElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/RemoveLinkedListElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/SelectionSortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedlist/SelectionSortLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/priorityQueue/KthSmallestNumberInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/priorityQueue/KthSmallestNumberInSortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/MaximumNumberInAQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/SortWith3Stacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/SortWith3Stacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/StackWithMin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/StackWithMinPairSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/StackWithMinPairSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/SumOfNumbersInAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/queue/SumOfNumbersInAStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/queue/stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/GeneralizedReservoirSampling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/GeneralizedReservoirSampling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/MedianTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/MedianTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/Percentile95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/Percentile95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/PerfectShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/PerfectShuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/Random100UsingRandom5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/Random100UsingRandom5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/Random7UsingRandom5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/Random7UsingRandom5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/RandomFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/RandomFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/random/ReservoirSampling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/random/ReservoirSampling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/BinaryTreePathSumToTargetIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/BinaryTreePathSumToTargetIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/CalculateFactorialOfN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/CalculateFactorialOfN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/FibonacciNumberLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/FibonacciNumberLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/LowestCommonAncestorI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/LowestCommonAncestorI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/MaximumPathSumBinaryTreeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/MaximumPathSumBinaryTreeII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/ReverseLinkedListInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/ReverseLinkedListInPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/SpiralOrderTraverseI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/SpiralOrderTraverseI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/SpiralOrderTraverseII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/SpiralOrderTraverseII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/StoreNumberOfNodesInLeftSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/StoreNumberOfNodesInLeftSubtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/StringAbbreviationMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/StringAbbreviationMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/BoundedRandomNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/BoundedRandomNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/FindIndexOfMinimumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/FindIndexOfMinimumValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/FirstOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/FirstOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/LastOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/LastOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/MergeTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MergeTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/Move0sToTheEndII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/MoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MoveZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/MoveZeroII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/MoveZeroII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/Partition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/RainbowSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/RainbowSortII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/SearchInSortedMatrixI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/SearchInSortedMatrixI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sort/SortWithThreeStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sort/SortWithThreeStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/stack/ShuffleStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stack/ShuffleStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/stack/StackWithMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stack/StackWithMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/stack/SumOfNumbersInAStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stack/SumOfNumbersInAStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/stream/JavaStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/AllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/AllAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/CompressStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/CompressStringII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/DecompressStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/DecompressStringII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/DetermineIfOneStringIsAnothersSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/DetermineIfOneStringIsAnothersSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/LargestProductOfLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/LargestProductOfLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ReOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReOrderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RemoveCertainCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveCertainCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RemoveSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RemoveSpaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ReverseWordsInASentenceI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReverseWordsInASentenceI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/RightShiftByNCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/RightShiftByNCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/StringReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/StringReplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ValidPalindromeII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/TrieNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/trie/TrieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/trie/TrieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/WordSearchII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -242,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/tree/knaryTree/LowestCommonAncestorVI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="285">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -251,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/trie/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -260,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/trie/TrieNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="75">
               <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -272,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/algorithms/trie/TrieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="60">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -281,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/CommonElementsInKSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="120">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -290,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/CommonElementsInThreeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="180">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
@@ -299,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/MaxWaterTrapperI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="8" column="31" selection-end-line="32" />
+            <state relative-caret-position="360">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -406,268 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-              <item name="sorting" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="bitManipulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="breadthFirstSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="depthFirstSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-              <item name="MergeKSortedLists.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewedTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="priorityQueue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearchTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="knaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="trie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="twoPointers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="depthFirstSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="trie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -719,6 +256,44 @@
               <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="sorting" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -950,7 +525,8 @@
       <workItem from="1569201941613" duration="10668000" />
       <workItem from="1569262241779" duration="8006000" />
       <workItem from="1569299564776" duration="3151000" />
-      <workItem from="1569343283752" duration="37412000" />
+      <workItem from="1569343283752" duration="37469000" />
+      <workItem from="1569396881172" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -995,7 +571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188737000" />
+    <option name="totallyTimeSpent" value="189103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1010,7 +586,7 @@
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29175588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2955032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1028,7 +604,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18949343" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18949343" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26638478" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -1377,15 +953,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/knaryTree/LowestCommonAncestorVI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="285">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/trie/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/trie/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/algorithms/trie/TrieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/CommonElementsInKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/CommonElementsInThreeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1396,41 +1003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/trie/TrieNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/algorithms/trie/TrieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/CommonElementsInKSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/CommonElementsInThreeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/twoPointers/MaxWaterTrapperI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="8" column="31" selection-end-line="32" />
+        <state relative-caret-position="360">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
         </state>
       </provider>
     </entry>
