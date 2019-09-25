@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/202
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/202
+ */
 public class KthSmallestInTwoSortedArrays {
   public int kth(int[] a, int[] b, int k) {
     // Write your solution here

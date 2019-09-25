@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/23
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/23
+ */
 public class ShiftPosition {
     public int shiftPosition(int[] array) {
         if (array == null || array.length == 0) {

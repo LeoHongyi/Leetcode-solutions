@@ -1,18 +1,20 @@
 package algorithms.dynamicProgramming;
 import java.util.Arrays;
 import java.util.Comparator;
-
 /**
- Method: algorithms.dynamicProgramming, similar to Longest ascending sub-sequence
- dp[i] represent the longest ascending sub-sequence ends at a[i]
- dp[0] =
- slope = (y2 - y1) / (x2 - x1) > 0
- Step 1. sort the input points according to their x-coordinates, results is put in A[n]
- Time: O(nlogn)
- step 2. A[n] = {<x0,y0>,<x1,y1>,<x2,y2>,<x3,y3>... <xn,yn>}
- Find the longest ascending sub-sequence in A[n] according to their y-coordinates.
- Time: O(nlogn)
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/217
+ * Method: algorithms.dynamicProgramming, similar to Longest ascending sub-sequence
+ *  dp[i] represent the longest ascending sub-sequence ends at a[i]
+ *  dp[0] =
+ *  slope = (y2 - y1) / (x2 - x1) > 0
+ *  Step 1. sort the input points according to their x-coordinates, results is put in A[n]
+ *  Time: O(nlogn)
+ *  step 2. A[n] = {<x0,y0>,<x1,y1>,<x2,y2>,<x3,y3>... <xn,yn>}
+ *  Find the longest ascending sub-sequence in A[n] according to their y-coordinates.
+ *  Time: O(nlogn)
+ */
 class Point {
 	public int x;
 	public int y;

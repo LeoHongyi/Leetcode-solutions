@@ -1,6 +1,6 @@
 package algorithms.tree.binaryTree;
 
-public class LCAIII {
+public class LowestCommonAncestorIII {
 	public static class TreeNode {
 		public int key;
 		public TreeNode left;

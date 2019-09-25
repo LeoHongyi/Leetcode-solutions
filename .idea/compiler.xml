@@ -12,7 +12,7 @@
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/InOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/queue/stack.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/solution.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAIV.java" />
+      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LowestCommonAncestorIV.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/priorityQueue/KthSmallestNumberInSortedMatrix.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/Directory.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/FileSystem.java" />
@@ -20,7 +20,7 @@
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/PreOrderTraversalOfBinaryTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/TreePrinter.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/ClosestKValues.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LCAII.java" />
+      <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LowestCommonAncestorII.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/binarySearchTree/InsertInBinarySearchTree.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/objectOrientedDesign/InMemoryFileSystem/File.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/sort/MergeSort.java" />
@@ -58,7 +58,7 @@
       <file url="file://$PROJECT_DIR$/test/algorithms/depthFirstSearch/SpaceInsertionTest.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/trie/TrieTest.java" />
       <file url="file://$PROJECT_DIR$/test/algorithms/string/DecompressStringITest.java" />
-      <file url="file://$PROJECT_DIR$/src/algorithms/trie/WordSearchIITest.java" />
+      <file url="file://$PROJECT_DIR$/test/algorithms/trie/WordSearchIITest.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/ReconstructBinaryTreeWithLevelOrderAndInOrder.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/depthFirstSearch/StringAddToTarget.java" />
       <file url="file://$PROJECT_DIR$/src/algorithms/binarySearch/FirstBadVersion.java" />

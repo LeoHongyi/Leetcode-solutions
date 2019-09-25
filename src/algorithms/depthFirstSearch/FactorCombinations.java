@@ -2,14 +2,17 @@ package algorithms.depthFirstSearch;
 import java.util.List;
 import java.util.ArrayList;
 /**
-	Assumption: the taget can be negative. must be >= 1
-	Method: algorithms.depthFirstSearch
-	example: 12
-	1. How many levels in the recursion tree? What does it store on each level?
-	6,4,3,2
-	2. How many different states should we try to put on each level?
-	depends on the remaining factor of the target
- **/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/404
+ * Assumption: the taget can be negative. must be >= 1
+ * 	Method: algorithms.depthFirstSearch
+ * 	example: 12
+ * 	1. How many levels in the recursion tree? What does it store on each level?
+ * 	6,4,3,2
+ * 	2. How many different states should we try to put on each level?
+ * 	depends on the remaining factor of the target
+ */
 public class FactorCombinations {
 	public List<List<Integer>> combinations(int target) {
 		// Write your solution here
@@ -33,8 +36,7 @@ public class FactorCombinations {
 		}
 		// for each level try all possible factorList[i] with different numbers
 		int curFactor = factorList.get(level);
-		for (int i = 0; Math.pow(curFactor, i) <= target && (target % Math.pow(curFactor, i)) == 0; i++) {
-//		for (int i = 0; i <= algorithms.math.log(target) / algorithms.math.log(curFactor); i++) {
+		for (int i = 0; i <= Math.log(target) / Math.log(curFactor) && (target % Math.pow(curFactor, i)) == 0; i++) {
 			// mark the size of last level
 			double tempTarget = target;
 			int curIndex = cur.size();

@@ -1,8 +1,16 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
-  Assumptions: the given array is not null and has length of at least 2
-**/
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/180
+ * Assumptions: the given array is not null and has length of at least 2
+ */
 public class TwoSum {
-  public boolean existSum(int[] array, int target) {
+    public boolean existSum(int[] array, int target) {
     // Write your solution here
     Set<Integer> set = new HashSet<>();
     for (int num : array) {
@@ -12,11 +20,8 @@ public class TwoSum {
       set.add(num);
     }
     return false;
-  }
-}
+    }
 
-
-class Solution {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return new int[0];

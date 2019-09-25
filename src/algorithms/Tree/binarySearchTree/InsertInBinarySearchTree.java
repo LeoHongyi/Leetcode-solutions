@@ -1,6 +1,10 @@
 package algorithms.tree.binarySearchTree;
-
-public class InsertInBinarySearchTree {
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/51
+ * worst case : skewed tree, height n, time O(n), space O(n)
+ */
 /**
  * public class TreeNode {
  *   public int key;
@@ -11,29 +15,17 @@ public class InsertInBinarySearchTree {
  *   }
  * }
  */
-	public static TreeNode insert(TreeNode root, int key) {
-		// Write your solution here
-		TreeNode prev = new TreeNode(0);
-		TreeNode curr = root;
-		TreeNode newNode = new TreeNode(key);
-		if (root == null) {
-			if (prev.key < key) {
-				prev.right = newNode;
-			} else if (prev.key > key) {
-				prev.left = newNode;
+public class InsertInBinarySearchTree {
+	public class Solution {
+		public TreeNode insert(TreeNode root, int key) {
+			// Write your solution here
+			if (root == null || root.key == key) {
+				return new TreeNode(key);
+			} else if (root.key < key) {
+				root.right = insert(root.right, key);
+			} else {
+				root.left = insert(root.left, key);
 			}
 			return root;
 		}
-		if (curr.key < key) {
-			prev = curr;
-			curr = curr.right;
-			insert(curr, key);
-		}
-		if (curr.key > key) {
-			prev = curr;
-			curr = curr.left;
-			insert(curr, key);
-		}
-		return root;
 	}
-}

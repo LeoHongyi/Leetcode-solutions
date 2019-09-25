@@ -2,6 +2,27 @@ package algorithms.trie;
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/431
+ * Method: algorithms.depthFirstSearch, trie tree
+ * 	 solution 1(brutal force): each character has a target in the dictionary pattern to follow.
+ * 	 algorithms.depthFirstSearch recursion tree, time: O(k*m*n*4^l)
+ * 	 solution 2(Optimized): trie + dfs backtracking,
+ * 	 step 1: Build trie, using all words in dictionary
+ * 	 step 2: for for i,j, run a algorithms.depthFirstSearch starting from (i, j) to find all words in the trie
+ * 	 case 1: board[x][y] is in cur.children, explore four directions
+ * 	 case 2: ... is not in cur.children, return
+ * 	 time: (k*l) + (m*n*^l)
+ * 	 1. How many levels?
+ * 	 Height of trie.
+ * 	 2. What do we do at each level?
+ * 	 Try to match current cell with current trie node's children
+ * 	 3. What are all possible ways for each level going the next?
+ * 	 If match, then explore 4 directions,
+ * 	 otherwise, stop, return.
+ */
 public class WordSearchII {
 	class TrieNode {
 		TrieNode[] children = new TrieNode[26];
@@ -58,25 +79,6 @@ public class WordSearchII {
 		return i >= 0 && i < board.length && j >= 0 && j < board[0].length;
 	}
 
-
-	/**
-	 Method: algorithms.depthFirstSearch, trie tree
-	 solution 1(brutal force): each character has a target in the dictionary pattern to follow.
-	 algorithms.depthFirstSearch recursion tree, time: O(k*m*n*4^l)
-	 solution 2(Optimized): trie + dfs backtracking,
-	 step 1: Build trie, using all words in dictionary
-	 step 2: for for i,j, run a algorithms.depthFirstSearch starting from (i, j) to find all words in the trie
-	 case 1: board[x][y] is in cur.children, explore four directions
-	 case 2: ... is not in cur.children, return
-	 time: (k*l) + (m*n*^l)
-	 1. How many levels?
-	 Height of trie.
-	 2. What do we do at each level?
-	 Try to match current cell with current trie node's children
-	 3. What are all possible ways for each level going the next?
-	 If match, then explore 4 directions,
-	 otherwise, stop, return.
-	 **/
 	class TrieNodeII {
 		TrieNodeII[] children = new TrieNodeII[26]; // size 26 array, each index -> character, 'c': 'c' - 'a' = 2
 		boolean isWord;

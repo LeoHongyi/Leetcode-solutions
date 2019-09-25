@@ -1,7 +1,13 @@
 package algorithms.string;
 /**
- algorithms.string replace " " with "20%" that get longer
- Method: slow, fast pointer from right to left because the extension
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/83
+ * algorithms.string replace " " with "20%" that get longer
+ *  Method: slow, fast pointer from right to left because the extension
+ */
+/**
+
  **/
 public class EncodeSpace {
     public String encode(String input) {

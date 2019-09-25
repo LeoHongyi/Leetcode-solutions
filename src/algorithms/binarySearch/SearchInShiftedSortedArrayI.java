@@ -1,5 +1,9 @@
 package algorithms.binarySearch;
-//https://app.laicode.io/app/problem/21
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * https://app.laicode.io/app/problem/21
+ */
 public class SearchInShiftedSortedArrayI {
     public int search(int[] array, int target) {
         // Write your solution here
