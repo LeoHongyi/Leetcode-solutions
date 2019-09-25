@@ -14,9 +14,8 @@ import java.util.PriorityQueue;
  */
 public class MergeKSortedArray {
     public int[] merge(int[][] arrayOfArrays) {
-        // Write your solution here
-        // rows of the arrays
         PriorityQueue<Tuple> minHeap = new PriorityQueue<>(11, new MyComparator());
+        // rows of the arrays
         int length = 0;
         for (int i = 0; i < arrayOfArrays.length; i++) {
             int[] curArray = arrayOfArrays[i];
@@ -50,14 +49,14 @@ public class MergeKSortedArray {
             }
         }
     }
-    static class Tuple {
-        int x;
-        int y;
-        int value;
-        Tuple(int x, int y, int value) {
-            this.x = x;
-            this.y = y;
-            this.value = value;
-        }
+}
+class Tuple {
+    int x;
+    int y;
+    int value;
+    Tuple(int x, int y, int value) {
+        this.x = x;
+        this.y = y;
+        this.value = value;
     }
 }
