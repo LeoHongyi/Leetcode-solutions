@@ -1,9 +1,10 @@
-package algorithms.linkedlist;
+package algorithms.linkedList;
 /**
  * @author Qihao He
  * @date 09/24/2019
- * https://app.laicode.io/app/problem/559
+ * https://app.laicode.io/app/problem/560
  */
+
 /**
  * class ListNode {
  *   public int value;
@@ -14,12 +15,16 @@ package algorithms.linkedlist;
  *   }
  * }
  */
-public class InsertANodeInASortedLinkedList {
+public class InsertANodeToTheTailOfALinkedList {
     public ListNode insertNode(ListNode head, int target) {
         // Write your solution here
         ListNode newNode = new ListNode(target);
         ListNode cur = head;
-        while (cur.next != null && cur.next.value < target){
+        if (head == null){
+            newNode.next = null;
+            return newNode;
+        }
+        while (cur.next != null){
             cur = cur.next;
         }
         newNode.next = cur.next;

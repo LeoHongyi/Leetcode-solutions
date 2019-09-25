@@ -1,8 +1,9 @@
-package algorithms.linkedlist;
+package algorithms.linkedList;
+
 /**
  * @author Qihao He
  * @date 09/24/2019
- * https://app.laicode.io/app/problem/557
+ * https://app.laicode.io/app/problem/556
  */
 /**
  * class ListNode {
@@ -14,12 +15,9 @@ package algorithms.linkedlist;
  *   }
  * }
  */
-public class FindMiddleNodeOfALinedListEven {
+public class FindMiddleNodeOfALinkedListOddNumber {
     public ListNode findMiddleNode(ListNode head) {
         // Write your solution here
-        if (head == null){
-            return head;
-        }
         ListNode slow = head;
         ListNode fast = head;
         while (fast.next != null && fast.next.next != null){

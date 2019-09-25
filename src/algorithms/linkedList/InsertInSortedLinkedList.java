@@ -1,4 +1,4 @@
-package algorithms.linkedlist;
+package algorithms.linkedList;
 /**
  * @author Qihao He
  * @date 09/24/2019

@@ -1,8 +1,9 @@
-package algorithms.linkedlist;
+package algorithms.linkedList;
+
 /**
  * @author Qihao He
  * @date 09/24/2019
- * https://app.laicode.io/app/problem/555
+ * https://app.laicode.io/app/problem/554
  */
 /**
  * class ListNode {
@@ -14,15 +15,16 @@ package algorithms.linkedlist;
  *   }
  * }
  */
-public class CountNodesInALinkedList {
-    public int count(ListNode head) {
+public class GenerateLinkedList {
+    public ListNode generate(int n) {
         // Write your solution here
+        ListNode head = new ListNode(0);
         ListNode cur = head;
-        int i = 0;
-        while(cur != null){
-            i++;
+        for(int i = 1; i < n; i++){
+            cur.next = new ListNode(i);
             cur = cur.next;
         }
-        return i;
+        cur.next = null;
+        return head;
     }
 }

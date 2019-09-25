@@ -1,6 +1,6 @@
 package algorithms.recursion;
 
-import algorithms.linkedlist.ListNode;
+import algorithms.linkedList.ListNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
