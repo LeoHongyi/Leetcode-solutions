@@ -59,8 +59,8 @@ public class LRUCache<K, V> {
         } else {
             /**
              *  3. if the key is not in the cache and we don't have space,
-             *              we need to evict the tail and reuse the Cachenode let it maintain
-             *              the new key, value and put it to head.
+             *  we need to evict the tail and reuse the Cachenode let it maintain
+             *  the new key, value and put it to head.
              */
             cacheNode = tail;
             remove(cacheNode);
