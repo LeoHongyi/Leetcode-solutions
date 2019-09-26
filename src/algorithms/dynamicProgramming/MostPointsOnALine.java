@@ -7,6 +7,8 @@ package algorithms.dynamicProgramming;
  *  HashMap<key = <k, b>, Value = Set of points>
  */
 
+import algorithms.graph.Point;
+
 import java.util.HashMap;
 import java.util.Map;
 

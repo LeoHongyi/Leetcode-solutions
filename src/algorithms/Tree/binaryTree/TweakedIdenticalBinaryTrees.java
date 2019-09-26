@@ -1,6 +1,4 @@
 package algorithms.tree.binaryTree;
-
-public class TweakedIdenticalBinaryTrees {
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -18,6 +16,8 @@ public class TweakedIdenticalBinaryTrees {
  *     one.key, two.key          one.key, two.key            one.key, two.key            one.key, two.key
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;
@@ -28,6 +28,8 @@ public class TweakedIdenticalBinaryTrees {
  *   }
  * }
  */
+
+public class TweakedIdenticalBinaryTrees {
     public boolean isTweakedIdentical(TreeNode one, TreeNode two) {
         // Write your solution here
         if (one == null && two == null) {

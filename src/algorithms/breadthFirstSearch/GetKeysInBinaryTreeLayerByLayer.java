@@ -8,12 +8,12 @@ package algorithms.breadthFirstSearch;
  *  space: O(n)
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
-
-import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

@@ -6,6 +6,9 @@ package algorithms.tree.binaryTree;
  * method: recursion algorithms.tree 2^ h, balanced algorithms.tree height logn,
  * time O(n), space O(logn)
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

@@ -1,6 +1,4 @@
 package algorithms.tree.binaryTree;
-import java.util.Queue;
-import java.util.ArrayDeque;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -25,6 +23,11 @@ import java.util.ArrayDeque;
  * Method: Breadth First Search + check same parent when expanding one node
  * time: O(n), space O(n)
  * **/
+
+import algorithms.tree.binaryTree.TreeNode;
+
+import java.util.Queue;
+import java.util.ArrayDeque;
 
 /**
  * class TreeNode {

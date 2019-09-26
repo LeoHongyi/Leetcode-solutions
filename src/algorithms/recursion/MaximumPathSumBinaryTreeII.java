@@ -1,6 +1,5 @@
 package algorithms.recursion;
 
-import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -8,6 +7,8 @@ import algorithms.tree.binaryTree.TreeNode;
  * Assumptions: the root is not null
  *  Method: recursion,
  */
+
+import algorithms.tree.binaryTree.TreeNode;
 /**
  * public class TreeNode {
  *   public int key;

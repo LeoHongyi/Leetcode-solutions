@@ -7,6 +7,8 @@ package algorithms.tree.binaryTree;
  *  Method: recursion, DFS
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

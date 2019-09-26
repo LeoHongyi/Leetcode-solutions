@@ -1,8 +1,4 @@
 package algorithms.breadthFirstSearch;
-
-import algorithms.tree.binaryTree.TreeNode;
-
-import java.util.*;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +7,11 @@ import java.util.*;
  *  odd level: left in, right out, left child first, right child later.
  *  even level: right in, left out, right child first, left child later
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
+import java.util.*;
+
 /**
  * public class TreeNode {
  *   public int key;

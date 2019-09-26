@@ -1,8 +1,4 @@
 package algorithms.recursion;
-import algorithms.tree.binaryTree.TreeNode;
-
-import java.util.HashSet;
-import java.util.Set;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +7,11 @@ import java.util.Set;
  *  Method: DP, similar to the subarray find target sum
  *  time O(n), space O(n)
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
+import java.util.HashSet;
+import java.util.Set;
 /**
  * public class TreeNode {
  *   public int key;

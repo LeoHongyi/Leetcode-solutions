@@ -6,12 +6,12 @@ package algorithms.tree.binarySearchTree;
  * Method: iteration, in order traverse, using stack, pruning using min max
  **/
 
+import algorithms.tree.binaryTree.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
-
-import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

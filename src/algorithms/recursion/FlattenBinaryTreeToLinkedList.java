@@ -1,5 +1,4 @@
 package algorithms.recursion;
-import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -9,6 +8,8 @@ import algorithms.tree.binaryTree.TreeNode;
  *  The example shows the pre order traverse of the algorithms.tree.
  *  Method: DFS, recursion
  */
+
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

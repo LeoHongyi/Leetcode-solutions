@@ -5,12 +5,12 @@ package algorithms.tree.binaryTree;
  * Method: BFS, add the last element in the queue to the result
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.ArrayDeque;
-
-import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

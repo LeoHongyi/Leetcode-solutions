@@ -5,6 +5,9 @@ package algorithms.tree.binaryTree;
  * https://app.laicode.io/app/problem/46
  *  Method: recursion
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

@@ -4,6 +4,9 @@ package algorithms.tree.binaryTree;
  * @date 09/24/2019
  * Method: BFS reconstruct complete algorithms.tree.
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

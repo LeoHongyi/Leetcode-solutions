@@ -1,10 +1,10 @@
 package algorithms.binarySearch;
-import java.util.Arrays;
-
 /**
  * @author Qihao He
  * @date 09/24/2019
  */
+import java.util.Arrays;
+
 public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
         if(nums1.length==0) {

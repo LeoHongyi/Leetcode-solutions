@@ -1,9 +1,4 @@
 package algorithms.breadthFirstSearch;
-
-import algorithms.tree.binaryTree.TreeNode;
-
-import java.util.ArrayDeque;
-import java.util.Queue;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +6,12 @@ import java.util.Queue;
  * If a complete Binary algorithms.tree, if a null apeared in expansion,
  * no more value in expansion allowed.
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 /**
  * public class TreeNode {
  *   public int key;

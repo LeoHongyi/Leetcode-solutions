@@ -4,6 +4,9 @@ package algorithms.tree.binaryTree;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/60
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

@@ -9,10 +9,10 @@ package algorithms.recursion;
  *  time: O(n), space O(height)
  */
 
-import algorithms.tree.binaryTree.TreeNode;
-
 import java.util.HashMap;
 import java.util.Map;
+
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

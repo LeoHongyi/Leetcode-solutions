@@ -1,5 +1,8 @@
 package algorithms.binarySearch;
-
+/**
+ * @author Qihao He
+ * @date 09/25/2019
+ */
 import org.junit.Test;
 
 import static org.junit.Assert.*;

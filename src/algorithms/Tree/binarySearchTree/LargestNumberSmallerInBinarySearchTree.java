@@ -1,12 +1,11 @@
 package algorithms.tree.binarySearchTree;
-
-
-import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/136
  */
+
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

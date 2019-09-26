@@ -1,9 +1,4 @@
 package algorithms.tree.binaryTree;
-
-import java.util.List;
-import java.util.Queue;
-import java.util.ArrayList;
-import java.util.ArrayDeque;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +6,12 @@ import java.util.ArrayDeque;
  * if not the last level: (queue still has elements after expand)
  * clear the result
  */
+
+import java.util.List;
+import java.util.Queue;
+import java.util.ArrayList;
+import java.util.ArrayDeque;
+
 /**
  * public class TreeNode {
  *   public int key;
@@ -23,7 +24,6 @@ import java.util.ArrayDeque;
  */
 public class BinaryTreeLevelOrderTraversalII {
     public List<Integer> levelOrderBottom(TreeNode root) {
-        // Write your solution here
         if (root == null) {
             return new ArrayList<Integer>();
         }

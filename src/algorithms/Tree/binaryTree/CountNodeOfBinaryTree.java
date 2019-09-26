@@ -3,6 +3,9 @@ package algorithms.tree.binaryTree;
  * @author Qihao He
  * @date 09/24/2019
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

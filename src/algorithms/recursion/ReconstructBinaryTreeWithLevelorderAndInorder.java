@@ -26,7 +26,6 @@ import java.util.Map;
  */
 public class ReconstructBinaryTreeWithLevelorderAndInorder {
     public TreeNode reconstruct(int[] inOrder, int[] levelOrder) {
-        // Write your solution here
         // sanity check
         if (inOrder == null || inOrder.length == 0 || levelOrder == null || levelOrder.length == 0) {
             return null;

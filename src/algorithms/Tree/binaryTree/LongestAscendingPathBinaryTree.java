@@ -8,6 +8,8 @@ package algorithms.tree.binaryTree;
  *  2. length of ascending path ends at Parent node
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

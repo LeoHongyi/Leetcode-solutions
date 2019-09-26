@@ -6,6 +6,8 @@ package algorithms.tree.binaryTree;
  * Method: Iterative, time: O(n), space: O(1)
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

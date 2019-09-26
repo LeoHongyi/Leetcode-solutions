@@ -5,10 +5,10 @@ package algorithms.tree.binaryTree;
  *  Method: BFS, counter
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 import java.util.Queue;
 import java.util.ArrayDeque;
-
-import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {
