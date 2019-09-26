@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/algorithms/hashTable/LRUCacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/ClosestKValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/ClosestKValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/DistanceBetweenTwoNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/DistanceBetweenTwoNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/InsertInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binarySearchTree/InsertInBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/ConnectRightPointerToSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/ConnectRightPointerToSuccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/IdenticalBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/IdenticalBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/LowestCommonAncestorIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/SymmetricBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/SymmetricBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TreePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TweakedIdenticalBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Tree/binaryTree/TweakedIdenticalBinaryTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/CheckIfBinaryTreeIsCompleted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/CheckIfBinaryTreeIsCompleted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllSubsetsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllSubsetsI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllSubsetsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllSubsetsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllValidPermutationsOfParenthesesII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/AllValidPermutationsOfParenthesesII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/FactorCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/FactorCombinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/RestoreIPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/RestoreIPAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/StringAddToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/depthFirstSearch/StringAddToTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/AToThePowerOfB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/AToThePowerOfB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/MaximumPathSumBinaryTreeIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/MaximumPathSumBinaryTreeIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/ReconstructBinarySearchTreeWithPostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/ReconstructBinarySearchTreeWithPostorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/ReconstructBinaryTreeWithPreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/ReconstructBinaryTreeWithPreorderAndInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/trie/WordSearchII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tree/binaryTree/CheckCousinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/tree/binaryTree/CheckCousinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/algorithms/hashTable/LRUCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUseCacheTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,10 +24,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LRUCache.java">
+            <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="3" lean-forward="true" selection-start-line="5" selection-end-line="25" selection-end-column="3" />
+                <state relative-caret-position="388">
+                  <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -68,10 +40,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/LRUCacheTest.java">
+            <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUseCacheTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="219">
-                  <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+                <state relative-caret-position="1166">
+                  <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#343#344#0" expanded="true" />
@@ -119,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/string/LargestProductOfLength.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersI.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/RemoveAdjacentRepeatedCharactersII.java" />
@@ -170,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/ImplementLRUCache.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/LRUCache.java" />
         <option value="$PROJECT_DIR$/test/algorithms/hashTable/LRUCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java" />
       </list>
     </option>
   </component>
@@ -560,7 +532,7 @@
       <workItem from="1569299564776" duration="3151000" />
       <workItem from="1569343283752" duration="37469000" />
       <workItem from="1569396881172" duration="362000" />
-      <workItem from="1569433359698" duration="6589000" />
+      <workItem from="1569433359698" duration="6815000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -605,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195745000" />
+    <option name="totallyTimeSpent" value="195971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,7 +610,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.16228893" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.16228893" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26638478" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -1030,24 +1002,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LRUCache.java">
+    <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUseCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="5" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/LRUCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="1166">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

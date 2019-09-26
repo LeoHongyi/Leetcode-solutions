@@ -25,7 +25,7 @@ import java.util.Map;
  *  MRU                          LRU
  */
 
-public class LRUCache<K, V> {
+public class LeastRecentUseCache<K, V> {
     /**
      *  make it final for the pre-defined size limit of the cache.
      */
@@ -41,7 +41,7 @@ public class LRUCache<K, V> {
      */
     private Map<K, CacheNode<K, V>> map;
 
-    public LRUCache(int limit) {
+    public LeastRecentUseCache(int limit) {
         this.limit = limit;
         this.map = new HashMap<K, CacheNode<K, V>>();
     }

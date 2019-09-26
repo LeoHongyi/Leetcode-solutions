@@ -1,11 +1,9 @@
 package algorithms.hashTable;
 
-import algorithms.hashTable.LRUCache;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -27,8 +25,8 @@ import static org.junit.Assert.*;
  *  head------intermediate-------tail
  *  MRU                          LRU
  */
-public class LRUCacheTest {
-    LRUCache lru;
+public class LeastRecentUseCacheTest {
+    LeastRecentUseCache lru;
     static CacheNode<K, V> one = new CacheNode<K, V>(1, 1);
     static CacheNode<K, V> two = new CacheNode<K, V>(2, 2);
     static CacheNode<K, V> three = new CacheNode<K, V>(2, 2);
@@ -45,7 +43,7 @@ public class LRUCacheTest {
     }
     @Before
     public void setup() {
-        lru = new LRUCache<K, V>();
+        lru = new LeastRecentUseCache<K, V>();
     }
 
     @Test
