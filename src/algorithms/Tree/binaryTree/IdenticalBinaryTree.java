@@ -3,7 +3,7 @@ package algorithms.tree.binaryTree;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/49
- * method: recursion tree 2^ h, balanced tree height logn,
+ * method: recursion algorithms.tree 2^ h, balanced algorithms.tree height logn,
  * time O(n), space O(logn)
  */
 /**

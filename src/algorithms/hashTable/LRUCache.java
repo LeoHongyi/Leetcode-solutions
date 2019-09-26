@@ -17,6 +17,12 @@ import java.util.Map;
  *  Limit is the max capacity of the cache
  *  each node contains the key, value pair
  *  and it is also a double linked list node.
+ *
+ *  prev
+ *          cur
+ *                  next
+ *  head------intermediate-------tail
+ *  MRU                          LRU
  */
 
 public class LRUCache<K, V> {

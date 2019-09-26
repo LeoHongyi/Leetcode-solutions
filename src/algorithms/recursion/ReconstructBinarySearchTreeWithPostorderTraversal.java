@@ -7,7 +7,7 @@ import algorithms.tree.binaryTree.TreeNode;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/211
  * Assumption: the given sequence is not null,
- *  there are no duplicate keys in the binary search tree
+ *  there are no duplicate keys in the binary search algorithms.tree
  *  Method: recursion,
  *  post order, can scan from right to left.
  */

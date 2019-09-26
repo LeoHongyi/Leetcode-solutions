@@ -19,7 +19,7 @@ public class LowestCommonAncestorIII {
 	public TreeNode lowestCommonAncestor(TreeNode root,
 										 TreeNode one, TreeNode two) {
 		// write your solution here
-		//do LCA if both TreeNode in the tree
+		//do LCA if both TreeNode in the algorithms.tree
 		if (checkExist(root, one) != null && checkExist(root, two) != null) {
 			return LCA(root, one, two);
 		} else {

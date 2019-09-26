@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Assumption: the taget can be negative. must be >= 1
  * 	Method: algorithms.depthFirstSearch
  * 	example: 12
- * 	1. How many levels in the recursion tree? What does it store on each level?
+ * 	1. How many levels in the recursion algorithms.tree? What does it store on each level?
  * 	6,4,3,2
  * 	2. How many different states should we try to put on each level?
  * 	depends on the remaining factor of the target

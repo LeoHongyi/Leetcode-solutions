@@ -8,7 +8,7 @@ import java.util.Queue;
  * @author Qihao He
  * @date 09/24/2019
  * Assumption: root is not null, no duplicate keys in the BST.
- *  Method 2: iterative in order traverse tree
+ *  Method 2: iterative in order traverse algorithms.tree
  */
 public class ClosestKValues {
 	public int[] closestKValues(TreeNode root, double target, int k) {

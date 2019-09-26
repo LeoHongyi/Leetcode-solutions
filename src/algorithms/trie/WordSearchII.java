@@ -6,9 +6,9 @@ import java.util.ArrayList;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/431
- * Method: algorithms.depthFirstSearch, trie tree
+ * Method: algorithms.depthFirstSearch, trie algorithms.tree
  * 	 solution 1(brutal force): each character has a target in the dictionary pattern to follow.
- * 	 algorithms.depthFirstSearch recursion tree, time: O(k*m*n*4^l)
+ * 	 algorithms.depthFirstSearch recursion algorithms.tree, time: O(k*m*n*4^l)
  * 	 solution 2(Optimized): trie + dfs backTracking,
  * 	 step 1: Build trie, using all words in dictionary
  * 	 step 2: for for i,j, run a algorithms.depthFirstSearch starting from (i, j) to find all words in the trie

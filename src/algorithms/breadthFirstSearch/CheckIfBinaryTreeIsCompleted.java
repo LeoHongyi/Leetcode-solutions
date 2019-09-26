@@ -8,7 +8,7 @@ import java.util.Queue;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/47
- * If a complete Binary tree, if a null apeared in expansion,
+ * If a complete Binary algorithms.tree, if a null apeared in expansion,
  * no more value in expansion allowed.
  */
 /**

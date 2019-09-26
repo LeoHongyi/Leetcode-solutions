@@ -9,9 +9,9 @@ public class TweakedIdenticalBinaryTrees {
  * null && null
  * null || null
  * !null && !null
- * worst case: balanced binary tree, height log2(n), time O (4^log2(n)) = n^2, space O(height), O(logn)
- * best case: skewed tree height O(n), time O(n), space O(height), O(n)
- * recursion tree:
+ * worst case: balanced binary algorithms.tree, height log2(n), time O (4^log2(n)) = n^2, space O(height), O(logn)
+ * best case: skewed algorithms.tree height O(n), time O(n), space O(height), O(n)
+ * recursion algorithms.tree:
  *                                   one two
  *                            one.key, two.key
  *    one.left, two.left        one.right, two.right         one.left, two.right        one.right, two.left

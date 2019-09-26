@@ -10,7 +10,7 @@ import java.util.List;
  * https://app.laicode.io/app/problem/530
  * Assumption: there could be duplicate characters in the original set.
  *  Method: DFS
- *  recursion tree: set.length() levels
+ *  recursion algorithms.tree: set.length() levels
  *  each level decide to put or not put each char
  */
 public class AllSubsetsII {

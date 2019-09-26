@@ -1,7 +1,5 @@
-package tree.binaryTree;
+package algorithms.tree.binaryTree;
 
-import algorithms.tree.binaryTree.CheckCousin;
-import algorithms.tree.binaryTree.TreeNode;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;

@@ -3,7 +3,7 @@ package algorithms.recursion;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/13
- * recursion tree: height: logb, branch: 1
+ * recursion algorithms.tree: height: logb, branch: 1
  * time: O(logb)
  * space: O(logb)
  */

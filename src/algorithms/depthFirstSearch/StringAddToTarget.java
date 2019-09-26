@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * input algorithms.string: 123450, target int 60
  * result algorithms.string: 12 + 3 + 45 + 0 = 60
  * Method: algorithms.depthFirstSearch
- * number of recursion tree levels: size(input) - 1,
+ * number of recursion algorithms.tree levels: size(input) - 1,
  * each level decide whether to break in the interval or not.
  * Assumption: if can not reach target, return empty algorithms.string.
  * **/

@@ -5,8 +5,8 @@ public class SymmetricBinaryTree {
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/48
- * method: recursion tree,
- * balanced binary tree, height = logn,
+ * method: recursion algorithms.tree,
+ * balanced binary algorithms.tree, height = logn,
  * time O(4^log2(n))= O(n^2), space O(logn)
  */
 

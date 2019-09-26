@@ -9,7 +9,7 @@ package algorithms.tree.binaryTree;
  *  case 1: if no target in left or right or root, return null
  *  case 2: if left right both are target, return root
  *  case 3: if one target find, return the target node.
- *  ** case 4: if the result is one of the target, NOT SURE the other one is in the tree.
+ *  ** case 4: if the result is one of the target, NOT SURE the other one is in the algorithms.tree.
  *  try to find the other target again in the found target.
  *  2. What to process in current node?
  *  nothing

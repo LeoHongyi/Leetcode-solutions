@@ -5,7 +5,7 @@ import algorithms.tree.binaryTree.TreeNode;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/140
- * Assumption: the root of given binary tree is not null
+ * Assumption: the root of given binary algorithms.tree is not null
  *  Method: dp, recursion
  *  dp[i] represent the largest sum of the subarray that ends at the current index i (including i)
  *  dp[0] = input[0]

@@ -13,7 +13,7 @@ import java.util.List;
  *  l, m, n >= 0
  *  l + m + n > 0
  *  Method: DFS, stack
- *  1. How many levels in the recursion tree? What does it store on each level?
+ *  1. How many levels in the recursion algorithms.tree? What does it store on each level?
  *  levels = (l + m + n) * 2
  *  2. How many different states should we try to put on each level?
  *  6 () <> {}

@@ -5,7 +5,7 @@ import java.util.List;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/129
- * Assumption: the given k nodes are guaranteed to be in the binary tree
+ * Assumption: the given k nodes are guaranteed to be in the binary algorithms.tree
  *  k >= 2
  *  time: O(n), space: O(height)
  */

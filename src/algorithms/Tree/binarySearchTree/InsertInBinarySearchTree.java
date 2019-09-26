@@ -6,7 +6,7 @@ import algorithms.tree.binaryTree.TreeNode;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/51
- * worst case : skewed tree, height n, time O(n), space O(n)
+ * worst case : skewed algorithms.tree, height n, time O(n), space O(n)
  */
 
 /**

@@ -4,7 +4,7 @@ package algorithms.recursion;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/213
  * Assumption, the given sequences are not null and they have the same length
- *  there are no duplicate keys in the binary tree
+ *  there are no duplicate keys in the binary algorithms.tree
  *  Method: recursion
  *  time: O(n), space O(height)
  */

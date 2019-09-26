@@ -8,17 +8,17 @@ import java.util.List;
 
 
 /**
- * Binary tree printer
+ * Binary algorithms.tree printer
  *
  * @author saiteja
  */
 public class TreePrinter
 {
     /**
-     * Print a tree
+     * Print a algorithms.tree
      *
      * @param root
-     *            tree root node
+     *            algorithms.tree root node
      */
     public static String toString(TreeNode root)
     {

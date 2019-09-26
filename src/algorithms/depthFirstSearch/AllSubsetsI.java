@@ -7,7 +7,7 @@ import java.util.List;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/62
  * Method: DFS,
- *  recursion tree, String set.length() levels,
+ *  recursion algorithms.tree, String set.length() levels,
  *  each level decide to put the index char of the string or not
  */
 public class AllSubsetsI {

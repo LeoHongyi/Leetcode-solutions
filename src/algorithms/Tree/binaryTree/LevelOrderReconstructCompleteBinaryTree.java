@@ -2,7 +2,7 @@ package algorithms.tree.binaryTree;
 /**
  * @author Qihao He
  * @date 09/24/2019
- * Method: BFS reconstruct complete tree.
+ * Method: BFS reconstruct complete algorithms.tree.
  */
 /**
  * public class TreeNode {

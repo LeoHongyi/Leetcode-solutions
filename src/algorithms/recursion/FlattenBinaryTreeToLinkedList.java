@@ -4,9 +4,9 @@ import algorithms.tree.binaryTree.TreeNode;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/523
- * The binary tree is not binary search tree, so we can not guarantee
+ * The binary algorithms.tree is not binary search algorithms.tree, so we can not guarantee
  *  in order traverse will give us sorted in ascending order list.
- *  The example shows the pre order traverse of the tree.
+ *  The example shows the pre order traverse of the algorithms.tree.
  *  Method: DFS, recursion
  */
 

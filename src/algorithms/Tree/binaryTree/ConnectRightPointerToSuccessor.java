@@ -3,7 +3,7 @@ package algorithms.tree.binaryTree;
  * @author Qihao He
  * @date 09/24/2019
  * Method: algorithms.depthFirstSearch, In order traverse
- *  print tree in in-order traverse:
+ *  print algorithms.tree in in-order traverse:
  *  1 2 7 11  35  15  29  40
  *  T   T     T   T
  *  Target: for each node that does not has a right children,

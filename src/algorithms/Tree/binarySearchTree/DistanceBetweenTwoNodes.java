@@ -3,10 +3,10 @@ import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
- * 2. Distance between two given nodes in a given binary search tree.
+ * 2. Distance between two given nodes in a given binary search algorithms.tree.
  *      Assuming:
  *  there is no parent pointer.
- *  both nodes belong to the tree.
+ *  both nodes belong to the algorithms.tree.
  *             15
  *          /      \
  *        5         20
