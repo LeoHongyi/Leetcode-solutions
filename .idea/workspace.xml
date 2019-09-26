@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="361">
+              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -462,7 +462,7 @@
       <workItem from="1569343283752" duration="37469000" />
       <workItem from="1569396881172" duration="362000" />
       <workItem from="1569433359698" duration="11856000" />
-      <workItem from="1569472250276" duration="5040000" />
+      <workItem from="1569472250276" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -507,7 +507,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206052000" />
+    <option name="totallyTimeSpent" value="206119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,9 +540,9 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27204502" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27204502" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.35928705" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.35928705" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="leetcode" order="0" side_tool="true" weight="0.32976446" />
       <window_info anchor="right" id="Git Scope" order="1" side_tool="true" />
@@ -973,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="361">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
         </state>
       </provider>
     </entry>
