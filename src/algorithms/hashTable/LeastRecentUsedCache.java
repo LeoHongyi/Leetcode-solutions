@@ -8,7 +8,7 @@ import java.util.Map;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/205
  * https://leetcode.com/problems/lru-cache/
- * LRU:
+ * Least Recent Used Cache:
  *  1. find the corresponding answer / response to a question / request: hashMap
  *  2. adjust the timestamp / order of a particular entry
  *  3. find and delete the oldest entry
@@ -29,11 +29,11 @@ import java.util.Map;
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-public class LeastRecentUseCache<K, V> {
+public class LeastRecentUsedCache<K, V> {
     /**
      *  make it final for the pre-defined size limit of the cache.
      *  record all the time the head and tail of the double linked list.
-     *  maintains the relationship of key and its corresponding Cachenode
+     *  maintains the relationship of key and its corresponding cacheNode
      * in the double linked list.
      */
     private final int limit;
@@ -41,7 +41,7 @@ public class LeastRecentUseCache<K, V> {
     private CacheNode<K, V> tail;
     private Map<K, CacheNode<K, V>> map;
 
-    public LeastRecentUseCache(int limit) {
+    public LeastRecentUsedCache(int limit) {
         this.limit = limit;
         this.map = new HashMap<K, CacheNode<K, V>>();
     }
