@@ -59,13 +59,13 @@ public class LeastRecentUsedCache<K, V> {
         } else if (map.size() < limit) {
             /**
              *  2. if the key is not in the cache and we still have space,
-             *  we can add append a new Cachenode to head.
+             *  we can add append a new cacheNode to head.
              */
             cacheNode = new CacheNode<K, V>(key, value);
         } else {
             /**
              *  3. if the key is not in the cache and we don't have space,
-             *  we need to evict the tail and reuse the Cachenode let it maintain
+             *  we need to evict the tail and reuse the cacheNode let it maintain
              *  the new key, value and put it to head.
              */
             cacheNode = tail;
@@ -82,7 +82,7 @@ public class LeastRecentUsedCache<K, V> {
         }
         /**
          *  even it is a read operation, it is still a write operation to
-         *  the double linked list, and we need to move the Cachenode to head.
+         *  the double linked list, and we need to move the cacheNode to head.
          */
         remove(cacheNode);
         append(cacheNode);
@@ -104,7 +104,7 @@ public class LeastRecentUsedCache<K, V> {
             tail = tail.prev;
         }
         /**
-         *  break apart the curr Cachenode
+         *  break apart the curr cacheNode
          */
         cacheNode.next = cacheNode.prev = null;
         return cacheNode;

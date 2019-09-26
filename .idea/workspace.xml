@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUseCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUsedCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+                <state relative-caret-position="676">
+                  <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -42,8 +41,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUsedCacheTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+                <state relative-caret-position="697">
+                  <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#343#344#0" expanded="true" />
@@ -140,8 +139,8 @@
         <option value="$PROJECT_DIR$/test/algorithms/hashTable/LRUCacheTest.java" />
         <option value="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUseCacheTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java" />
         <option value="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUsedCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java" />
       </list>
     </option>
   </component>
@@ -505,7 +504,7 @@
       <workItem from="1569299564776" duration="3151000" />
       <workItem from="1569343283752" duration="37469000" />
       <workItem from="1569396881172" duration="362000" />
-      <workItem from="1569433359698" duration="8160000" />
+      <workItem from="1569433359698" duration="8802000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -550,7 +549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197316000" />
+    <option name="totallyTimeSpent" value="197958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +564,7 @@
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15952891" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15952891" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -583,7 +582,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.16228893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.16228893" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26638478" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -975,24 +974,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUsedCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="697">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUsedCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
