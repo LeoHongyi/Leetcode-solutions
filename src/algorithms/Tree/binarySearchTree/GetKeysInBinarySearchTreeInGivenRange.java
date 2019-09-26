@@ -1,17 +1,17 @@
 package algorithms.tree.binarySearchTree;
-
-import algorithms.tree.binaryTree.TreeNode;
-
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
 /**
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/55
  * Method: iteration, in order traverse, using stack, pruning using min max
  **/
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

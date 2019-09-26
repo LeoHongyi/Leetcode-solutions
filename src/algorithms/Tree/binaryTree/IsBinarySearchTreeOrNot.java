@@ -6,6 +6,8 @@ package algorithms.tree.binaryTree;
  * method: iteration, in order traverse
  */
 
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

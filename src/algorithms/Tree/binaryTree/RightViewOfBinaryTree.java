@@ -1,9 +1,17 @@
 package algorithms.tree.binaryTree;
+/**
+ * @author Qihao He
+ * @date 09/24/2019
+ * Method: BFS, add the last element in the queue to the result
+ */
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
 import java.util.ArrayDeque;
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;
@@ -14,9 +22,6 @@ import java.util.ArrayDeque;
  *   }
  * }
  */
-/**
- Method: BFS, add the last element in the queue to the result
- **/
 public class RightViewOfBinaryTree {
     public List<Integer> rightView(TreeNode root) {
         // Write your solution here

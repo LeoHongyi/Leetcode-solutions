@@ -1,6 +1,4 @@
 package algorithms.recursion;
-
-import algorithms.tree.binaryTree.TreeNode;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -12,6 +10,9 @@ import algorithms.tree.binaryTree.TreeNode;
  *  dp[i] = if dp[i - 1] >= 0, then dp[i - 1] + input[i]
  *  else input[i]
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;
@@ -24,7 +25,6 @@ import algorithms.tree.binaryTree.TreeNode;
  */
 public class MaximumPathSumBinaryTreeIII {
     public int maxPathSum(TreeNode root) {
-        // Write your solution here
         int[] max = new int[]{Integer.MIN_VALUE};
         maxPathSumDP(root, max, 0);
         return max[0];

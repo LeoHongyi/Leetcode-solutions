@@ -1,12 +1,12 @@
 package algorithms.recursion;
-
-import algorithms.tree.binaryTree.TreeNode;
-
 /**
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/126
  */
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;

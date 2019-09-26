@@ -1,11 +1,4 @@
 package algorithms.breadthFirstSearch;
-
-import algorithms.tree.binaryTree.TreeNode;
-
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -14,6 +7,13 @@ import java.util.Queue;
  *  time: O(n)
  *  space: O(n)
  */
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
+
+import algorithms.tree.binaryTree.TreeNode;
 
 /**
  * public class TreeNode {

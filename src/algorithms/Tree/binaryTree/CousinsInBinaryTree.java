@@ -1,12 +1,15 @@
 package algorithms.tree.binaryTree;
-
-import java.util.Queue;
-import java.util.ArrayDeque;
 /**
  * @author Qihao He
  * @date 09/24/2019
  *  Method: BFS, counter
  */
+
+import java.util.Queue;
+import java.util.ArrayDeque;
+
+import algorithms.tree.binaryTree.TreeNode;
+
 /**
  * public class TreeNode {
  *   public int key;
