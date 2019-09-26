@@ -23,8 +23,12 @@ import java.util.Map;
  *                  next
  *  head------intermediate-------tail
  *  MRU                          LRU
+ *
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache obj = new LRUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
  */
-
 public class LeastRecentUseCache<K, V> {
     /**
      *  make it final for the pre-defined size limit of the cache.

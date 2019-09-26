@@ -29,6 +29,7 @@ public class LeastRecentUseCacheTest {
 
     LeastRecentUseCache lru;
     static CacheNode<K, V> one = new CacheNode<K, V>(1, 1);
+//    static CacheNode<K, V> one = new CacheNode<K, V>(1, 1);
     static CacheNode<K, V> two = new CacheNode<K, V>(2, 2);
     static CacheNode<K, V> three = new CacheNode<K, V>(2, 2);
     static CacheNode<K, V> four = new CacheNode<K, V>(2, 2);
