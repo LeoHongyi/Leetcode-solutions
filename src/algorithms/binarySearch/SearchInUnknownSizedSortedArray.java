@@ -1,17 +1,17 @@
-/*
-*  interface Dictionary {
-*    public Integer get(int index);
-*  }
-*/
-
-// You do not need to implement the Dictionary interface.
-// You can use it directly, the implementation is provided when testing your solution.
 package algorithms.binarySearch;
 
 /**
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/20
+ */
+
+/**
+ *  interface Dictionary {
+ *    public Integer get(int index);
+ *  }
+ *   You do not need to implement the Dictionary interface.
+ *  You can use it directly, the implementation is provided when testing your solution.
  */
 public class SearchInUnknownSizedSortedArray {
   public int search(Dictionary dict, int target) {
