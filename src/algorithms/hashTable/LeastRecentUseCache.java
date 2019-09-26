@@ -28,17 +28,13 @@ import java.util.Map;
 public class LeastRecentUseCache<K, V> {
     /**
      *  make it final for the pre-defined size limit of the cache.
-     */
-    private final int limit;
-    /**
      *  record all the time the head and tail of the double linked list.
-     */
-    private CacheNode<K, V> head;
-    private CacheNode<K, V> tail;
-    /**
      *  maintains the relationship of key and its corresponding Cachenode
      * in the double linked list.
      */
+    private final int limit;
+    private CacheNode<K, V> head;
+    private CacheNode<K, V> tail;
     private Map<K, CacheNode<K, V>> map;
 
     public LeastRecentUseCache(int limit) {
