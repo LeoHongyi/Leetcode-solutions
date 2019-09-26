@@ -1,8 +1,4 @@
 package algorithms.hashTable;
-
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -29,6 +25,10 @@ import java.util.Map;
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class LeastRecentUsedCache<K, V> {
     /**
      *  make it final for the pre-defined size limit of the cache.
