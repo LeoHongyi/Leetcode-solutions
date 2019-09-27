@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 public class SubStringsOfSizeKWithKDistinctCharsTest {
     @Test
-    public void test1KSubString1() {
+    public void KSubString1test1() {
         String input = "abcabc";
         int k = 3;
         List<String> exp = new ArrayList<>(Arrays.asList("abc", "bca", "cab"));
@@ -21,7 +21,7 @@ public class SubStringsOfSizeKWithKDistinctCharsTest {
         }
     }
     @Test
-    public void test2KSubString1() {
+    public void KSubString1test2() {
         String input = "abacab";
         int k = 3;
         List<String> exp = new ArrayList<>(Arrays.asList("bac", "cab"));
@@ -32,7 +32,7 @@ public class SubStringsOfSizeKWithKDistinctCharsTest {
         }
     }
     @Test
-    public void test3KSubString1() {
+    public void KSubString1test3() {
         String input = "awaglknagawunagwkwagl";
         int k = 4;
         List<String> exp = new ArrayList<>(Arrays.asList("wagl", "aglk", "glkn", "lkna", "knag", "gawu", "awun",
@@ -44,7 +44,7 @@ public class SubStringsOfSizeKWithKDistinctCharsTest {
         }
     }
     @Test
-    public void test1KSubString2() {
+    public void KSubString2test1() {
         String input = "abcabc";
         int k = 3;
         List<String> exp = new ArrayList<>(Arrays.asList("abc", "bca", "cab"));
@@ -55,7 +55,7 @@ public class SubStringsOfSizeKWithKDistinctCharsTest {
         }
     }
     @Test
-    public void test2KSubString2() {
+    public void KSubString2test2() {
         String input = "abacab";
         int k = 3;
         List<String> exp = new ArrayList<>(Arrays.asList("bac", "cab"));
@@ -66,7 +66,7 @@ public class SubStringsOfSizeKWithKDistinctCharsTest {
         }
     }
     @Test
-    public void test3KSubString3() {
+    public void KSubString3test3() {
         String input = "awaglknagawunagwkwagl";
         int k = 4;
         List<String> exp = new ArrayList<>(Arrays.asList("wagl", "aglk", "glkn", "lkna", "knag", "gawu", "awun",

@@ -54,6 +54,7 @@ public class SubStringsOfSizeKWithKDistinctChars {
                     right++;
                 } else {
                     left++;
+                    curSet.remove(s.charAt(left));
                 }
             }
             StringBuilder curString = new StringBuilder();
