@@ -61,9 +61,11 @@ public class NumberOfIslands {
      * average case: time: O(n^2), space O(1)
      * time: O(V + E)
      */
+    // Assumption:
     final static int[][] dirs = {{-1, 0},{1, 0},{0, -1},{0, 1}};
     public int numIslandsDFS(char[][] grid) {
-        if (grid == null || grid.length == 0) {
+        // sanity check
+        if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
         }
         int rows = grid.length;
@@ -90,7 +92,7 @@ public class NumberOfIslands {
          * mark as visisted,
          * traverse in four directions.
          */
-        grid[x][y] = '2';
+        grid[x][y] = '0';
         for (int[] dir : dirs) {
             int neiX = dir[0] + x;
             int neiY = dir[1] + y;
