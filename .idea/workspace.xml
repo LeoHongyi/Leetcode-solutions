@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/array/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairII.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/array/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="184">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +106,10 @@
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/algorithms/recursion/MaximumPathSumBinaryTreeIII.java" />
         <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/NumberOfIslands.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairII.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairI.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/array/ThreeSum.java" />
       </list>
     </option>
   </component>
@@ -508,7 +492,7 @@
       <workItem from="1569433359698" duration="11856000" />
       <workItem from="1569472250276" duration="6262000" />
       <workItem from="1569513933175" duration="6454000" />
-      <workItem from="1569602137156" duration="1520000" />
+      <workItem from="1569602137156" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -553,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215248000" />
+    <option name="totallyTimeSpent" value="216429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,7 +552,7 @@
     <frame x="-1920" y="-1087" width="1920" height="2137" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19164883" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19164883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -586,7 +570,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29812437" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.11105627" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.35928705" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -996,16 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/array/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1027,6 +1001,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/array/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
