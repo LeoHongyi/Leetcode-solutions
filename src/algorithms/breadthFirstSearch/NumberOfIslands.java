@@ -57,6 +57,9 @@ public class NumberOfIslands {
 
     /**
      * Method: DFS
+     * worst case: time: O(n^2), space: O(n^2)
+     * average case: time: O(n^2), space O(1)
+     * time: O(V + E)
      */
     final static int[][] dirs = {{-1, 0},{1, 0},{0, -1},{0, 1}};
     public int numIslandsDFS(char[][] grid) {
