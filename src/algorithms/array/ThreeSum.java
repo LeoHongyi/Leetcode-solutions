@@ -26,6 +26,7 @@ public class ThreeSum {
         int len = array.length;
         // maintain i < j < k
         for (int i = 0; i < len - 2; i++) {
+            // start <= i < left < right <= end
             if (i > 0 && array[i] == array[i - 1]) {
                 // skip duplicate elements
                 continue;
@@ -38,6 +39,7 @@ public class ThreeSum {
                     result.add(Arrays.asList(array[i], array[left], array[right]));
                     left++;
                     while (left < right && array[left] == array[left - 1]) {
+                        // skip duplicate elements
                         left++;
                     }
                 } else if (temp < target) {
