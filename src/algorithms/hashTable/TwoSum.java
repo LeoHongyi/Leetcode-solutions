@@ -1,9 +1,4 @@
 package algorithms.hashTable;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,6 +6,11 @@ import java.util.Set;
  * https://leetcode.com/problems/two-sum/
  * Assumptions: the given array is not null and has length of at least 2
  */
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class TwoSum {
     public boolean existSum(int[] array, int target) {
         Set<Integer> set = new HashSet<>();

@@ -1,11 +1,4 @@
 package algorithms.hashTable;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -13,6 +6,13 @@ import java.util.Map;
  * Assumptions: the given array is not null and has length of at least 2.
  *  Method: HashMap
  */
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class TwoSumAllPairI {
     public List<List<Integer>> allPairs(int[] array, int target) {
         // Write your solution here
