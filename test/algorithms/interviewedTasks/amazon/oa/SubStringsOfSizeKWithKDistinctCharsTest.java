@@ -1,5 +1,8 @@
 package algorithms.interviewedTasks.amazon.oa;
-
+/**
+ * @author: Qihao He
+ * @date: 09/27/2019
+ */
 import org.junit.Test;
 
 import java.util.ArrayList;
