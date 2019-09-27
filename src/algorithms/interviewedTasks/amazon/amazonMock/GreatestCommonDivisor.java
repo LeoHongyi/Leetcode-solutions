@@ -1,4 +1,4 @@
-package algorithms.interviewedTasks.amazonMock;
+package algorithms.interviewedTasks.amazon.amazonMock;
 // IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
 // SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED
 // DEFINE ANY CLASS AND METHOD NEEDED

@@ -1,5 +1,6 @@
-package algorithms.interviewedTasks;
+package algorithms.interviewedTasks.amazon.oa;
 /**
+ * https://leetcode.com/problems/two-sum/
  * My code passed only 10 test out of 13. I did a sorting and then found the best pair with 2 for loops
  *
  * Question:

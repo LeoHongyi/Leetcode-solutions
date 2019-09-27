@@ -9,6 +9,7 @@ package algorithms.interviewedTasks;
  * time: O(n^2), space O(1)
  */
 
+import algorithms.interviewedTasks.amazon.oa.MoviesOnFlight;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

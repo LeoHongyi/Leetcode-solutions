@@ -1,13 +1,9 @@
-package algorithms.interviewedTasks.amazonMock;
+package algorithms.interviewedTasks.amazon.amazonMock;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 // IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Arrays;
+
 // SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED
 // DEFINE ANY CLASS AND METHOD NEEDED
 // CLASS BEGINS, THIS CLASS IS REQUIRED
