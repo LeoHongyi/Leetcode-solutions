@@ -32,18 +32,17 @@ public class MoviesOnFlight {
      */
     public int[] pickMovie(int[] array, int d) {
         // sanity check
-        if (array == null || array.length <= 2 || d <= 30) {
-            return array;
-        }
         int[] result = new int[2];
+        if (array == null || array.length <= 2 || d <= 30) {
+            return result;
+        }
         int target = d - 30;
         int len = array.length;
         int max = 0;
         for (int i = 0; i < len - 1; i++) {
             for (int j = i + 1; j < len; j++) {
                 int temp = array[i] + array[j];
-                if ((result[0] == 0 && result[1] == 0) ||
-                        max < temp && temp <= target) {
+                if (max < temp && temp <= target) {
                     max = temp;
                     result[0] = i;
                     result[1] = j;
