@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/MoviesOnFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/algorithms/interviewedTasks/MoviesOnFlightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/interviewedTasks/MoviesOnFlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/interviewedTasks/MoviesOnFlight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/interviewedTasks/MoviesOnFlight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="488">
+              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1859#1868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/algorithms/interviewedTasks/MoviesOnFlightTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +78,8 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JavaScript File" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -81,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUseCacheTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/LeastRecentUseCache.java" />
         <option value="$PROJECT_DIR$/test/algorithms/hashTable/LeastRecentUsedCacheTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/RecoverBinarySearchTree.java" />
@@ -131,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/TwoSumAllPairI.java" />
         <option value="$PROJECT_DIR$/src/algorithms/hashTable/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/algorithms/array/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/test/algorithms/interviewedTasks/MoviesOnFlightTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/interviewedTasks/MoviesOnFlight.java" />
       </list>
     </option>
@@ -307,17 +324,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithms.interviewedTasks" />
       <recent name="algorithms.hashTable" />
       <recent name="algorithms.sort" />
       <recent name="Algorithms.Stream" />
       <recent name="Algorithms.Sort" />
-      <recent name="sorting" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/algorithms/depthFirstSearch" />
-      <recent name="$PROJECT_DIR$/src/Algorithms/Queue" />
-      <recent name="$PROJECT_DIR$/src/Database" />
-      <recent name="$PROJECT_DIR$/test/BinarySearch" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="algorithms" />
@@ -326,11 +337,17 @@
       <recent name="algorithms.depthFirstSearch" />
       <recent name="algorithms.string" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BinarySearch" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/BinarySearch" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/algorithms/depthFirstSearch" />
+      <recent name="$PROJECT_DIR$/src/Algorithms/Queue" />
+      <recent name="$PROJECT_DIR$/src/Database" />
+      <recent name="$PROJECT_DIR$/test/BinarySearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckCousinTest">
+  <component name="RunManager" selected="JUnit.MoviesOnFlightTest.testPickMovies">
     <configuration name="CheckCousinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -372,6 +389,22 @@
       <option name="PACKAGE_NAME" value="algorithms.sort" />
       <option name="MAIN_CLASS_NAME" value="algorithms.sort.Move0sToTheEndIITest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoviesOnFlightTest.testPickMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.interviewedTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.interviewedTasks" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.interviewedTasks.MoviesOnFlightTest" />
+      <option name="METHOD_NAME" value="testPickMovies" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -406,36 +439,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortInSpecifiedOrderTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.sort" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sort.SortInSpecifiedOrderTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.SortInSpecifiedOrderTest" />
-      <item itemvalue="JUnit.SortInSpecifiedOrderTest.test1" />
       <item itemvalue="JUnit.Move0sToTheEndIITest" />
       <item itemvalue="JUnit.RainbowSortIITest" />
       <item itemvalue="JUnit.CheckCousinTest" />
+      <item itemvalue="JUnit.MoviesOnFlightTest.testPickMovies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoviesOnFlightTest.testPickMovies" />
         <item itemvalue="JUnit.CheckCousinTest" />
         <item itemvalue="JUnit.RainbowSortIITest" />
         <item itemvalue="JUnit.Move0sToTheEndIITest" />
         <item itemvalue="JUnit.SortInSpecifiedOrderTest" />
-        <item itemvalue="JUnit.SortInSpecifiedOrderTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +524,7 @@
       <workItem from="1569433359698" duration="11856000" />
       <workItem from="1569472250276" duration="6262000" />
       <workItem from="1569513933175" duration="6454000" />
-      <workItem from="1569602137156" duration="3168000" />
+      <workItem from="1569602137156" duration="5322000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -552,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216896000" />
+    <option name="totallyTimeSpent" value="219050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,7 +584,7 @@
     <frame x="-1920" y="-1087" width="1920" height="2137" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19164883" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19164883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,7 +602,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.11105627" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.11105627" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.35928705" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -625,13 +642,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/LargestNumberSmallerInBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/recursion/MaxPathSumFromLeafToRoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1022,10 +1032,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/algorithms/interviewedTasks/MoviesOnFlightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/interviewedTasks/MoviesOnFlight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="488">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1859#1868#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
