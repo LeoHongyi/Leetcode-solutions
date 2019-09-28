@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointTo000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointToOrigin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,16 +29,16 @@
         <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointToOrigin.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -70,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/ReverseBinaryTreeUpSideDown.java" />
         <option value="$PROJECT_DIR$/src/algorithms/recursion/ReconstructBinaryTreeWithPreorderAndInorder.java" />
         <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayerZigZagOrder.java" />
         <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/CheckIfBinaryTreeIsCompleted.java" />
@@ -121,6 +120,7 @@
         <option value="$PROJECT_DIR$/test/algorithms/interviewedTasks/amazon/oa/SubStringsOfSizeKWithKDistinctCharsTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java" />
         <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointToOrigin.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java" />
       </list>
     </option>
   </component>
@@ -136,57 +136,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="algorithms" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -209,6 +169,13 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="bestFirstSearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
@@ -298,17 +265,57 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
             <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-              <item name="algorithms" type="1f31426a:PackageElementNode" />
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -548,7 +555,8 @@
       <workItem from="1569472250276" duration="6262000" />
       <workItem from="1569513933175" duration="6454000" />
       <workItem from="1569602137156" duration="16363000" />
-      <workItem from="1569647944277" duration="380000" />
+      <workItem from="1569647944277" duration="818000" />
+      <workItem from="1569696990969" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -593,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230471000" />
+    <option name="totallyTimeSpent" value="231538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +616,7 @@
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2345815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24118942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1056,14 +1064,14 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointToOrigin.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>

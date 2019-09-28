@@ -1,4 +1,4 @@
-package algorithms.breadthFirstSearch;
+package algorithms.bestFirstSearch;
 
 import java.util.*;
 
@@ -7,11 +7,21 @@ import java.util.*;
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/194
  * https://leetcode.com/problems/k-closest-points-to-origin/
- * Method: best first search
- *  use minHeap, set for deduplicate
  */
 public class KthClosestPointToOrigin {
-    public List<Integer> closest(int[] a, int[] b, int[] c, int k) {
+    public int[][] kClosest2D(int[][] points, int K) {
+
+    }
+
+
+    /**
+     * @author Qihao He
+     * @date 09/24/2019
+     * https://app.laicode.io/app/problem/194
+     * Method: best first search
+     * use minHeap, set for deduplicate
+     */
+    public List<Integer> closest3D(int[] a, int[] b, int[] c, int k) {
         // Write your solution here
         PriorityQueue<Tuple> minHeap = new PriorityQueue<>(k, new Comparator<Tuple>() {
             @Override
