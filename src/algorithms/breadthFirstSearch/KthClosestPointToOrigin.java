@@ -6,10 +6,11 @@ import java.util.*;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/194
+ * https://leetcode.com/problems/k-closest-points-to-origin/
  * Method: best first search
  *  use minHeap, set for deduplicate
  */
-public class KthClosestPointTo000 {
+public class KthClosestPointToOrigin {
     public List<Integer> closest(int[] a, int[] b, int[] c, int k) {
         // Write your solution here
         PriorityQueue<Tuple> minHeap = new PriorityQueue<>(k, new Comparator<Tuple>() {
