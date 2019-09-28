@@ -9,9 +9,29 @@ import java.util.*;
  * https://leetcode.com/problems/k-closest-points-to-origin/
  */
 public class KthClosestPointToOrigin {
+    /*
+    Assumption: input may be null, any length.
+    there maybe duplicate elements,
+    1. Method: min heap holds all points, pop k times
+    2. Method: max Heap of size k, go through the all points
+    */
     public int[][] kClosest2D(int[][] points, int K) {
-
+        // sanity check
+        if (points == null || points.length() == 0 || points[0].length() == 0)  {
+            return new int[0][0];
+        }
+        PriorityQueue<Tuple> minHeap
     }
+
+    class Tuple{
+        int x;
+        int y;
+        public Tuple(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+}
 
 
     /**
@@ -58,6 +78,7 @@ public class KthClosestPointToOrigin {
         List<Integer> result = Arrays.asList(a[resultTuple.ai], b[resultTuple.bi], c[resultTuple.ci]);
         return result;
     }
+
     private long getDis(Tuple o1, int[] a, int[] b, int[] c) {
         long result = 0;
         result += (long) a[o1.ai] * a[o1.ai];
@@ -65,6 +86,7 @@ public class KthClosestPointToOrigin {
         result += c[o1.ci] * c[o1.ci];
         return result;
     }
+
     class Tuple {
         int ai;
         int bi;
