@@ -15,7 +15,6 @@ public class LargestSubArrarySum {
      *  time O(n), space O(1)
      */
     public int[] largestSumIndex(int[] array) {
-        // Write your solution here
         if (array.length == 1) {
             return new int[]{array[0], 0, 0};
         }
