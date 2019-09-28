@@ -2,6 +2,8 @@ package algorithms.heap;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
+import java.util.Queue;
+
 /**
  * @author Qihao He
  * @date 09/24/2019
@@ -11,7 +13,7 @@ import java.util.PriorityQueue;
  *  time: O(klogk + (n-k)logk = nlogk), space: O(k)
  */
 public class KSmallestInUnsortedArray {
-    public int[] kSmallest(int[] array, int k) {
+    public int[] kSmallestMasxHeap(int[] array, int k) {
         // Write your solution here
         if (array.length == 0 || k == 0) {
             return new int[0];
@@ -32,5 +34,20 @@ public class KSmallestInUnsortedArray {
             result[i] = maxHeap.poll();
         }
         return result;
+    }
+    public int[] kSmallestMinHeap(int[] array, int k) {
+        // Write your solution here
+        //minHeap
+        //step 1: heapify the whole array
+        Queue<Integer> minHeap = new PriorityQueue<>();
+        for (int a : array) {
+            minHeap.offer(a);
+        }
+        int[] results = new int[k];
+        //step 2: keep popping k times
+        for (int i = 0; i < k; i++) {
+            results[i] = minHeap.poll();
+        }
+        return results;
     }
 }
