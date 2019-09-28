@@ -14,7 +14,7 @@ public class LargestSubArrarySum {
      *  update gloMax when curMax > gloMax
      *  time O(n), space O(1)
      */
-    public int[] largestSum(int[] array) {
+    public int[] largestSumIndex(int[] array) {
         // Write your solution here
         if (array.length == 1) {
             return new int[]{array[0], 0, 0};
@@ -46,16 +46,17 @@ public class LargestSubArrarySum {
      * @author Qihao He
      * @date 09/24/2019
      * https://app.laicode.io/app/problem/97
+     * https://leetcode.com/problems/maximum-subarray/
      * Assumption: array != null && length >= 1
-     *  Method: DP, from left to right
-     *  dp[i] the largest sum ending at index i
+     *  Method: DP, linear scan from left to right,
+     *  and look back to the previous ones
+     *  dp[i] represents the largest sum ending at index i, including i.
      *  dp[i] = array[i]  if dp[i - 1] <= 0
-     *  = dp[i - 1] + array[i]  else
+     *       = dp[i - 1] + array[i]  else
      *  time: O(n), space: O(1)
      */
     public class LargestSubArraySum {
         public int largestSum(int[] array) {
-            // Write your solution here
             // initialize as 1st element
             int curMax = array[0];
             int result = array[0];
