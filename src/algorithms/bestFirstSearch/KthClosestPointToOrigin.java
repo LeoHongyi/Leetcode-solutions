@@ -6,41 +6,8 @@ import java.util.*;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/194
- * https://leetcode.com/problems/k-closest-points-to-origin/
  */
 public class KthClosestPointToOrigin {
-    /*
-    Assumption: input may be null, any length.
-    there maybe duplicate elements,
-    1. Method: min heap holds all points, pop k times
-    2. Method: max Heap of size k, go through the all points
-    */
-    public int[][] kClosest2D(int[][] points, int K) {
-        // sanity check
-        if (points == null || points.length() == 0 || points[0].length() == 0)  {
-            return new int[0][0];
-        }
-        PriorityQueue<Tuple> minHeap
-    }
-
-    class Tuple{
-        int x;
-        int y;
-        public Tuple(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
-}
-
-
-    /**
-     * @author Qihao He
-     * @date 09/24/2019
-     * https://app.laicode.io/app/problem/194
-     * Method: best first search
-     * use minHeap, set for deduplicate
-     */
     public List<Integer> closest3D(int[] a, int[] b, int[] c, int k) {
         // Write your solution here
         PriorityQueue<Tuple> minHeap = new PriorityQueue<>(k, new Comparator<Tuple>() {

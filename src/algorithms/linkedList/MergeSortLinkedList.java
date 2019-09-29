@@ -29,7 +29,7 @@ public class MergeSortLinkedList {
         return merge(firHalf, secHalf);
     }
 
-    private static ListNode findMiddle(ListNode head) {
+    private ListNode findMiddle(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
@@ -42,7 +42,7 @@ public class MergeSortLinkedList {
         return slow;
     }
 
-    private static ListNode merge(ListNode one, ListNode two) {
+    private ListNode merge(ListNode one, ListNode two) {
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
         while (one != null && two != null) {

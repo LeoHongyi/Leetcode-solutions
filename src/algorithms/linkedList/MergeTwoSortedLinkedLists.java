@@ -7,6 +7,7 @@ package algorithms.linkedList;
  *  space complexity: simple if else O(1)
  *  Assumption: two Linked List are not same length
  */
+
 /**
  * class ListNode {
  *   public int value;

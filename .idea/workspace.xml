@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/heap/KClosestPointsToOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/algorithms/hashTable/KClosestPointsToOriginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +30,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/heap/KClosestPointsToOrigin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="263">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthSmallestNumberInSortedMatrix.java">
+        <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/KClosestPointsToOriginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state>
+              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -79,11 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayerZigZagOrder.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/CheckIfBinaryTreeIsCompleted.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/LargestNumberSmallerInBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/IdenticalBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LevelOrderReconstructCompleteBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/LongestAscendingPathBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/TweakedIdenticalBinaryTrees.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetRange.java" />
@@ -129,7 +143,12 @@
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java" />
         <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/KthClosestPointToOrigin.java" />
         <option value="$PROJECT_DIR$/src/algorithms/heap/KSmallestInUnsortedArray.java" />
+        <option value="$PROJECT_DIR$/test/algorithms/bestFirstSearch/KthClosestPointToOriginTest.java" />
         <option value="$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/heap/KClosestPointsToOrigin.java" />
+        <option value="$PROJECT_DIR$/test/algorithms/hashTable/KClosestPointsToOriginTest.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java" />
       </list>
     </option>
   </component>
@@ -156,6 +175,62 @@
               <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
               <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
               <item name="algorithms" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -250,6 +325,13 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,63 +357,21 @@
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="bestFirstSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="oa" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -367,30 +407,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithms.bestFirstSearch" />
       <recent name="algorithms.interviewedTasks.amazon.oa" />
       <recent name="algorithms.interviewedTasks" />
       <recent name="algorithms.hashTable" />
       <recent name="algorithms.sort" />
-      <recent name="Algorithms.Stream" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="algorithms.interviewedTasks.amazon.oa" />
-      <recent name="algorithms" />
-      <recent name="algorithms.trie" />
-      <recent name="algorithms.dynamicProgramming" />
-      <recent name="algorithms.depthFirstSearch" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/BinarySearch" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/algorithms/depthFirstSearch" />
       <recent name="$PROJECT_DIR$/src/Algorithms/Queue" />
       <recent name="$PROJECT_DIR$/src/Database" />
       <recent name="$PROJECT_DIR$/test/BinarySearch" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="algorithms.hashTable" />
+      <recent name="algorithms.interviewedTasks.amazon.oa" />
+      <recent name="algorithms" />
+      <recent name="algorithms.trie" />
+      <recent name="algorithms.dynamicProgramming" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BinarySearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,7 +445,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubStringsOfSizeKWithKDistinctCharsTest">
+  <component name="RunManager" selected="JUnit.KClosestPointsToOriginTest">
+    <configuration name="KClosestPointsToOriginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.hashTable" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.hashTable.KClosestPointsToOriginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KClosestPointsToOriginTest.kClosest2DTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaicodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.hashTable" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.hashTable.KClosestPointsToOriginTest" />
+      <option name="METHOD_NAME" value="kClosest2DTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubStringsOfSizeKWithKDistinctCharsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LaicodeJava" />
       <extension name="coverage">
@@ -417,22 +488,6 @@
       <option name="PACKAGE_NAME" value="algorithms.interviewedTasks.amazon.oa" />
       <option name="MAIN_CLASS_NAME" value="algorithms.interviewedTasks.amazon.oa.SubStringsOfSizeKWithKDistinctCharsTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test1KSubString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.interviewedTasks.amazon.oa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.interviewedTasks.amazon.oa" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.interviewedTasks.amazon.oa.SubStringsOfSizeKWithKDistinctCharsTest" />
-      <option name="METHOD_NAME" value="test1KSubString1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -469,36 +524,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LaicodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.interviewedTasks.amazon.oa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.interviewedTasks.amazon.oa" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.interviewedTasks.amazon.oa.SubStringsOfSizeKWithKDistinctCharsTest" />
-      <option name="METHOD_NAME" value="test3KSubString3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString3" />
       <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString1" />
       <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test2KSubString1" />
-      <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test1KSubString1" />
       <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest" />
+      <item itemvalue="JUnit.KClosestPointsToOriginTest.kClosest2DTest1" />
+      <item itemvalue="JUnit.KClosestPointsToOriginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KClosestPointsToOriginTest" />
+        <item itemvalue="JUnit.KClosestPointsToOriginTest.kClosest2DTest1" />
         <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest" />
         <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString1" />
         <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test2KSubString1" />
-        <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test1KSubString1" />
-        <item itemvalue="JUnit.SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString3" />
       </list>
     </recent_temporary>
   </component>
@@ -572,7 +611,8 @@
       <workItem from="1569513933175" duration="6454000" />
       <workItem from="1569602137156" duration="16363000" />
       <workItem from="1569647944277" duration="818000" />
-      <workItem from="1569696990969" duration="1826000" />
+      <workItem from="1569696990969" duration="3011000" />
+      <workItem from="1569718117159" duration="2859000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -585,21 +625,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest_test2KSubString2 - 2019.09.27 at 14h 13m 03s.xml">
-      <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test2KSubString2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest_test3KSubString3 - 2019.09.27 at 14h 13m 06s.xml">
-      <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest_test3KSubString1 - 2019.09.27 at 14h 13m 14s.xml">
-      <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test3KSubString1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest_test2KSubString1 - 2019.09.27 at 14h 13m 19s.xml">
-      <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test2KSubString1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest_test1KSubString1 - 2019.09.27 at 14h 13m 22s.xml">
-      <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test1KSubString1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest_test1KSubString1 - 2019.09.27 at 14h 14m 23s.xml">
       <configuration name="SubStringsOfSizeKWithKDistinctCharsTest.test1KSubString1" configurationId="JUnit" />
     </history-entry>
@@ -615,9 +640,24 @@
     <history-entry file="SubStringsOfSizeKWithKDistinctCharsTest - 2019.09.27 at 14h 15m 43s.xml">
       <configuration name="SubStringsOfSizeKWithKDistinctCharsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KClosestPointsToOriginTest_kClosest2DTest1 - 2019.09.28 at 21h 22m 49s.xml">
+      <configuration name="KClosestPointsToOriginTest.kClosest2DTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KClosestPointsToOriginTest - 2019.09.28 at 21h 22m 56s.xml">
+      <configuration name="KClosestPointsToOriginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KClosestPointsToOriginTest_kClosest2DTest1 - 2019.09.28 at 21h 31m 35s.xml">
+      <configuration name="KClosestPointsToOriginTest.kClosest2DTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KClosestPointsToOriginTest - 2019.09.28 at 21h 35m 28s.xml">
+      <configuration name="KClosestPointsToOriginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KClosestPointsToOriginTest - 2019.09.28 at 21h 38m 40s.xml">
+      <configuration name="KClosestPointsToOriginTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232735000" />
+    <option name="totallyTimeSpent" value="236779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,7 +672,7 @@
     <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24118942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24779736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,15 +682,15 @@
       <window_info anchor="bottom" id="RNConsole" order="0" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.27110693" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.39118198" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.5243902" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.39118198" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.47748592" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32922015" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.121013135" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.121013135" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.35834897" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -677,6 +717,18 @@
     <MESSAGE value="transfer from laicode_java to LaicodeJava because intellij was broken" />
     <option name="LAST_COMMIT_MESSAGE" value="transfer from laicode_java to LaicodeJava because intellij was broken" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/heap/KClosestPointsToOrigin.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LaicodeJava$CompressStringIITest.ic" NAME="CompressStringIITest Coverage Results" MODIFIED="1560928173526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>String.*</FILTER>
@@ -690,37 +742,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/recursion/MaximumPathSumBinaryTreeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/ClosestNumberInBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/HeightOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CheckCousin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/IsBinarySearchTreeOrNot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1053,13 +1074,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArraySum.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/heap/KSmallestInUnsortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1080,14 +1094,55 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthSmallestNumberInSortedMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/bestFirstSearch/KthClosestPointToOrigin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LargestSubArrarySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/heap/KClosestPointsToOrigin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/algorithms/hashTable/KClosestPointsToOriginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
