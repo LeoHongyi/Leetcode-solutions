@@ -1,6 +1,8 @@
 package algorithms.string;
 /**
- Method: int to char, Integer.valueOf(algorithms.string), char to int
+ * @author Qihao He
+ * @date 09/29/2019
+ * Method: int to char, Integer.valueOf(algorithms.string), char to int
  **/
 public class PlusOne {
     public int[] plus(int[] digits) {
