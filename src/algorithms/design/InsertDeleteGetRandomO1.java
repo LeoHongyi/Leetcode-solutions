@@ -52,9 +52,9 @@ public class InsertDeleteGetRandomO1 {
         if (index < nums.size() - 1) {
             // not the last one,
             // then swap the last one with this val
-            int tailIndex = nums.get(nums.size() - 1);
-            nums.set(index, tailIndex);
-            map.put(tailIndex, index);
+            int tailVal = nums.get(nums.size() - 1);
+            nums.set(index, tailVal);
+            map.put(tailVal, index);
         }
         map.remove(val);
         nums.remove(nums.size() - 1);
