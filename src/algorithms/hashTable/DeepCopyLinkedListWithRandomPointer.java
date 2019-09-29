@@ -7,6 +7,7 @@ import java.util.Map;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/131
+ * https://leetcode.com/problems/copy-list-with-random-pointer/
  */
 /**
  * class RandomListNode {
@@ -20,36 +21,88 @@ import java.util.Map;
  */
 public class DeepCopyLinkedListWithRandomPointer {
     public RandomListNode copy(RandomListNode head) {
-        // Write your solution here.
         if (head == null) {
-            return null;
+            return head;
         }
-        // lookup map to avoid duplicate.
-        // key: original node. value: copied node.
-        Map<RandomListNode, RandomListNode> lookup = new HashMap<>();
-        RandomListNode newHead = new RandomListNode(head.value);
-        lookup.put(head, newHead);
-        RandomListNode cur = newHead;
+        /**
+         * K: original Node, V: clone Node
+         */
+        Map<RandomListNode, RandomListNode> map = new HashMap<>();
+        RandomListNode dummy = new RandomListNode(head.value);
+        map.put(head, dummy);
+        RandomListNode cur = dummy;
         while (head != null) {
             if (head.next != null) {
-                // copy next
-                if (!lookup.containsKey(head.next)) {
-                    // hasn't been copied over due to random pointer.
-                    lookup.put(head.next, new RandomListNode(head.next.value));
+                if (!map.containsKey(head.next)) {
+                    map.put(head.next, new RandomListNode(head.next.value));
                 }
-                cur.next = lookup.get(head.next);
+                cur.next = map.get(head.next);
             }
-            // copy random
             if (head.random != null) {
-                if (!lookup.containsKey(head.random)) {
-                    // hasn't been copied over previously
-                    lookup.put(head.random, new RandomListNode(head.random.value));
+                if (!map.containsKey(head.random)) {
+                    map.put(head.next, new RandomListNode(head.random.value));
                 }
-                cur.random = lookup.get(head.random);
+                cur.random = map.get(head.random);
             }
             head = head.next;
             cur = cur.next;
         }
-        return newHead;
+        return dummy;
+    }
+    /**
+     * Definition for a Node.
+     * class Node {
+     *     public int val;
+     *     public Node next;
+     *     public Node random;
+     *
+     *     public Node() {}
+     *
+     *     public Node(int _val,Node _next,Node _random) {
+     *         val = _val;
+     *         next = _next;
+     *         random = _random;
+     *     }
+     * };
+     */
+    public Node copyRandomList(Node head) {
+        if (head == null) {
+            return head;
+        }
+        /**
+         K: original Node, V: clone Node
+         */
+        Map<Node, Node> map = new HashMap<>();
+        Node dummy = new Node(head.val, head.next, head.random);
+        map.put(head, dummy);
+        Node cur = dummy;
+        while (head != null) {
+            if (head.next != null) {
+                if (!map.containsKey(head.next)) {
+                    map.put(head.next, new Node(head.next.val, head.next.next, head.next.random));
+                }
+                cur.next = map.get(head.next);
+            }
+            if (head.random != null) {
+                if (!map.containsKey(head.random)) {
+                    map.put(head.next, new Node(head.random.val, head.random.next, head.random.random));
+                }
+                cur.random = map.get(head.random);
+            }
+            head = head.next;
+            cur = cur.next;
+        }
+        return dummy;
+    }
+
+    class Node {
+        public int val;
+        public Node next;
+        public Node random;
+        public Node(int _val,Node _next,Node _random) {
+            val = _val;
+            next = _next;
+            random = _random;
+        }
     }
 }
