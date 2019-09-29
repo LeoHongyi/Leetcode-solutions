@@ -3,6 +3,7 @@ package algorithms.linkedList;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/40
+ * https://leetcode.com/problems/merge-two-sorted-lists/
  * time complexity: traverse, O(one + two)
  *  space complexity: simple if else O(1)
  *  Assumption: two Linked List are not same length
@@ -20,23 +21,22 @@ package algorithms.linkedList;
  */
 public class MergeTwoSortedLinkedLists {
     public ListNode merge(ListNode one, ListNode two) {
-        // Write your solution here
         ListNode dummy = new ListNode(0);
-        ListNode dummyCur = dummy;
+        ListNode dCur = dummy;
         while (one != null && two != null) {
             if (one.value < two.value) {
-                dummyCur.next = one;
+                dCur.next = one;
                 one = one.next;
             } else {
-                dummyCur.next = two;
+                dCur.next = two;
                 two = two.next;
             }
-            dummyCur = dummyCur.next;
+            dCur = dCur.next;
         }
-        if (one != null) {
-            dummyCur.next = one;
-        } else if (two != null) {
-            dummyCur.next = two;
+        if (one == null) {
+            dCur.next = two;
+        } else if (two == null) {
+            dCur.next = one;
         }
         return dummy.next;
     }
