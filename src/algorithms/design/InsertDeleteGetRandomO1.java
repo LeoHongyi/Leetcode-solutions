@@ -22,7 +22,6 @@ public class InsertDeleteGetRandomO1 {
      * K: number, V: index
      * */
     Map<Integer, Integer> map;
-    java.util.Random rand = new java.util.Random();
     /** Initialize your data structure here. */
     public InsertDeleteGetRandomO1() {
         nums = new ArrayList<>();
@@ -63,6 +62,6 @@ public class InsertDeleteGetRandomO1 {
 
     /** Get a random element from the set. */
     public int getRandom() {
-        return nums.get(rand.nextInt(nums.size()));
+        return nums.get((int)(Math.random() * nums.size()));
     }
 }
