@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/algorithms/string/ReorderDataInLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/string/ReorderDataInLogFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sort/MeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +34,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/string/ReorderDataInLogFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="514">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MeetingRooms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/TweakedIdenticalBinaryTrees.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetRange.java" />
         <option value="$PROJECT_DIR$/src/algorithms/recursion/ReconstructBinarySearchTreeWithPostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/MostPointsOnALine.java" />
@@ -123,12 +137,13 @@
         <option value="$PROJECT_DIR$/src/algorithms/linkedList/MergeSortLinkedList.java" />
         <option value="$PROJECT_DIR$/src/algorithms/linkedList/MergeTwoSortedLinkedLists.java" />
         <option value="$PROJECT_DIR$/src/algorithms/string/ReorderDataInLogFiles.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sort/MeetingRooms.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-161" />
-    <option name="y" value="882" />
+    <option name="x" value="960" />
+    <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="1177" />
   </component>
@@ -586,7 +601,7 @@
       <workItem from="1569602137156" duration="16363000" />
       <workItem from="1569647944277" duration="818000" />
       <workItem from="1569696990969" duration="3011000" />
-      <workItem from="1569718117159" duration="4867000" />
+      <workItem from="1569718117159" duration="6458000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -631,7 +646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238787000" />
+    <option name="totallyTimeSpent" value="240378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,10 +658,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12044968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24779736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -664,7 +679,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.121013135" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.121013135" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.35834897" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -716,16 +731,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/CousinsInBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetKeysInBinarySearchTreeInGivenRange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1115,10 +1120,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/string/ReorderDataInLogFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="514">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/MeetingRooms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
