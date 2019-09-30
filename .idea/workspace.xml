@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/database/sql/mssql/datePractice.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
+            <state relative-caret-position="1128">
               <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
             </state>
           </provider>
@@ -473,7 +473,7 @@
       <workItem from="1569696990969" duration="3011000" />
       <workItem from="1569718117159" duration="7130000" />
       <workItem from="1569767963982" duration="8736000" />
-      <workItem from="1569795238481" duration="7545000" />
+      <workItem from="1569795238481" duration="7682000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -518,7 +518,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257331000" />
+    <option name="totallyTimeSpent" value="257468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +531,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13543898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -993,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/sql/mssql/datePractice.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
+        <state relative-caret-position="1128">
           <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
         </state>
       </provider>
