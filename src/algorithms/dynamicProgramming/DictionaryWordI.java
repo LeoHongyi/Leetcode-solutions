@@ -6,6 +6,7 @@ import java.util.Set;
  * @author Qihao He
  * @date 09/24/2019
  * https://app.laicode.io/app/problem/99
+ * https://leetcode.com/problems/word-break/
  * Method: DP
  *  O(n^2)
  */
@@ -19,7 +20,8 @@ public class DictionaryWordI {
         canBreak[0] = true;
         for (int i = 1; i < canBreak.length; i++) {
             for (int j = 0; j < i; j++) {
-                if (dictSet.contains(input.substring(j, i)) && canBreak[j]) {
+                if (dictSet.contains(input.substring(j, i)) &&
+                        canBreak[j]) {
                     canBreak[i] = true;
                     break;
                 }
