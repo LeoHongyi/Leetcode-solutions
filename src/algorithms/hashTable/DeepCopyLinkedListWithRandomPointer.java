@@ -85,7 +85,7 @@ public class DeepCopyLinkedListWithRandomPointer {
             }
             if (head.random != null) {
                 if (!map.containsKey(head.random)) {
-                    map.put(head.next, new Node(head.random.val, head.random.next, head.random.random));
+                    map.put(head.random, new Node(head.random.val, head.random.next, head.random.random));
                 }
                 cur.random = map.get(head.random);
             }

@@ -4,7 +4,6 @@
     <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/linkedList/RandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/linkedList/RandomListNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+            <state relative-caret-position="593">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -56,6 +55,7 @@
       <find>val</find>
       <find>locIndex</find>
       <find>Node</find>
+      <find>date</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="y" value="23" />
     <option name="width" value="960" />
@@ -130,164 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-              <item name="algorithms" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="bestFirstSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="breadthFirstSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicProgramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewedTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewedTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewedTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="oa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="oa" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -339,6 +181,76 @@
               <item name="LaicodeJava" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="sorting" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="algorithms" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -580,7 +492,8 @@
       <workItem from="1569647944277" duration="818000" />
       <workItem from="1569696990969" duration="3011000" />
       <workItem from="1569718117159" duration="7130000" />
-      <workItem from="1569767963982" duration="8436000" />
+      <workItem from="1569767963982" duration="8736000" />
+      <workItem from="1569795238481" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -625,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249486000" />
+    <option name="totallyTimeSpent" value="250347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,10 +550,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1177" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2665198" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3270878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -710,20 +623,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/PaintWoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/breadthFirstSearch/NumberOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1093,13 +992,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/CopyListWithRandomPointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/CopyListWithRandomPointer.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/linkedList/RandomListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1107,10 +1000,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/sql/MySQL for Data Analytics and Business Intelligence/MySQL-for-Data-Analytics-and-BI-Lecture-Code-and-Tasks-Solutions.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="721" lean-forward="true" selection-start-line="721" selection-end-line="721" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/FirstNonRepeatingCharactorInStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        <state relative-caret-position="593">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
