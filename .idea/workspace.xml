@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="" />
+    <list default="true" id="485bdb90-2abd-4dcd-b79c-ef20e80dba26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/RobortCleanObstacle.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +26,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/database/sql/mssql/datePractice.sql">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/breadthFirstSearch/RobortCleanObstacle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +60,9 @@
       <find>Node</find>
       <find>date</find>
       <find>arr</find>
+      <find>function</find>
+      <find>case</find>
+      <find>trigger</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/GetKeysInBinaryTreeLayerByLayer.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/CousinsInBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binarySearchTree/GetKeysInBinarySearchTreeInGivenRange.java" />
         <option value="$PROJECT_DIR$/src/algorithms/tree/binaryTree/RightViewOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/test/algorithms/binarySearch/IntersectionOfTwoArraysIITest.java" />
@@ -113,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/DictionaryWordI.java" />
         <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/test.java" />
         <option value="$PROJECT_DIR$/src/database/sql/mssql/datePractice.sql" />
+        <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/RobortCleanObstable.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/breadthFirstSearch/RobortCleanObstacle.java" />
       </list>
     </option>
   </component>
@@ -127,6 +136,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
+              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
+              <item name="algorithms" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -199,6 +224,19 @@
               <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="breadthFirstSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,21 +254,13 @@
               <item name="sql" type="462c0819:PsiDirectoryNode" />
               <item name="mssql" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Leetcode-solutions" type="58d84e3e:PackageViewProjectNode" />
-              <item name="LaicodeJava" type="616d4139:PackageViewModuleNode" />
-              <item name="algorithms" type="1f31426a:PackageElementNode" />
+              <item name="Leetcode-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="MySQL for Data Analytics and Business Intelligence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,12 +302,6 @@
       <recent name="algorithms.hashTable" />
       <recent name="algorithms.sort" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/algorithms/depthFirstSearch" />
-      <recent name="$PROJECT_DIR$/src/Algorithms/Queue" />
-      <recent name="$PROJECT_DIR$/src/Database" />
-      <recent name="$PROJECT_DIR$/test/BinarySearch" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="algorithms.hashTable" />
       <recent name="algorithms.interviewedTasks.amazon.oa" />
@@ -285,11 +309,18 @@
       <recent name="algorithms.trie" />
       <recent name="algorithms.dynamicProgramming" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BinarySearch" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/BinarySearch" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/database/sql/MySQL for Data Analytics and Business Intelligence" />
+      <recent name="$PROJECT_DIR$/test/algorithms/depthFirstSearch" />
+      <recent name="$PROJECT_DIR$/src/Algorithms/Queue" />
+      <recent name="$PROJECT_DIR$/src/Database" />
+      <recent name="$PROJECT_DIR$/test/BinarySearch" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -473,7 +504,8 @@
       <workItem from="1569696990969" duration="3011000" />
       <workItem from="1569718117159" duration="7130000" />
       <workItem from="1569767963982" duration="8736000" />
-      <workItem from="1569795238481" duration="7682000" />
+      <workItem from="1569795238481" duration="10376000" />
+      <workItem from="1569955245084" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="transfer from laicode_java to LaicodeJava because intellij was broken">
       <created>1560885146674</created>
@@ -518,7 +550,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257468000" />
+    <option name="totallyTimeSpent" value="260535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,8 +563,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13543898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24250536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -550,7 +583,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922015" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.121013135" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.121013135" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.35834897" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
@@ -602,16 +635,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/RightViewOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tree/binaryTree/LongestAscendingPathBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -904,13 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/sql/MySQL for Data Analytics and Business Intelligence/MySQL-for-Data-Analytics-and-BI-Lecture-Code-and-Tasks-Solutions.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="721" lean-forward="true" selection-start-line="721" selection-end-line="721" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/FirstNonRepeatingCharactorInStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -963,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/breadthFirstSearch/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="87" column="37" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="87" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/hashTable/DeepCopyLinkedListWithRandomPointer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
@@ -990,10 +996,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/sql/mssql/datePractice.sql">
+    <entry file="file://$PROJECT_DIR$/src/database/sql/MySQL for Data Analytics and Business Intelligence/MySQL-Triggers.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/sql/MySQL for Data Analytics and Business Intelligence/MySQL-for-Data-Analytics-and-BI-Lecture-Code-and-Tasks-Solutions.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
+        <state relative-caret-position="557">
+          <caret line="3584" column="44" selection-start-line="3584" selection-start-column="44" selection-end-line="3584" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/sql/MySQL for Data Analytics and Business Intelligence/datePractice.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
           <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/breadthFirstSearch/RobortCleanObstacle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

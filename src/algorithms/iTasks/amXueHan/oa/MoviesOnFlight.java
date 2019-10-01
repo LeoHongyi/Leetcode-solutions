@@ -1,4 +1,4 @@
-package algorithms.interviewedTasks.amazon.oa;
+package algorithms.iTasks.amXueHan.oa;
 /**
  * @author: Qihao He
  * @date: 09/27/2019

@@ -1,4 +1,4 @@
-package algorithms.interviewedTasks.amazon.oa;
+package algorithms.iTasks.amXueHan.oa;
 
 import java.util.ArrayList;
 import java.util.HashSet;

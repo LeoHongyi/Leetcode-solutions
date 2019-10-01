@@ -4,10 +4,16 @@ import java.util.ArrayDeque;
 import java.util.List;
 import java.util.Queue;
 
-public class test {
-    public int remove(int numRows, int numColumns, List<List<Integer> lots) {
+public class RobortCleanObstacle {
+    public int remove(int numRows, int numColumns, List<List<Integer>> lots) {
+        int[][] m = new int[numRows][numColumns];
+        for (int i = 0; i < numRows; i++) {
+            for (int j = 0; j < numColumns; j++) {
+                m[i][j] = lots.get(i).get(j);
+            }
+        }
         Queue<Node> q = new ArrayDeque<>();
-        boolean[][] visited = new boolean[lots.size()][lots[0].length];
+        boolean[][] visited = new boolean[m.length][m[0].length];
         q.offer(new Node(0, 0));
         int step = 0;
         while (!q.isEmpty()) {
@@ -17,34 +23,34 @@ public class test {
                 Node curr = q.poll();
                 int x = curr.x;
                 int y = curr.y;
-                if (isValid(lots, x + 1, y) && !visited[x + 1][y]) {
-                    if (lots[x + 1][y] == 9) {
+                if (isValid(m, x + 1, y) && !visited[x + 1][y]) {
+                    if (m[x + 1][y] == 9) {
                         return step;
-                    } else if (lots[x + 1][y] == 1){
+                    } else if (m[x + 1][y] == 1){
                         visited[x + 1][y] = true;
                         q.offer(new Node(x + 1, y));
                     }
                 }
-                if (isValid(lots, x - 1, y) && !visited[x - 1][y]) {
-                    if (lots[x - 1][y] == 9) {
+                if (isValid(m, x - 1, y) && !visited[x - 1][y]) {
+                    if (m[x - 1][y] == 9) {
                         return step;
-                    } else if (lots[x - 1][y] == 1){
+                    } else if (m[x - 1][y] == 1){
                         visited[x - 1][y] = true;
                         q.offer(new Node(x - 1, y));
                     }
                 }
-                if (isValid(lots, x, y + 1) && !visited[x][y + 1]) {
-                    if (lots[x][y + 1] == 9) {
+                if (isValid(m, x, y + 1) && !visited[x][y + 1]) {
+                    if (m[x][y + 1] == 9) {
                         return step;
-                    } else if (lots[x][y + 1] == 1){
+                    } else if (m[x][y + 1] == 1){
                         visited[x][y + 1] = true;
                         q.offer(new Node(x, y + 1));
                     }
                 }
-                if (isValid(lots, x, y - 1) && !visited[x][y - 1]) {
-                    if (lots[x][y - 1] == 9) {
+                if (isValid(m, x, y - 1) && !visited[x][y - 1]) {
+                    if (m[x][y - 1] == 9) {
                         return step;
-                    } else if (lots[x][y - 1] == 1){
+                    } else if (m[x][y - 1] == 1){
                         visited[x][y - 1] = true;
                         q.offer(new Node(x, y - 1));
                     }
@@ -54,8 +60,8 @@ public class test {
         }
         return -1;
     }
-    private static boolean isValid(int[][] lots, int x, int y) {
-        return x >= 0 && x < lots.length && y >= 0 && y < lots[0].length;
+    private static boolean isValid(int[][] m, int x, int y) {
+        return x >= 0 && x < m.length && y >= 0 && y < m[0].length;
     }
 }
 class Node {

@@ -1,4 +1,4 @@
-package algorithms.interviewedTasks.amazon.amazonMock;
+package algorithms.iTasks.amXueHan.mock;
 
 import java.util.LinkedList;
 import java.util.List;

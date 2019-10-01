@@ -1,4 +1,4 @@
-package algorithms.interviewedTasks.amazon.oa;
+package algorithms.iTasks.amXueHan.oa;
 /**
  * @author: Qihao He
  * @date: 09/27/2019
@@ -9,7 +9,6 @@ package algorithms.interviewedTasks.amazon.oa;
  * time: O(n^2), space O(1)
  */
 
-import algorithms.interviewedTasks.amazon.oa.MoviesOnFlight;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
